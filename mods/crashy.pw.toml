@@ -1,0 +1,13 @@
+name = "Crashy!"
+filename = "crashy1.21.1_1.3neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "01c2d78705409e6ff6c530b662af732696073f33"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8685503
+project-id = 1627716

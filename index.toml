@@ -11,13 +11,23 @@ hash = "22286fa216349c0767808903a0a38662857d2adee54950a18cbf26c167a06029"
 metafile = true
 
 [[files]]
+file = "mods/crashy.pw.toml"
+hash = "56731235a16e26adf5a50efcccc6e0e7ea2f422ea1a1d82e5f99f12451cd325f"
+metafile = true
+
+[[files]]
 file = "mods/e4mc.pw.toml"
 hash = "8581b5c46647e8534b9eb2c8192da6e52db10523ad6399c4a75a51b0d3012e74"
 metafile = true
 
 [[files]]
 file = "mods/feedback-0.1.0.jar"
-hash = "0714ada54a09bcbce782e11d0341f070b533cb98bd51ea1f7366c36790c1854c"
+hash = "4cea7211a2278909258a57642a1fbf5d9b9aa0d89ae12025f816e1b0567ced6d"
+
+[[files]]
+file = "mods/immersive-portals-for-forge.pw.toml"
+hash = "108c7e2d358cc4f05c3325fdd06aede140404697328edc6528edcbe2429cb225"
+metafile = true
 
 [[files]]
 file = "mods/jade.pw.toml"
@@ -32,6 +42,31 @@ metafile = true
 [[files]]
 file = "mods/pondus-inventory.pw.toml"
 hash = "853fa99f450e8e53cd9c8b3f626ebd226a57ccfb880fd5fc6fd74528f4b97b95"
+metafile = true
+
+[[files]]
+file = "mods/ragdoll-push.pw.toml"
+hash = "2500dde06a5377a722228bd636276075c8dc6c78c9a51ef67d431d9c66296361"
+metafile = true
+
+[[files]]
+file = "mods/ragdoll-reactions.pw.toml"
+hash = "eb182616552dab79fd14b55c12a2a0f8e1153ec6c9d90989acffe1c420621ca0"
+metafile = true
+
+[[files]]
+file = "mods/sable-make-it-compatible.pw.toml"
+hash = "f83767544e3d90b411080e1d4eb5cddc2d9fb4290b72a6fbc8f3e14dcf5eb5d9"
+metafile = true
+
+[[files]]
+file = "mods/sable-off-balance.pw.toml"
+hash = "4172dada1eceacd09d32ac2ef23bb959799c8d819d348f097271258f59a63173"
+metafile = true
+
+[[files]]
+file = "mods/sable-ragdolls.pw.toml"
+hash = "44988ea0309235eac8e49d360dfabb8fd9074592882316641e438cc281a4f747"
 metafile = true
 
 [[files]]
