@@ -7,7 +7,7 @@ metafile = true
 
 [[files]]
 file = "mods/feedback-0.1.0.jar"
-hash = "22f55ea8b4ed5ef71f46d39791be6ff2169e549a918e80eee178440f575b2647"
+hash = "9d983c0964b32ffeb8965e284d35a0a97e3c24b38fb68dca59af42f7166467ef"
 
 [[files]]
 file = "mods/jade.pw.toml"
