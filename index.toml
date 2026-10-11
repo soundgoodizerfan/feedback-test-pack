@@ -49,10 +49,6 @@ file = "mods/ragdoll_reactions-1.21.1-0.7.0.jar"
 hash = "d61a118c0b5ad2f3e761af6b3d71726bc2887bb3d0c7c90c2dc604bb4d3792b8"
 
 [[files]]
-file = "mods/ragdollpushmod-1.1.jar"
-hash = "7687c38c600305b16c7f46729f77b01cb6aa90073f2323348ce1e308ddd9e0a3"
-
-[[files]]
 file = "mods/sable-make-it-compatible.pw.toml"
 hash = "f83767544e3d90b411080e1d4eb5cddc2d9fb4290b72a6fbc8f3e14dcf5eb5d9"
 metafile = true
