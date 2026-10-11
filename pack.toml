@@ -1,0 +1,13 @@
+name = "Feedback Test Pack"
+author = "cloby"
+version = "0.1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "513945d8c3958b3e2d4d374c6b270af178e740b5d4f2f4fde4c08be158f6dfce"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.250"
