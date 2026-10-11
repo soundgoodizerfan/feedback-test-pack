@@ -1,13 +1,23 @@
 hash-format = "sha256"
 
 [[files]]
+file = "mods/barehanded.pw.toml"
+hash = "5d05e5e990988ba5d24892bebf3a16abd6e92fee45526db154894816e25da7b3"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "22286fa216349c0767808903a0a38662857d2adee54950a18cbf26c167a06029"
+metafile = true
+
+[[files]]
 file = "mods/e4mc.pw.toml"
 hash = "8581b5c46647e8534b9eb2c8192da6e52db10523ad6399c4a75a51b0d3012e74"
 metafile = true
 
 [[files]]
 file = "mods/feedback-0.1.0.jar"
-hash = "bc1e0be386e0fc9e0479571a741c14ba2a54007118d86bcc89c91c599a3839c0"
+hash = "c60c43f14ac2a0c55dea8c928e9a56ab2d1971da8b6cd7d1c2c6b8c377540b69"
 
 [[files]]
 file = "mods/jade.pw.toml"
@@ -17,6 +27,11 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "c430b477285dd0ab4397cf69257cf01b558f7db6490dfa9e69ec37e7762290bc"
+metafile = true
+
+[[files]]
+file = "mods/pondus-inventory.pw.toml"
+hash = "853fa99f450e8e53cd9c8b3f626ebd226a57ccfb880fd5fc6fd74528f4b97b95"
 metafile = true
 
 [[files]]

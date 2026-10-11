@@ -1,0 +1,13 @@
+name = "Pondus Inventory [Sable]"
+filename = "pondus_inventory_fi-0.15-Beta.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8ddf2a83adc82855e015e3e3a1bee2376a1f1d0f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8370221
+project-id = 1528664
