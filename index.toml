@@ -22,7 +22,7 @@ metafile = true
 
 [[files]]
 file = "mods/feedback-0.1.0.jar"
-hash = "43cde6cbe6958b155367fe80b0da9fce1e74b611e515c0c34f8d69237ffe416e"
+hash = "7a2132d8c09e165c2aadb890b600236c4890dc720fe7b9599e15ca1d49921238"
 
 [[files]]
 file = "mods/immersive-portals-for-forge.pw.toml"
@@ -61,3 +61,7 @@ metafile = true
 [[files]]
 file = "mods/sable_player_ragdoll-1.21.1-0.7.2.jar"
 hash = "62e67cb468bdd4d2240e059c24aac19a019ea5373149b788f24f88d22a017013"
+
+[[files]]
+file = "mods/summercraft-1.0.0.jar"
+hash = "34d163268c3ecab24744c85f3dcb0042207efd49161c0fea31d341c7cfecf3ef"
