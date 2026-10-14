@@ -22,7 +22,7 @@ metafile = true
 
 [[files]]
 file = "mods/feedback-0.1.0.jar"
-hash = "2679eabbc165652c8e539b760fe898339dc3526a701d1911ef9530edf638f5f1"
+hash = "1049b0d4c829b9870f1623fecedd87f8a3b62f9ebeac5378d6e4ceca7dabbf1f"
 
 [[files]]
 file = "mods/immersive-portals-for-forge.pw.toml"
