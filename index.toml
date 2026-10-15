@@ -16,13 +16,18 @@ hash = "56731235a16e26adf5a50efcccc6e0e7ea2f422ea1a1d82e5f99f12451cd325f"
 metafile = true
 
 [[files]]
+file = "mods/curios.pw.toml"
+hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
+metafile = true
+
+[[files]]
 file = "mods/e4mc.pw.toml"
 hash = "8581b5c46647e8534b9eb2c8192da6e52db10523ad6399c4a75a51b0d3012e74"
 metafile = true
 
 [[files]]
 file = "mods/feedback-0.1.0.jar"
-hash = "07a7727b29bc9eb3c8a1c87bf836b43c7fbab8f15be9fc176200ce0e9b2e5eaa"
+hash = "d93add021e30f499b5e9ad1099a6bb8ce4b26066e43d8a5f761d85e8c6bd551f"
 
 [[files]]
 file = "mods/immersive-portals-for-forge.pw.toml"
