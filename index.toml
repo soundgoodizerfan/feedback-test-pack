@@ -1,18 +1,12 @@
 hash-format = "sha256"
 
 [[files]]
-file = "mods/barehanded.pw.toml"
-hash = "5d05e5e990988ba5d24892bebf3a16abd6e92fee45526db154894816e25da7b3"
-metafile = true
+file = "mods/barehanded-neoforge-1.21.1-1.6.6.jar"
+hash = "b3e177e5b082e00f0603c29c6b796d2539ec31d3864abe2149ea92366a14f05b"
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
 hash = "22286fa216349c0767808903a0a38662857d2adee54950a18cbf26c167a06029"
-metafile = true
-
-[[files]]
-file = "mods/crashy.pw.toml"
-hash = "56731235a16e26adf5a50efcccc6e0e7ea2f422ea1a1d82e5f99f12451cd325f"
 metafile = true
 
 [[files]]
@@ -45,13 +39,9 @@ hash = "c430b477285dd0ab4397cf69257cf01b558f7db6490dfa9e69ec37e7762290bc"
 metafile = true
 
 [[files]]
-file = "mods/pondus-inventory.pw.toml"
-hash = "853fa99f450e8e53cd9c8b3f626ebd226a57ccfb880fd5fc6fd74528f4b97b95"
+file = "mods/mmmmmmmmmmmm.pw.toml"
+hash = "9f49c7407a38c6d066c22d315754378e3d1babb4673d62c1531a1453d74090e9"
 metafile = true
-
-[[files]]
-file = "mods/ragdoll_reactions-1.21.1-0.7.0.jar"
-hash = "d61a118c0b5ad2f3e761af6b3d71726bc2887bb3d0c7c90c2dc604bb4d3792b8"
 
 [[files]]
 file = "mods/sable-make-it-compatible.pw.toml"
@@ -64,8 +54,9 @@ hash = "fadb5c9cfe145e51992894fe57209fc8f1696ef892ee9702a24c6205f042e9b2"
 metafile = true
 
 [[files]]
-file = "mods/sable_player_ragdoll-1.21.1-0.7.2.jar"
-hash = "62e67cb468bdd4d2240e059c24aac19a019ea5373149b788f24f88d22a017013"
+file = "mods/selene.pw.toml"
+hash = "434fbe116618b5b950edcefd05e33f33831b8fa40f47a0970e394f81c3c4c197"
+metafile = true
 
 [[files]]
 file = "mods/summercraft-1.0.0.jar"
