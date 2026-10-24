@@ -5,8 +5,13 @@ file = "mods/barehanded-neoforge-1.21.1-1.6.6.jar"
 hash = "b3e177e5b082e00f0603c29c6b796d2539ec31d3864abe2149ea92366a14f05b"
 
 [[files]]
+file = "mods/better-combat.pw.toml"
+hash = "438170e7e704a1b8ed67bf0521dc5d77cdeeaabf6f729dba9f8dfdad75330acf"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "22286fa216349c0767808903a0a38662857d2adee54950a18cbf26c167a06029"
+hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
 metafile = true
 
 [[files]]
@@ -21,7 +26,7 @@ metafile = true
 
 [[files]]
 file = "mods/feedback-0.1.0.jar"
-hash = "5956ecfd328e48d2cf2cb092272cf9e2328fbf0d8f841e38917a4b5e6e0ca661"
+hash = "0537e657649df3fcf947415454f7b0fb752806ae87b7d0f28144dfa219e1a76b"
 
 [[files]]
 file = "mods/immersive-portals-for-forge.pw.toml"
@@ -41,6 +46,11 @@ metafile = true
 [[files]]
 file = "mods/mmmmmmmmmmmm.pw.toml"
 hash = "9f49c7407a38c6d066c22d315754378e3d1babb4673d62c1531a1453d74090e9"
+metafile = true
+
+[[files]]
+file = "mods/playeranimator.pw.toml"
+hash = "93284ca7f2f23f0bb76d42b797cabf2aea1914ee9825bec82bf6ffe4c60dda0d"
 metafile = true
 
 [[files]]
