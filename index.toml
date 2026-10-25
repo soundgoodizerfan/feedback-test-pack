@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "CLAUDE.md"
-hash = "45f01ea05b37a0be5c2364adf94b9c39ffb4632cf37ec794d04088cb32ccc7bb"
-
-[[files]]
 file = "mods/barehanded-neoforge-1.21.1-1.6.6.jar"
 hash = "b3e177e5b082e00f0603c29c6b796d2539ec31d3864abe2149ea92366a14f05b"
 
