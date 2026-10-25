@@ -46,7 +46,7 @@ metafile = true
 
 [[files]]
 file = "mods/e4mc.pw.toml"
-hash = "8581b5c46647e8534b9eb2c8192da6e52db10523ad6399c4a75a51b0d3012e74"
+hash = "3f79fda72f0e113a9746cff11376e38fb2d21d9a9f6a411624bee72c0d1fa083"
 metafile = true
 
 [[files]]
@@ -80,7 +80,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "c430b477285dd0ab4397cf69257cf01b558f7db6490dfa9e69ec37e7762290bc"
+hash = "7328c03733c72f6c499a2fbb7abe4ca4c4c645b2309e498109219989793b649e"
 metafile = true
 
 [[files]]
@@ -115,7 +115,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "617ec6e9893d59905035a510fe336addd46a97b6fd28fad88b70713ebf8e69e3"
+hash = "3fc6fd4a464740bd6cfe89571517cfda837dbad69f0218ef1159b527b1be45d6"
 metafile = true
 
 [[files]]
