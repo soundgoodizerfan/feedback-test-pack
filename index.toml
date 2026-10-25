@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "CLAUDE.md"
+hash = "45f01ea05b37a0be5c2364adf94b9c39ffb4632cf37ec794d04088cb32ccc7bb"
+
+[[files]]
 file = "mods/barehanded-neoforge-1.21.1-1.6.6.jar"
 hash = "b3e177e5b082e00f0603c29c6b796d2539ec31d3864abe2149ea92366a14f05b"
 
@@ -26,7 +30,7 @@ metafile = true
 
 [[files]]
 file = "mods/feedback-0.1.0.jar"
-hash = "99729fb027f38434532a1a16581f6b5b54460abd1d0bc35a21c601edcfcc3432"
+hash = "2bececa875f50348e6d84005384c8ad40e0a82b346d44fbd3a8d734ed1d13820"
 
 [[files]]
 file = "mods/immersive-portals-for-forge.pw.toml"
