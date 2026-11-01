@@ -61,7 +61,7 @@ metafile = true
 
 [[files]]
 file = "mods/feedback-20261101.jar"
-hash = "788c0f5a017bb86e2f66c9f8e3086685c495f3be4dcfe2738468e3ac3bbb221f"
+hash = "ea1d34cd7525ed2c0c0a6618d00b11d50808414a61e89e9db81c5ff6c959f3d8"
 
 [[files]]
 file = "mods/ferrite-core.pw.toml"
