@@ -6,10 +6,6 @@ hash = "713a9b7e8963adfefb8e48aecf0598fbd1cc27e14ca64256757ab4d9e25102a8"
 metafile = true
 
 [[files]]
-file = "mods/barehanded-neoforge-1.21.1-1.6.6.jar"
-hash = "b3e177e5b082e00f0603c29c6b796d2539ec31d3864abe2149ea92366a14f05b"
-
-[[files]]
 file = "mods/better-combat.pw.toml"
 hash = "438170e7e704a1b8ed67bf0521dc5d77cdeeaabf6f729dba9f8dfdad75330acf"
 metafile = true
@@ -61,7 +57,7 @@ metafile = true
 
 [[files]]
 file = "mods/feedback-20261105.jar"
-hash = "ab0f587ee301e3956cbd0eeed1175c8916d0a3cef3ab1a7caeee3c9ba7bb6e66"
+hash = "81a40f30de7d46b99816c0da2a676f4ed15c2a4d21df0769dd67a9d5dac8c3b6"
 
 [[files]]
 file = "mods/ferrite-core.pw.toml"
@@ -127,10 +123,6 @@ metafile = true
 file = "mods/sodium.pw.toml"
 hash = "3fc6fd4a464740bd6cfe89571517cfda837dbad69f0218ef1159b527b1be45d6"
 metafile = true
-
-[[files]]
-file = "mods/summercraft-1.0.0.jar"
-hash = "34d163268c3ecab24744c85f3dcb0042207efd49161c0fea31d341c7cfecf3ef"
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
