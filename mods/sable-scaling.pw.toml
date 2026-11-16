@@ -1,0 +1,13 @@
+name = "Sable Scaling"
+filename = "sable-scale-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/nCuZmZPf/versions/M38cTqNA/sable-scale-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "420449cec96248f50fceb9d52f82fb0b90c2701799a51a5f0f8a3cbcc9c5838e3b639ebbe8a9fe71494fbd86d43e023cd77c2d7e143b89cc14dd4fe5e9ba9b0e"
+
+[update]
+[update.modrinth]
+mod-id = "nCuZmZPf"
+version = "M38cTqNA"

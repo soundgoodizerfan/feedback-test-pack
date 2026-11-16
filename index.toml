@@ -41,6 +41,11 @@ hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
 metafile = true
 
 [[files]]
+file = "mods/dimensional-sable.pw.toml"
+hash = "b5cc7451e1d9ef74586e6aa804aab229f5de38d1c0b4cc4127aacb5a22108d8c"
+metafile = true
+
+[[files]]
 file = "mods/e4mc.pw.toml"
 hash = "3f79fda72f0e113a9746cff11376e38fb2d21d9a9f6a411624bee72c0d1fa083"
 metafile = true
@@ -56,8 +61,8 @@ hash = "49a15bf3a496e885d01e6dd4bf3e08158c9b5c2998027083c3248a6defbce974"
 metafile = true
 
 [[files]]
-file = "mods/feedback-20261114-e73e483f.jar"
-hash = "487303b52adc6eedbc5979721b58205830599d50783e5da19862140c8983f5af"
+file = "mods/feedback-20261115-01801851.jar"
+hash = "1fefbda893a2044e5c8bba0af997b066180afe40c14ab756d531d51967ca42e6"
 
 [[files]]
 file = "mods/ferrite-core.pw.toml"
@@ -120,8 +125,13 @@ hash = "aa83553db30adc47f86010f6443340251323a62ee3f9415a0c4332cb6d502419"
 metafile = true
 
 [[files]]
+file = "mods/sable-scaling.pw.toml"
+hash = "408ff694c840c86b87115b007b5686113ab601625b66c09125b849bf2f70a2e5"
+metafile = true
+
+[[files]]
 file = "mods/sable.pw.toml"
-hash = "fadb5c9cfe145e51992894fe57209fc8f1696ef892ee9702a24c6205f042e9b2"
+hash = "674aaf0dc67f808f0054cfc7bbe041d6725fcbbe97644a85ffbd946a22d35666"
 metafile = true
 
 [[files]]
