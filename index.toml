@@ -42,7 +42,7 @@ metafile = true
 
 [[files]]
 file = "mods/dimensional-sable.pw.toml"
-hash = "b5cc7451e1d9ef74586e6aa804aab229f5de38d1c0b4cc4127aacb5a22108d8c"
+hash = "d8a85c0db6134d8a7d2f8422663cfa10d95c076d95debd17135b59f6101f10f8"
 metafile = true
 
 [[files]]
