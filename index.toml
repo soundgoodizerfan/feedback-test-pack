@@ -37,7 +37,7 @@ metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "982c4bedb0295d598d57cf92cf39abe81562c0f2142f5bc1f90a7e61bff71bb5"
+hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
 metafile = true
 
 [[files]]
@@ -61,8 +61,8 @@ hash = "49a15bf3a496e885d01e6dd4bf3e08158c9b5c2998027083c3248a6defbce974"
 metafile = true
 
 [[files]]
-file = "mods/feedback-20261120-84ddd0f3.jar"
-hash = "9935f8d0612dbb6acdbfa19518c6895513dbc52600844729d45eac41e053fd2c"
+file = "mods/feedback-20261121-1a75ba40.jar"
+hash = "c53f3e2a2cce527b5fe45b0953af364660978264424331544a0174a6365fad80"
 
 [[files]]
 file = "mods/ferrite-core.pw.toml"
@@ -101,7 +101,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "515628e2f370fe23208f6d27222bccdc7c39f0329d272767b1d048319595da9d"
+hash = "c430b477285dd0ab4397cf69257cf01b558f7db6490dfa9e69ec37e7762290bc"
 metafile = true
 
 [[files]]
