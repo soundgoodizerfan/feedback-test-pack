@@ -1,0 +1,13 @@
+name = "Lazy Cat"
+filename = "lazycat-1.4.2-NeoForge-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "51176b249401405d945c09d7724ece1dacd79c33"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9737529
+project-id = 1806291

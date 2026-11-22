@@ -37,7 +37,7 @@ metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "36debf7653e95a855b4fedacc19027cf2e01960fc0b6d55ef2ffbffbcb455690"
+hash = "982c4bedb0295d598d57cf92cf39abe81562c0f2142f5bc1f90a7e61bff71bb5"
 metafile = true
 
 [[files]]
@@ -101,7 +101,22 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "c430b477285dd0ab4397cf69257cf01b558f7db6490dfa9e69ec37e7762290bc"
+hash = "515628e2f370fe23208f6d27222bccdc7c39f0329d272767b1d048319595da9d"
+metafile = true
+
+[[files]]
+file = "mods/lazy-cat.pw.toml"
+hash = "d0284b2e6af63e22eb0f2d6a5f8e2ce7892355afc2077b65575938ee79b1a4e8"
+metafile = true
+
+[[files]]
+file = "mods/lithostitched.pw.toml"
+hash = "93f98a3019a5ce1bda97af2c3e937aaa2adbe4e4dce46e74b130d32cbfdc80a2"
+metafile = true
+
+[[files]]
+file = "mods/mezzconfig.pw.toml"
+hash = "5d445e2ad3f047becc67fec1e8f3bf6fe22ade3a443ec301590d54d0f3b91f3a"
 metafile = true
 
 [[files]]
@@ -147,6 +162,31 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "3fc6fd4a464740bd6cfe89571517cfda837dbad69f0218ef1159b527b1be45d6"
+metafile = true
+
+[[files]]
+file = "mods/thaumaturge-additions.pw.toml"
+hash = "03ea40dd44f9e94c37bd0294452a8e94c93e95c22fd2a3b3ed868b8d7f55710a"
+metafile = true
+
+[[files]]
+file = "mods/thaumaturge.pw.toml"
+hash = "2a69c51a520dea3c6446b38ec7f81f8e43b2bdbd4a5a9169e09e95835669ebe5"
+metafile = true
+
+[[files]]
+file = "mods/thaumaturgic-brewing.pw.toml"
+hash = "cd3428f9730f1c1746e42850b98aaf31054a5a38c06b4a42348f2d63930b36ae"
+metafile = true
+
+[[files]]
+file = "mods/thaumaturgic-infusion.pw.toml"
+hash = "582ea464261f01ecdb2d0bcadde00a8600ca15bbe69408af4b244599a19306fd"
+metafile = true
+
+[[files]]
+file = "mods/thaumic-bases-unofficial.pw.toml"
+hash = "fc36d75e6da351cc1598984d582b8bec0e171f12146c7f7691214705f14234cb"
 metafile = true
 
 [[files]]

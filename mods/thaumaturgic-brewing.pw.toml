@@ -1,0 +1,13 @@
+name = "Thaumaturgic Brewing"
+filename = "thaumaturgicbrewing-1.21.1-0.2.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "aa709ce0bd30ddcf4d5e28750e0d86c145f4bc4e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9660295
+project-id = 1798272
