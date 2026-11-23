@@ -92,7 +92,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "426238488c9ffd843f661f8bc74aa8e585fa6b4d342c43c4ba4cb8451298b725"
+hash = "2245e143a7f25789d22a1807aeb0b240aba3bf542fe280d5759de9c49c48c564"
 metafile = true
 
 [[files]]
@@ -180,6 +180,11 @@ hash = "d0284b2e6af63e22eb0f2d6a5f8e2ce7892355afc2077b65575938ee79b1a4e8"
 metafile = true
 
 [[files]]
+file = "mods/lionfish-api.pw.toml"
+hash = "c27c2b642deba3609c6e5741ee6360cb8d760e5bf5b2595fd4fa01c01dc5f074"
+metafile = true
+
+[[files]]
 file = "mods/lithostitched.pw.toml"
 hash = "93f98a3019a5ce1bda97af2c3e937aaa2adbe4e4dce46e74b130d32cbfdc80a2"
 metafile = true
@@ -256,7 +261,7 @@ metafile = true
 
 [[files]]
 file = "mods/selene.pw.toml"
-hash = "434fbe116618b5b950edcefd05e33f33831b8fa40f47a0970e394f81c3c4c197"
+hash = "6aba148930aeb000292b8862990ab4515ea033554b67b44dd3e59f16ef244778"
 metafile = true
 
 [[files]]
@@ -341,10 +346,10 @@ metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-reimagined.pw.toml"
-hash = "75d1d2488a0c332a9a58af7e57f980a1b006c02b3a1c580fbd50443088e4eab0"
+hash = "5c17de8161b06a10dbd8e59645e7d7edfc583054009b5a787086d5f4fb1a77f1"
 metafile = true
 
 [[files]]
 file = "shaderpacks/complementary-unbound.pw.toml"
-hash = "1a3d3663c44dc21e227c39c42ea9b5e3c4f3b2e3b5272ed55b45da9e247a46d7"
+hash = "9ceebab8640099bd51b9ad88bbf2d3938772ba03a836c6f6e116ba33924541e7"
 metafile = true
