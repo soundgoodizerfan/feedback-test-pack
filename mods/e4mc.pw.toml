@@ -2,6 +2,10 @@ name = "e4mc"
 filename = "e4mc-neoforge-6.2.3.jar"
 side = "client"
 
+[option]
+optional = true
+default = true
+
 [download]
 hash-format = "sha1"
 hash = "7127478b19531091257b3f58cd734a638200e481"

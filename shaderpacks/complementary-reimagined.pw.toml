@@ -2,6 +2,10 @@ name = "Complementary Shaders - Reimagined"
 filename = "ComplementaryReimagined_r5.10.zip"
 side = "client"
 
+[option]
+optional = true
+default = true
+
 [download]
 url = "https://cdn.modrinth.com/data/HVnmMxH1/versions/RKfUB9VC/ComplementaryReimagined_r5.10.zip"
 hash-format = "sha512"

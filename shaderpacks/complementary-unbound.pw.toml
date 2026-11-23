@@ -2,6 +2,10 @@ name = "Complementary Shaders - Unbound"
 filename = "ComplementaryUnbound_r5.10.zip"
 side = "client"
 
+[option]
+optional = true
+default = true
+
 [download]
 url = "https://cdn.modrinth.com/data/R6NEzAwj/versions/QJiYQisE/ComplementaryUnbound_r5.10.zip"
 hash-format = "sha512"
