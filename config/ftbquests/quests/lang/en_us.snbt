@@ -140,7 +140,7 @@
 	quest.0BA2ACCC7D1E0BA0.title: "Reactor Core"
 	quest.0D44C57A49029473.quest_desc: ["iron wants a hotter fire that also strips the oxygen from the ore. push more air, hold more heat, line a chamber." "" "notice that no vessel turns iron ore straight into an ingot. shortcuts were not invited."]
 	quest.0D44C57A49029473.title: "Iron Needs Air"
-	quest.0E6662C6387F4D51.quest_desc: ["a hafted tool with a prospector head. strike a block: glints if it is ore, gray dust if not. a finer point gives more glints and wears faster, because everything good is fragile."]
+	quest.0E6662C6387F4D51.quest_desc: ["a pickaxe whose head is shaped as the prospector variant. it still digs like a pickaxe. right click a block: glints in each borne metal's colour, gray dust if there is none. right click in the air pings ore. a finer point gives more glints and wears faster, because everything good is fragile."]
 	quest.0E6662C6387F4D51.title: "Prospector's Pick"
 	quest.0E77DA85BBAA3E74.quest_desc: ["open the chaos tree and learn a node. rend is the root. later nodes need their prerequisites first; even chaos has paperwork."]
 	quest.0E77DA85BBAA3E74.quest_subtitle: "Learn your first node."

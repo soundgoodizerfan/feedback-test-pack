@@ -90,7 +90,7 @@ hash = "381486b47e7f1202cc15eafb02ba2d5f31e8947e3eefd2d66f8fd14855c8bdbf"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "546d2ac5c17965a00fb3d3cf2caf2e2c6abe9cc53cb3cab77e4904e9598ccff6"
+hash = "15a702c33da1a5d8203dfd81a7411c16f4dcf8f923831492ab39c95a57c12e01"
 
 [[files]]
 file = "mods/ai-improvements.pw.toml"
@@ -110,6 +110,11 @@ metafile = true
 [[files]]
 file = "mods/artifacts.pw.toml"
 hash = "416b7f130791397fb2ceb9e89ce3fd0e870f207c8e40b759c069cb58b7544314"
+metafile = true
+
+[[files]]
+file = "mods/balm.pw.toml"
+hash = "9aee12cd43dcf471f23d1dc7da556fbaadf3831fe6f699925a9d79915376b6a9"
 metafile = true
 
 [[files]]
@@ -212,6 +217,11 @@ hash = "73360e397134d238ee8fd21d33fd7f9275e9441f74f8f1b6ed92278877c0b9f1"
 metafile = true
 
 [[files]]
+file = "mods/fragmentum-neoforge.pw.toml"
+hash = "49e92bbcb8d8705b053dcf0d3be39b5224a411c8d2d38fff8643e402b56aa52d"
+metafile = true
+
+[[files]]
 file = "mods/framedblocks.pw.toml"
 hash = "be4d309355c854d8b20aa36276f134270a5c4c1abe6cac955b41deabf83cecb3"
 metafile = true
@@ -247,8 +257,8 @@ hash = "d13dd8a300e4bf1af53ae745d7c4df46edb61679748eb64525ba1098ffe39623"
 metafile = true
 
 [[files]]
-file = "mods/inventory-sorter.pw.toml"
-hash = "01d2dc33988b6daf0fad9a63b7474832d3876455d1119d6c6e1dde9d203ad718"
+file = "mods/inventory-essentials.pw.toml"
+hash = "22c8ee8cf4a728f6f5892e9cc569e4b6fb689ca7af219ed5b56d8b6376730d39"
 metafile = true
 
 [[files]]
@@ -312,6 +322,11 @@ hash = "b14b3d7f88512f23bccca8e2f133e52e84307679b6eba4e818ce13e8f87e503d"
 metafile = true
 
 [[files]]
+file = "mods/mouse-tweaks.pw.toml"
+hash = "2bdee19bd39b4bd411d7c858a7978ca9d2bdda41c1cf15920ea6be0014663f79"
+metafile = true
+
+[[files]]
 file = "mods/mowzies-mobs.pw.toml"
 hash = "02aa4dcb8fa24cffcd2182c66683c2a476a95abf53002373f953a49737a587e3"
 metafile = true
@@ -319,6 +334,11 @@ metafile = true
 [[files]]
 file = "mods/natures-compass.pw.toml"
 hash = "35acdf433fe8f8599f59975e848efdb717663c2c471d3a5dc18743799795a736"
+metafile = true
+
+[[files]]
+file = "mods/obscure-tooltips.pw.toml"
+hash = "07ce37815be76655026e79769de3eaa8a2fcc91cb5ddec61d72962de7fc5b870"
 metafile = true
 
 [[files]]
@@ -409,6 +429,11 @@ metafile = true
 [[files]]
 file = "mods/thaumic-bases-unofficial.pw.toml"
 hash = "fc36d75e6da351cc1598984d582b8bec0e171f12146c7f7691214705f14234cb"
+metafile = true
+
+[[files]]
+file = "mods/trashslot.pw.toml"
+hash = "b1908d3251d722ec5c18f2483b8c56743d7cae91f644caa6d82e1b3b5b64f604"
 metafile = true
 
 [[files]]
