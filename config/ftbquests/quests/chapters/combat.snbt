@@ -1,0 +1,316 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "combat"
+	group: "5DFA7B32CAEFD16D"
+	icon: { id: "feedback:gun" }
+	id: "34FA1FFC0241A397"
+	images: [ ]
+	order_index: 16
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "feedback:hafted_tool" }
+			id: "7B4C23CED4A90337"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/combat/spear_point"
+				criterion: ""
+				id: "2764457A74C8E49F"
+				type: "advancement"
+			}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A10E1BFC1F0C7BC"]
+			icon: { id: "minecraft:spyglass" }
+			id: "22970A18DAEFCA2E"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/combat/size_up"
+				criterion: ""
+				id: "7939C392AD6D00C2"
+				type: "advancement"
+			}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22970A18DAEFCA2E"]
+			icon: { id: "minecraft:iron_sword" }
+			id: "270563B159311C6F"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/combat/exploit"
+				criterion: ""
+				id: "74BBC838DCDF3D2C"
+				type: "advancement"
+			}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22970A18DAEFCA2E"]
+			icon: { id: "minecraft:chainmail_chestplate" }
+			id: "0474158F69CC958A"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/combat/soft_spot"
+				criterion: ""
+				id: "0D1219A58A998107"
+				type: "advancement"
+			}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22970A18DAEFCA2E"]
+			icon: { id: "minecraft:bow" }
+			id: "61E193D19E789F30"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/combat/read_the_draw"
+				criterion: ""
+				id: "778DB9BA146EA677"
+				type: "advancement"
+			}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["22970A18DAEFCA2E"]
+			icon: { id: "minecraft:wooden_sword" }
+			id: "0B30ADDA7FE01DA4"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/combat/wrong_tool"
+				criterion: ""
+				id: "3FFFBF555629EA89"
+				type: "advancement"
+			}
+			]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0B30ADDA7FE01DA4"]
+			icon: { id: "minecraft:iron_pickaxe" }
+			id: "3F986C8C5899A97A"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/combat/right_tool"
+				criterion: ""
+				id: "3E5FDCE252FE4D78"
+				type: "advancement"
+			}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A10E1BFC1F0C7BC"]
+			icon: { id: "feedback:chestplate" }
+			id: "674CA97ADA4E3234"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/combat/armour_worn"
+				criterion: ""
+				id: "6B235B8265D33778"
+				type: "advancement"
+			}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["674CA97ADA4E3234"]
+			icon: { id: "feedback:helmet" }
+			id: "2EE07D46B34EB1AF"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/combat/armour_set"
+				criterion: ""
+				id: "1F9F1B224A748729"
+				type: "advancement"
+			}
+			]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1959520F5ADC28E4"]
+			icon: { id: "minecraft:blaze_powder" }
+			id: "41A1CD64EE354712"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/combat/hot_edge"
+				criterion: ""
+				id: "0CD13D622356FEE6"
+				type: "advancement"
+			}
+			]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["68C871680B024316"]
+			icon: { id: "feedback:gun" }
+			id: "05F0FF3B164E5E8A"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/combat/armed"
+				criterion: ""
+				id: "6E1B786DD1C399DF"
+				type: "advancement"
+			}
+			]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4A10E1BFC1F0C7BC"]
+			icon: { id: "minecraft:blaze_rod" }
+			id: "5E1C8B0A762D4685"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/combat/first_cast"
+				criterion: ""
+				id: "502A21ED929AEAFB"
+				type: "advancement"
+			}
+			]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5E1C8B0A762D4685"]
+			icon: { id: "minecraft:shield" }
+			id: "16B971BDEB1EA601"
+			shape: "square"
+			tasks: [
+			{
+				advancement: "feedback:progress/combat/cast_anchor"
+				criterion: ""
+				id: "0AB5C5A04FB415A2"
+				type: "advancement"
+			}
+			]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5E1C8B0A762D4685"]
+			icon: { id: "minecraft:ender_eye" }
+			id: "62BCFEF2B4988306"
+			shape: "square"
+			tasks: [
+			{
+				advancement: "feedback:progress/combat/cast_veil"
+				criterion: ""
+				id: "6FB447436A102EA5"
+				type: "advancement"
+			}
+			]
+			x: 1.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5E1C8B0A762D4685"]
+			icon: { id: "minecraft:iron_axe" }
+			id: "723B8B2957D61257"
+			shape: "square"
+			tasks: [
+			{
+				advancement: "feedback:progress/combat/cast_brute"
+				criterion: ""
+				id: "071459DCCE7E4B84"
+				type: "advancement"
+			}
+			]
+			x: 1.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["5E1C8B0A762D4685"]
+			icon: { id: "minecraft:blaze_powder" }
+			id: "0311209E1B8B1F72"
+			shape: "square"
+			tasks: [
+			{
+				advancement: "feedback:progress/combat/cast_onslaught"
+				criterion: ""
+				id: "783D1C6ADBF41B5B"
+				type: "advancement"
+			}
+			]
+			x: 1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["5E1C8B0A762D4685"]
+			icon: { id: "minecraft:spyglass" }
+			id: "23D832ECD1F94909"
+			shape: "square"
+			tasks: [
+			{
+				advancement: "feedback:progress/combat/cast_observation"
+				criterion: ""
+				id: "563AF5E1ED4A41BF"
+				type: "advancement"
+			}
+			]
+			x: 1.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["5E1C8B0A762D4685"]
+			icon: { id: "minecraft:golden_apple" }
+			id: "38A44D8D5FD41DC8"
+			shape: "square"
+			tasks: [
+			{
+				advancement: "feedback:progress/combat/cast_proficiency"
+				criterion: ""
+				id: "7B4510897A8A09BA"
+				type: "advancement"
+			}
+			]
+			x: 1.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["5E1C8B0A762D4685"]
+			icon: { id: "minecraft:fire_charge" }
+			id: "32BFCABBAAABE490"
+			shape: "square"
+			tasks: [
+			{
+				advancement: "feedback:progress/combat/cast_chaos"
+				criterion: ""
+				id: "4B537412A36BBEC3"
+				type: "advancement"
+			}
+			]
+			x: 1.5d
+			y: 16.5d
+		}
+	]
+}

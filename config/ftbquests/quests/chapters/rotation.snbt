@@ -1,0 +1,391 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rotation"
+	group: "30D13E4776495F39"
+	icon: { id: "feedback:shaft" }
+	id: "470F3AD9ED1F75BC"
+	images: [ ]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1959520F5ADC28E4"]
+			icon: { id: "feedback:shaft" }
+			id: "22582531484754D6"
+			shape: "circle"
+			tasks: [
+			{
+				id: "5FE16E7AA1178A11"
+				item: { count: 1, id: "feedback:shaft" }
+				type: "item"
+			}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22582531484754D6"]
+			id: "070E69AEE9364565"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/rotation/crank"
+				criterion: ""
+				id: "02BB3122FB9C39BF"
+				type: "advancement"
+			}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["22582531484754D6"]
+			icon: { id: "feedback:large_cog" }
+			id: "4FF83B65BCE51C84"
+			shape: "square"
+			tasks: [
+			{
+				id: "65B2F3BA4801F118"
+				item: { count: 1, id: "feedback:small_cog" }
+				type: "item"
+			}
+			{
+				id: "7C900DE25A31EFF3"
+				item: { count: 1, id: "feedback:large_cog" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4FF83B65BCE51C84"]
+			icon: { id: "feedback:belt" }
+			id: "30E9A04098C3398A"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "2D4DB165EE29035F"
+				item: { count: 1, id: "feedback:small_pulley" }
+				type: "item"
+			}
+			{
+				id: "16DD13832C1C0F1A"
+				item: { count: 1, id: "feedback:belt" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["070E69AEE9364565"]
+			icon: { id: "feedback:treatise_mechanical_1" }
+			id: "30AAC9DE9C6AEC18"
+			shape: "square"
+			tasks: [
+			{
+				id: "39FDA0F0ED2A0E6D"
+				item: { count: 1, id: "feedback:treatise_mechanical_1" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["22582531484754D6" "30AAC9DE9C6AEC18"]
+			icon: { id: "feedback:bearing" }
+			id: "668F7D1EE6B7EC9F"
+			shape: "circle"
+			tasks: [
+			{
+				id: "297FA9FAAD293E50"
+				item: { count: 1, id: "feedback:bearing" }
+				type: "item"
+			}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["070E69AEE9364565"]
+			id: "0A5408F197C740BF"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/rotation/wheel"
+				criterion: ""
+				id: "5FC3D9D4554DE2EC"
+				type: "advancement"
+			}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0A5408F197C740BF"]
+			icon: { id: "feedback:fish_wheel" }
+			id: "1A9B8632DD0A6A6D"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "4A8B4D857C063594"
+				item: { count: 1, id: "feedback:fish_wheel" }
+				type: "item"
+			}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0A5408F197C740BF" "30AAC9DE9C6AEC18"]
+			icon: { id: "feedback:flywheel" }
+			id: "155958BCB0377DF6"
+			shape: "square"
+			tasks: [
+			{
+				id: "2546FFE1C3196534"
+				item: { count: 1, id: "feedback:flywheel" }
+				type: "item"
+			}
+			]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["668F7D1EE6B7EC9F"]
+			icon: { id: "feedback:clutch" }
+			id: "69866D4867693C05"
+			shape: "square"
+			tasks: [
+			{
+				id: "7E922944BD667A17"
+				item: { count: 1, id: "feedback:clutch" }
+				type: "item"
+			}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69866D4867693C05"]
+			icon: { id: "feedback:overspeed_trip" }
+			id: "25CAA63CC6D2ECD3"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "46E4C308E7302C41"
+				item: { count: 1, id: "feedback:overspeed_trip" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30AAC9DE9C6AEC18"]
+			icon: { id: "feedback:treatise_mechanical_2" }
+			id: "701AD4797E2034DD"
+			shape: "square"
+			tasks: [
+			{
+				id: "40762C4429E86395"
+				item: { count: 1, id: "feedback:treatise_mechanical_2" }
+				type: "item"
+			}
+			]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["668F7D1EE6B7EC9F" "701AD4797E2034DD" "6EB3711E876C19F1"]
+			icon: { id: "feedback:gearbox" }
+			id: "41C2D8147187DAF1"
+			shape: "square"
+			tasks: [
+			{
+				id: "6DE26E739E80E29D"
+				item: { count: 1, id: "feedback:gearbox" }
+				type: "item"
+			}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["41C2D8147187DAF1"]
+			icon: { id: "feedback:differential" }
+			id: "4EE541AC01486CE2"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "449BB3BC2674DA4E"
+				item: { count: 1, id: "feedback:differential" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["69866D4867693C05" "701AD4797E2034DD"]
+			icon: { id: "feedback:freewheel" }
+			id: "7DF81153094E66D8"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "766F7901225C4D4F"
+				item: { count: 1, id: "feedback:freewheel" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["30AAC9DE9C6AEC18"]
+			icon: { id: "feedback:treatise_chemical_1" }
+			id: "2AE380C7E24931FD"
+			shape: "square"
+			tasks: [
+			{
+				id: "4FF66A5FBCC4C633"
+				item: { count: 1, id: "feedback:treatise_chemical_1" }
+				type: "item"
+			}
+			]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2AE380C7E24931FD" "0A5408F197C740BF"]
+			icon: { id: "feedback:boiler" }
+			id: "187A2D7058F88557"
+			shape: "circle"
+			tasks: [
+			{
+				id: "7F3A57F79F08AD3A"
+				item: { count: 1, id: "feedback:boiler" }
+				type: "item"
+			}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["187A2D7058F88557"]
+			icon: { id: "feedback:pressure_gauge" }
+			id: "274A70BF69817C9F"
+			shape: "square"
+			tasks: [
+			{
+				id: "647DB0724C38C674"
+				item: { count: 1, id: "feedback:pressure_gauge" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["187A2D7058F88557"]
+			icon: { id: "feedback:valve" }
+			id: "6545178999CAF6DB"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "59E5F0DB1FD7CA95"
+				item: { count: 1, id: "feedback:valve" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["187A2D7058F88557" "668F7D1EE6B7EC9F"]
+			id: "575A3F9848B9C704"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/rotation/steam"
+				criterion: ""
+				id: "34A456F6CA30702B"
+				type: "advancement"
+			}
+			]
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["575A3F9848B9C704"]
+			icon: { id: "feedback:condenser" }
+			id: "7B40851AEADBF414"
+			shape: "square"
+			tasks: [
+			{
+				id: "4D21A97FF1638FB2"
+				item: { count: 1, id: "feedback:condenser" }
+				type: "item"
+			}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["575A3F9848B9C704"]
+			icon: { id: "feedback:steam_turbine" }
+			id: "1AFCFE938B80FB31"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "47C6F7B8FF9D9887"
+				item: { count: 1, id: "feedback:steam_turbine" }
+				type: "item"
+			}
+			]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["575A3F9848B9C704"]
+			id: "2BDB553829E5C234"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/rotation/engine"
+				criterion: ""
+				id: "1BA7DA2DA86F9D01"
+				type: "advancement"
+			}
+			]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2BDB553829E5C234"]
+			icon: { id: "feedback:gas_turbine" }
+			id: "109B51567D6DD80D"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "1AACEC2204D3504D"
+				item: { count: 1, id: "feedback:gas_turbine" }
+				type: "item"
+			}
+			]
+			x: 10.5d
+			y: 0.0d
+		}
+	]
+}

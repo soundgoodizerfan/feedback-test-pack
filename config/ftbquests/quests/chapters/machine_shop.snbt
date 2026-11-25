@@ -1,0 +1,294 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "machine_shop"
+	group: "30D13E4776495F39"
+	icon: { id: "feedback:lathe" }
+	id: "0004F753021F792F"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["1959520F5ADC28E4"]
+			icon: { id: "feedback:crank_linkage" }
+			id: "190E29F3D38A0E3E"
+			shape: "circle"
+			tasks: [
+			{
+				id: "5E1C7B9878B61DF2"
+				item: { count: 1, id: "feedback:crank_linkage" }
+				type: "item"
+			}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["190E29F3D38A0E3E"]
+			icon: { id: "feedback:mechanical_hammer" }
+			id: "0ECF1FE023D6A2AC"
+			shape: "square"
+			tasks: [
+			{
+				id: "156708CBCBCCE5E7"
+				item: { count: 1, id: "feedback:mechanical_hammer" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["190E29F3D38A0E3E"]
+			icon: { id: "feedback:mechanical_press" }
+			id: "0683AE3C893A655E"
+			shape: "square"
+			tasks: [
+			{
+				id: "5F8B72371879471E"
+				item: { count: 1, id: "feedback:mechanical_press" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0ECF1FE023D6A2AC"]
+			icon: { id: "feedback:treatise_materials_1" }
+			id: "30EF2F72EE3A2D0C"
+			shape: "square"
+			tasks: [
+			{
+				id: "7520E10EED9B90D1"
+				item: { count: 1, id: "feedback:treatise_materials_1" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30EF2F72EE3A2D0C"]
+			icon: { id: "feedback:roll" }
+			id: "3E5A9F220E315BE6"
+			shape: "square"
+			tasks: [
+			{
+				id: "051ACE1EEA714F2B"
+				item: { count: 1, id: "feedback:roll" }
+				type: "item"
+			}
+			{
+				id: "4707A498174CDB16"
+				item: { count: 1, id: "feedback:wire_die" }
+				type: "item"
+			}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30EF2F72EE3A2D0C"]
+			icon: { id: "feedback:drill_bit" }
+			id: "79938B1C86A26278"
+			shape: "square"
+			tasks: [
+			{
+				id: "341331094FB88597"
+				item: { count: 1, id: "feedback:lathe_bit" }
+				type: "item"
+			}
+			{
+				id: "4AD173B26D8F5587"
+				item: { count: 1, id: "feedback:drill_bit" }
+				type: "item"
+			}
+			{
+				id: "6ACABD24AE2C4C8B"
+				item: { count: 1, id: "feedback:abrasive_wheel" }
+				type: "item"
+			}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3E5A9F220E315BE6" "558657879EC52D94"]
+			icon: { id: "feedback:rolling_mill" }
+			id: "3AA6D8D044E466A7"
+			shape: "square"
+			tasks: [
+			{
+				id: "48F5610CEA55187E"
+				item: { count: 1, id: "feedback:rolling_mill" }
+				type: "item"
+			}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3E5A9F220E315BE6" "558657879EC52D94"]
+			icon: { id: "feedback:wire_drawer" }
+			id: "3BD49727B6A0EE3B"
+			shape: "square"
+			tasks: [
+			{
+				id: "7D8357879FF4BCEC"
+				item: { count: 1, id: "feedback:wire_drawer" }
+				type: "item"
+			}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["79938B1C86A26278" "6EB3711E876C19F1"]
+			icon: { id: "feedback:lathe" }
+			id: "5D34168FC4ADB432"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/rotation/shop"
+				criterion: ""
+				id: "6C9B15680D93B169"
+				type: "advancement"
+			}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5D34168FC4ADB432"]
+			icon: { id: "feedback:drill_press" }
+			id: "1EF27A5FEF740A49"
+			shape: "square"
+			tasks: [
+			{
+				id: "0316CCF803F55F12"
+				item: { count: 1, id: "feedback:drill_press" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D34168FC4ADB432"]
+			icon: { id: "feedback:grinding_wheel" }
+			id: "4F94A73D1AFCAA05"
+			shape: "square"
+			tasks: [
+			{
+				id: "409871582837B31D"
+				item: { count: 1, id: "feedback:grinding_wheel" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5D34168FC4ADB432"]
+			icon: { id: "feedback:sawblade" }
+			id: "096CDFF9C8FDAAF5"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "68EDA4E91453240B"
+				item: { count: 1, id: "feedback:sawblade" }
+				type: "item"
+			}
+			{
+				id: "2CF933BB6EE67BF1"
+				item: { count: 1, id: "feedback:mote" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["096CDFF9C8FDAAF5"]
+			icon: { id: "feedback:rotation_adapter" }
+			id: "741DF93743CE7BE8"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "5535B59E9122528F"
+				item: { count: 1, id: "feedback:rotation_adapter" }
+				type: "item"
+			}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["558657879EC52D94"]
+			icon: { id: "feedback:hopper" }
+			id: "6A444ABB2CD68E96"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "20FE207669C3BAAA"
+				item: { count: 1, id: "feedback:hopper" }
+				type: "item"
+			}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5D34168FC4ADB432"]
+			icon: { id: "feedback:conveyor_belt" }
+			id: "563AB428B0FFAA56"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "74CD8217E7578C55"
+				item: { count: 1, id: "feedback:conveyor_belt" }
+				type: "item"
+			}
+			{
+				id: "6AB1BAE774D33BA6"
+				item: { count: 1, id: "feedback:belt_head" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["563AB428B0FFAA56"]
+			icon: { id: "feedback:tube" }
+			id: "218E2FCEB95AAA45"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "4EE8EB1976CFA388"
+				item: { count: 1, id: "feedback:tube" }
+				type: "item"
+			}
+			{
+				id: "4D9F98280A510E5F"
+				item: { count: 1, id: "feedback:carrier" }
+				type: "item"
+			}
+			{
+				id: "7B8F46989905D66E"
+				item: { count: 1, id: "feedback:tube_station" }
+				type: "item"
+			}
+			]
+			x: 9.0d
+			y: 1.5d
+		}
+	]
+}

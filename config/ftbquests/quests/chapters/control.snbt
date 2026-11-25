@@ -1,0 +1,372 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "control"
+	group: "30D13E4776495F39"
+	icon: { id: "feedback:controller" }
+	id: "7A08CB21B8614A4B"
+	images: [ ]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["68C871680B024316"]
+			icon: { id: "feedback:timer" }
+			id: "1A96C4BEDB9F42DA"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/control/timer"
+				criterion: ""
+				id: "1CDA9FBFF72E9A46"
+				type: "advancement"
+			}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A96C4BEDB9F42DA"]
+			icon: { id: "feedback:timer" }
+			id: "41CB250A07BD36AF"
+			shape: "square"
+			tasks: [
+			{
+				id: "2F8D7818D1E02639"
+				item: { count: 1, id: "feedback:timer" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A96C4BEDB9F42DA"]
+			icon: { id: "feedback:bimetallic_strip" }
+			id: "08429468E6B57DD3"
+			shape: "square"
+			tasks: [
+			{
+				id: "273D6859FB5C684B"
+				item: { count: 1, id: "feedback:bimetallic_strip" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A96C4BEDB9F42DA"]
+			icon: { id: "feedback:relay" }
+			id: "001F833861288838"
+			shape: "square"
+			tasks: [
+			{
+				id: "0870DAAC124C903C"
+				item: { count: 1, id: "feedback:relay" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["001F833861288838"]
+			icon: { id: "feedback:coherer" }
+			id: "69F062D9A3486F4D"
+			shape: "square"
+			tasks: [
+			{
+				id: "2CC475122947DDB1"
+				item: { count: 1, id: "feedback:coherer" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69F062D9A3486F4D"]
+			icon: { id: "feedback:coherer_clapper" }
+			id: "11A62EE014C79BF5"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "48833FAAD2720127"
+				item: { count: 1, id: "feedback:coherer_clapper" }
+				type: "item"
+			}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["69F062D9A3486F4D"]
+			icon: { id: "feedback:whisker" }
+			id: "4E189D5AA01C6BC0"
+			shape: "square"
+			tasks: [
+			{
+				id: "4EE44D3F04A7EA0F"
+				item: { count: 1, id: "feedback:whisker" }
+				type: "item"
+			}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A96C4BEDB9F42DA"]
+			icon: { id: "feedback:controller" }
+			id: "54ECA7CE07A3BA48"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/control/controller"
+				criterion: ""
+				id: "47EFB4035F26D205"
+				type: "advancement"
+			}
+			]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["54ECA7CE07A3BA48"]
+			icon: { id: "feedback:controller" }
+			id: "016DD0AF07D0A28F"
+			shape: "square"
+			tasks: [
+			{
+				id: "5C70113AA69356E7"
+				item: { count: 1, id: "feedback:controller" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["016DD0AF07D0A28F"]
+			icon: { id: "feedback:programmer" }
+			id: "72A02123C4D22D57"
+			shape: "square"
+			tasks: [
+			{
+				id: "0CB67BDC49A0EB1B"
+				item: { count: 1, id: "feedback:programmer" }
+				type: "item"
+			}
+			{
+				id: "0CA252A06A688049"
+				item: { count: 1, id: "feedback:punch_card" }
+				type: "item"
+			}
+			]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["016DD0AF07D0A28F"]
+			icon: { id: "feedback:data_connector" }
+			id: "0A24D5E0742A3FC6"
+			shape: "square"
+			tasks: [
+			{
+				id: "302E37148ACAC13F"
+				item: { count: 1, id: "feedback:data_connector" }
+				type: "item"
+			}
+			]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["016DD0AF07D0A28F"]
+			icon: { id: "feedback:memory_drum" }
+			id: "47BB1F198AC92DB6"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/control/memory"
+				criterion: ""
+				id: "0ADB713520BFE745"
+				type: "advancement"
+			}
+			]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["47BB1F198AC92DB6"]
+			icon: { id: "feedback:memory_drum" }
+			id: "750A788C860C063C"
+			shape: "square"
+			tasks: [
+			{
+				id: "3E49743E3813D967"
+				item: { count: 1, id: "feedback:memory_drum" }
+				type: "item"
+			}
+			{
+				id: "1C29FE8005760F5C"
+				item: { count: 1, id: "feedback:memory_board" }
+				type: "item"
+			}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["750A788C860C063C"]
+			icon: { id: "feedback:electric_controller" }
+			id: "4D0EA602FA913EBC"
+			shape: "square"
+			tasks: [
+			{
+				id: "5F71806269D96EFF"
+				item: { count: 1, id: "feedback:electric_controller" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["001F833861288838"]
+			icon: { id: "feedback:trace_board" }
+			id: "7DEAA4FFB7092ADA"
+			shape: "circle"
+			tasks: [
+			{
+				id: "4EEBDBAFA2520E8A"
+				item: { count: 1, id: "feedback:trace_board" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7DEAA4FFB7092ADA"]
+			icon: { id: "feedback:soldering_iron" }
+			id: "646843916B048173"
+			shape: "square"
+			tasks: [
+			{
+				id: "5FA252853B29A497"
+				item: { count: 1, id: "feedback:soldering_iron" }
+				type: "item"
+			}
+			]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["646843916B048173"]
+			icon: { id: "feedback:reflow_oven" }
+			id: "1D2380ED4BAE83CD"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "39EE6883D391BDF9"
+				item: { count: 1, id: "feedback:reflow_oven" }
+				type: "item"
+			}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["646843916B048173"]
+			icon: { id: "feedback:basic_electronic_circuit" }
+			id: "7083ACA00499FF96"
+			shape: "circle"
+			tasks: [
+			{
+				id: "1F9EBF6ACDEA181B"
+				item: { count: 1, id: "feedback:basic_electronic_circuit" }
+				type: "item"
+			}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7083ACA00499FF96"]
+			icon: { id: "feedback:component_tester" }
+			id: "6CEB83D33A911A22"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "543C5C0737134E4D"
+				item: { count: 1, id: "feedback:component_tester" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7083ACA00499FF96"]
+			icon: { id: "feedback:galvanometer" }
+			id: "2A6AB12936D97AE4"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "55DE6FDEE78A89CB"
+				item: { count: 1, id: "feedback:electroscope" }
+				type: "item"
+			}
+			{
+				id: "708E8E6D36AB027E"
+				item: { count: 1, id: "feedback:galvanometer" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7083ACA00499FF96" "4D0EA602FA913EBC"]
+			icon: { id: "feedback:current_sensor" }
+			id: "5C0679CA97A25064"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "04614A0A272BF65A"
+				item: { count: 1, id: "feedback:current_sensor" }
+				type: "item"
+			}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7083ACA00499FF96"]
+			icon: { id: "feedback:oscilloscope" }
+			id: "5167E7B516876AA7"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "2FF2ECFEDC73C104"
+				item: { count: 1, id: "feedback:phosphor_screen" }
+				type: "item"
+			}
+			{
+				id: "6FF99AFCD66FDDB2"
+				item: { count: 1, id: "feedback:oscilloscope" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 4.5d
+		}
+	]
+}

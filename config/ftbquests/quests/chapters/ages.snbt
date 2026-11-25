@@ -1,0 +1,124 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ages"
+	group: "30D13E4776495F39"
+	icon: { id: "minecraft:flint" }
+	id: "48190EF942CBA65B"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "minecraft:flint" }
+			id: "7A18478403772572"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/root"
+				criterion: ""
+				id: "552D06A1EE3369F8"
+				type: "advancement"
+			}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A18478403772572"]
+			icon: { id: "minecraft:flint" }
+			id: "4A10E1BFC1F0C7BC"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/age/stone"
+				criterion: ""
+				id: "2BA97832D3879B9E"
+				type: "advancement"
+			}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A10E1BFC1F0C7BC"]
+			icon: { id: "feedback:bronze_ingot" }
+			id: "1959520F5ADC28E4"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/age/bronze"
+				criterion: ""
+				id: "3C594E78913FDA6C"
+				type: "advancement"
+			}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1959520F5ADC28E4"]
+			icon: { id: "minecraft:iron_ingot" }
+			id: "558657879EC52D94"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/age/iron"
+				criterion: ""
+				id: "5AF4A03389DA3B59"
+				type: "advancement"
+			}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["558657879EC52D94"]
+			icon: { id: "feedback:steel_ingot" }
+			id: "6EB3711E876C19F1"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/age/steel"
+				criterion: ""
+				id: "4CC64E28211821CE"
+				type: "advancement"
+			}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6EB3711E876C19F1"]
+			icon: { id: "feedback:lathe" }
+			id: "68C871680B024316"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/age/machine"
+				criterion: ""
+				id: "7F0A9AE39DEA02B1"
+				type: "advancement"
+			}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["68C871680B024316"]
+			icon: { id: "minecraft:netherite_ingot" }
+			id: "03C84BB7A2AA55B0"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/age/alloy"
+				criterion: ""
+				id: "696547F651593A6D"
+				type: "advancement"
+			}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+	]
+}

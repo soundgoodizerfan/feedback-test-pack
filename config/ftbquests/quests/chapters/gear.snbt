@@ -1,0 +1,287 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "gear"
+	group: "5DFA7B32CAEFD16D"
+	icon: { id: "feedback:chestplate" }
+	id: "04AD47A849CCDEE3"
+	images: [ ]
+	order_index: 19
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "feedback:engineering_table" }
+			id: "1B8B4D8305F1C1A7"
+			shape: "hexagon"
+			tasks: [
+			{
+				id: "7BAFFC1A12DEF3D8"
+				item: { count: 1, id: "feedback:engineering_table" }
+				type: "item"
+			}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B8B4D8305F1C1A7"]
+			icon: { id: "feedback:blueprint_table" }
+			id: "3B54FD369A3E9261"
+			shape: "square"
+			tasks: [
+			{
+				id: "515B0EB9EF278273"
+				item: { count: 1, id: "feedback:blueprint_table" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1959520F5ADC28E4"]
+			icon: { id: "feedback:chestplate" }
+			id: "0B1DA0DC782CF2B8"
+			shape: "hexagon"
+			tasks: [
+			{
+				id: "0CF5133B96D65230"
+				item: { count: 1, id: "feedback:helmet" }
+				type: "item"
+			}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0B1DA0DC782CF2B8"]
+			icon: { id: "feedback:glove" }
+			id: "5F32E556521D4BD8"
+			shape: "square"
+			tasks: [
+			{
+				id: "36251B2AF4D989EC"
+				item: { count: 1, id: "feedback:glove" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0B1DA0DC782CF2B8" "558657879EC52D94"]
+			icon: { id: "feedback:bracer" }
+			id: "46C278743EDC5F3D"
+			shape: "circle"
+			tasks: [
+			{
+				id: "42DB1462CF1B67CB"
+				item: { count: 1, id: "feedback:bracer" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["46C278743EDC5F3D"]
+			icon: { id: "feedback:sash" }
+			id: "602A518B1C000E05"
+			shape: "square"
+			tasks: [
+			{
+				id: "636CE54A32F9D7F6"
+				item: { count: 1, id: "feedback:sash" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["46C278743EDC5F3D" "68C871680B024316"]
+			icon: { id: "feedback:feedbacker" }
+			id: "0F3A9B2F40F15721"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "11015D80D7ECA59F"
+				item: { count: 1, id: "feedback:feedbacker" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["46C278743EDC5F3D"]
+			icon: { id: "feedback:knuckleblaster" }
+			id: "0682BBC454BFE1E8"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "11DC937543758C1F"
+				item: { count: 1, id: "feedback:knuckleblaster" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["46C278743EDC5F3D"]
+			icon: { id: "feedback:whiplash" }
+			id: "2A91852D562C237F"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "2346EC4255CDA361"
+				item: { count: 1, id: "feedback:whiplash" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1959520F5ADC28E4"]
+			icon: { id: "feedback:backpack" }
+			id: "7DC88691608DD963"
+			shape: "hexagon"
+			tasks: [
+			{
+				id: "4A6FFFB8C053ECDE"
+				item: { count: 1, id: "feedback:backpack" }
+				type: "item"
+			}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0B1DA0DC782CF2B8" "68C871680B024316"]
+			icon: { id: "feedback:suit_module" }
+			id: "2C4866A70BAB0533"
+			shape: "circle"
+			tasks: [
+			{
+				id: "03551AB046401666"
+				item: { count: 1, id: "feedback:suit_module" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2C4866A70BAB0533" "1B8B4D8305F1C1A7"]
+			icon: { id: "feedback:battery" }
+			id: "4D18E2ED429337DB"
+			shape: "hexagon"
+			tasks: [
+			{
+				id: "538A1A52E1AE91ED"
+				item: { count: 1, id: "feedback:battery" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4D18E2ED429337DB"]
+			icon: { id: "feedback:charger" }
+			id: "1B2AD0EEB6538640"
+			shape: "square"
+			tasks: [
+			{
+				id: "33ED45CEA3A3FF5B"
+				item: { count: 1, id: "feedback:charger" }
+				type: "item"
+			}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D18E2ED429337DB" "68C871680B024316"]
+			icon: { id: "feedback:robot" }
+			id: "3B15B7A6610DB1B4"
+			shape: "hexagon"
+			tasks: [
+			{
+				id: "2F69787C747D73AF"
+				item: { count: 1, id: "feedback:robot" }
+				type: "item"
+			}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3B15B7A6610DB1B4"]
+			icon: { id: "feedback:robot_arm" }
+			id: "42BB5C06C39AC9A6"
+			shape: "square"
+			tasks: [
+			{
+				id: "6FB5F0AB869AF0A5"
+				item: { count: 1, id: "feedback:robot_arm" }
+				type: "item"
+			}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B15B7A6610DB1B4"]
+			icon: { id: "feedback:robot_beacon" }
+			id: "75BDB140C906FEB7"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "5C3B7691FD6F424F"
+				item: { count: 1, id: "feedback:robot_beacon" }
+				type: "item"
+			}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3B15B7A6610DB1B4"]
+			icon: { id: "feedback:robot_dock" }
+			id: "00B0D32E99DABB35"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "7E06239E3CF35654"
+				item: { count: 1, id: "feedback:robot_dock" }
+				type: "item"
+			}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["42BB5C06C39AC9A6" "1B8B4D8305F1C1A7"]
+			icon: { id: "feedback:auto_engineer" }
+			id: "2E49B0EFB9F57DDC"
+			shape: "hexagon"
+			tasks: [
+			{
+				id: "3F30454D534448F6"
+				item: { count: 1, id: "feedback:auto_engineer" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+	]
+}

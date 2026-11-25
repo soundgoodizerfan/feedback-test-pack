@@ -1,0 +1,126 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nether"
+	group: "30D13E4776495F39"
+	icon: { id: "minecraft:netherrack" }
+	id: "4CD66899CAD50361"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["558657879EC52D94"]
+			icon: { id: "minecraft:netherrack" }
+			id: "48ABA1210FB734F6"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/nether/arrive"
+				criterion: ""
+				id: "5340ED85BD82CCC0"
+				type: "advancement"
+			}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48ABA1210FB734F6"]
+			icon: { id: "minecraft:ancient_debris" }
+			id: "521249D2A2E00425"
+			shape: "circle"
+			tasks: [
+			{
+				id: "5633E21FE8DF18EB"
+				item: { count: 1, id: "minecraft:ancient_debris" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["48ABA1210FB734F6"]
+			icon: { id: "feedback:worn_netherite_bits" }
+			id: "4FC8262913B96623"
+			shape: "square"
+			tasks: [
+			{
+				id: "59C6AE944E66A8F6"
+				item: { count: 1, id: "feedback:worn_netherite_bits" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["521249D2A2E00425" "03C84BB7A2AA55B0"]
+			icon: { id: "feedback:arc_hearth" }
+			id: "79FDC13FE72AC335"
+			shape: "circle"
+			tasks: [
+			{
+				id: "2506DDEDB38F0D3E"
+				item: { count: 1, id: "feedback:arc_hearth" }
+				type: "item"
+			}
+			{
+				id: "743A96BE9C00B9E2"
+				item: { count: 1, id: "feedback:refractory_lining" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79FDC13FE72AC335"]
+			icon: { id: "feedback:cast_netherite_ingot" }
+			id: "5131B0901ECB69D3"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/nether/netherite"
+				criterion: ""
+				id: "25EC23F461173524"
+				type: "advancement"
+			}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5131B0901ECB69D3"]
+			icon: { id: "minecraft:netherite_ingot" }
+			id: "0FF745C3B7D24C21"
+			shape: "circle"
+			tasks: [
+			{
+				id: "20BB615FD9819A77"
+				item: { count: 1, id: "minecraft:netherite_ingot" }
+				type: "item"
+			}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79FDC13FE72AC335"]
+			icon: { id: "feedback:netherite_green_compact" }
+			id: "3CC3F20B7243EAE4"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "0F58AD309B1FB1F7"
+				item: { count: 1, id: "feedback:netherite_green_compact" }
+				type: "item"
+			}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+	]
+}

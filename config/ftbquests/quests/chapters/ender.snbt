@@ -1,0 +1,297 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ender"
+	group: "30D13E4776495F39"
+	icon: { id: "feedback:ender_port" }
+	id: "1F47D13EE53E4644"
+	images: [ ]
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6EB3711E876C19F1"]
+			icon: { id: "feedback:ender_port" }
+			id: "0B0904C1F29F5299"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/ender/port"
+				criterion: ""
+				id: "3B679C171A2B91BC"
+				type: "advancement"
+			}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B0904C1F29F5299"]
+			icon: { id: "minecraft:chorus_fruit" }
+			id: "36D2C6C169B2EAFE"
+			shape: "square"
+			tasks: [
+			{
+				id: "3901EB5389403CB9"
+				type: "checkmark"
+			}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36D2C6C169B2EAFE"]
+			icon: { id: "feedback:reboiler" }
+			id: "628D750EE641B7B5"
+			shape: "square"
+			tasks: [
+			{
+				id: "233DCF91219359B2"
+				item: { count: 1, id: "feedback:reboiler" }
+				type: "item"
+			}
+			{
+				id: "6B20466524D59C46"
+				item: { count: 1, id: "feedback:tray" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["628D750EE641B7B5"]
+			icon: { id: "feedback:electrolyser" }
+			id: "729290842F82D66C"
+			shape: "square"
+			tasks: [
+			{
+				id: "2EAC3D38BE2CF2B0"
+				type: "checkmark"
+			}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["729290842F82D66C"]
+			icon: { id: "feedback:reactor" }
+			id: "1D14816FE224CAFE"
+			shape: "square"
+			tasks: [
+			{
+				id: "11DA0881933DA7BE"
+				type: "checkmark"
+			}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1D14816FE224CAFE"]
+			icon: { id: "feedback:synthetic_pearl" }
+			id: "1BAA61B1CDF7452E"
+			shape: "circle"
+			tasks: [
+			{
+				id: "6ED01351E64C59FA"
+				item: { count: 1, id: "feedback:synthetic_pearl" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B0904C1F29F5299"]
+			icon: { id: "feedback:ender_anchor" }
+			id: "63D584E6C3A70AFF"
+			shape: "square"
+			tasks: [
+			{
+				id: "0D0BFB8C169B4A25"
+				item: { count: 1, id: "feedback:ender_anchor" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0B0904C1F29F5299"]
+			icon: { id: "feedback:tuned_eye" }
+			id: "374B91B768A44597"
+			shape: "square"
+			tasks: [
+			{
+				id: "45E676CCE720E985"
+				item: { count: 1, id: "feedback:tuned_eye" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0B0904C1F29F5299"]
+			icon: { id: "feedback:endernet_upgrade" }
+			id: "07BB96B1E237E75F"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "2C1C55D4E0A4F113"
+				item: { count: 1, id: "feedback:endernet_upgrade" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1BAA61B1CDF7452E"]
+			icon: { id: "minecraft:end_stone" }
+			id: "2DACEF5CF419D095"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/ender/arrive"
+				criterion: ""
+				id: "319EEE2120E8F0AB"
+				type: "advancement"
+			}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2DACEF5CF419D095"]
+			icon: { id: "minecraft:ender_pearl" }
+			id: "1F1E5C095CE1A706"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/ender/void_farm"
+				criterion: ""
+				id: "2272073B1D6BBD07"
+				type: "advancement"
+			}
+			]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["558657879EC52D94"]
+			icon: { id: "feedback:xp_container" }
+			id: "6D1A98D35E19FC80"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/deepdark/xp"
+				criterion: ""
+				id: "018F3A4BDC75CF68"
+				type: "advancement"
+			}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6D1A98D35E19FC80"]
+			icon: { id: "feedback:data_sensor" }
+			id: "7007D12279978168"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/deepdark/listen"
+				criterion: ""
+				id: "6D9E8726D1D4E3C9"
+				type: "advancement"
+			}
+			]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6D1A98D35E19FC80"]
+			icon: { id: "feedback:enchanting_table" }
+			id: "127CF99D498EEF14"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/deepdark/enchant"
+				criterion: ""
+				id: "7F94A74307E051D0"
+				type: "advancement"
+			}
+			]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["7007D12279978168"]
+			icon: { id: "feedback:culture_seed" }
+			id: "0F6035C25CF71D6A"
+			shape: "circle"
+			tasks: [
+			{
+				id: "78E3AD63A4779C6C"
+				item: { count: 1, id: "feedback:culture_seed" }
+				type: "item"
+			}
+			{
+				id: "3AC898A2FBC760B8"
+				item: { count: 1, id: "feedback:relay_organ" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0F6035C25CF71D6A"]
+			icon: { id: "feedback:culture_dish" }
+			id: "0E9B8FE5E6E6E428"
+			shape: "circle"
+			tasks: [
+			{
+				id: "0EAC9166FB0B8256"
+				item: { count: 1, id: "feedback:culture_dish" }
+				type: "item"
+			}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0E9B8FE5E6E6E428"]
+			icon: { id: "feedback:sculk_relay" }
+			id: "2115F16DAA24DD11"
+			shape: "square"
+			tasks: [
+			{
+				id: "280B7C42539C0F7A"
+				item: { count: 1, id: "feedback:sculk_relay" }
+				type: "item"
+			}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0E9B8FE5E6E6E428"]
+			icon: { id: "feedback:catalyst_tap" }
+			id: "3DAF30BF7984C37D"
+			shape: "square"
+			tasks: [
+			{
+				id: "0E39E393CA7DEE3B"
+				item: { count: 1, id: "feedback:catalyst_tap" }
+				type: "item"
+			}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+	]
+}

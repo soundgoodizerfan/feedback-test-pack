@@ -1,0 +1,221 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "trading"
+	group: "149BF26CB820257A"
+	icon: { id: "feedback:counter" }
+	id: "68D207779E17E0CD"
+	images: [ ]
+	order_index: 15
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["66EF47A785FCFF05"]
+			id: "11B76452AAC87C22"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/survival/piece_work"
+				criterion: ""
+				id: "655F7120108FF86B"
+				type: "advancement"
+			}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11B76452AAC87C22"]
+			id: "4D1678088F6B0EE8"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/survival/fair_trade"
+				criterion: ""
+				id: "47B6A79CFC9F1D82"
+				type: "advancement"
+			}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11B76452AAC87C22"]
+			id: "5D981E09BACA3BA9"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/survival/masters_mark"
+				criterion: ""
+				id: "0B01F15FD3D2D565"
+				type: "advancement"
+			}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["11B76452AAC87C22"]
+			id: "741BB3D272806B1D"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/survival/recovered_goods"
+				criterion: ""
+				id: "5F399A8268DF2E18"
+				type: "advancement"
+			}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["11B76452AAC87C22"]
+			id: "64ACD780CE1D0648"
+			shape: "square"
+			tasks: [
+			{
+				id: "31DAF027E6E039CC"
+				type: "checkmark"
+			}
+			]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4D1678088F6B0EE8"]
+			icon: { id: "feedback:counter" }
+			id: "6D73FE070DADDF0B"
+			shape: "circle"
+			tasks: [
+			{
+				id: "43EC3EE523D866AD"
+				item: { count: 1, id: "feedback:counter" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D73FE070DADDF0B"]
+			id: "6CAB0D61B3E339EC"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/survival/open_shop"
+				criterion: ""
+				id: "3C2400656BA0907D"
+				type: "advancement"
+			}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D73FE070DADDF0B"]
+			icon: { id: "feedback:trade_tap" }
+			id: "3B598DAAC1C01146"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "64313E5C9CAFA0C8"
+				item: { count: 1, id: "feedback:trade_tap" }
+				type: "item"
+			}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4D1678088F6B0EE8"]
+			icon: { id: "feedback:market_cross" }
+			id: "3DB4F595FC177F18"
+			shape: "square"
+			tasks: [
+			{
+				id: "31EBD0067C87BB66"
+				item: { count: 1, id: "feedback:market_cross" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3DB4F595FC177F18"]
+			id: "3C8813C6BB21800B"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/survival/market_day"
+				criterion: ""
+				id: "4E0DAAB1DFB5CD05"
+				type: "advancement"
+			}
+			]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3C8813C6BB21800B"]
+			icon: { id: "feedback:ledger_board" }
+			id: "08CD5BC477FFA52A"
+			shape: "square"
+			tasks: [
+			{
+				id: "25CEC5CF970C9D12"
+				item: { count: 1, id: "feedback:ledger_board" }
+				type: "item"
+			}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08CD5BC477FFA52A" "6CAB0D61B3E339EC" "5D981E09BACA3BA9"]
+			id: "68B9F3D4A1316E97"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/survival/well_regarded"
+				criterion: ""
+				id: "753CA63FA68D2C0A"
+				type: "advancement"
+			}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11B76452AAC87C22"]
+			id: "2573A0D7811B5814"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "176AE7C6C261DA5F"
+				type: "checkmark"
+			}
+			]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["11B76452AAC87C22" "5E42A189D61F4A55"]
+			icon: { id: "feedback:dish" }
+			id: "79BDA124A0641476"
+			shape: "square"
+			tasks: [
+			{
+				id: "1D8FDDB2C4196FCB"
+				item: { count: 1, id: "feedback:dish" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 7.5d
+		}
+	]
+}

@@ -1,0 +1,353 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "electricity"
+	group: "30D13E4776495F39"
+	icon: { id: "feedback:galvanic_cell" }
+	id: "0F992F6BBD0E4A5B"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["558657879EC52D94"]
+			icon: { id: "feedback:electrostatic_generator" }
+			id: "637ACEE50B401F84"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/electricity/static"
+				criterion: ""
+				id: "678BAD59519A93DC"
+				type: "advancement"
+			}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["637ACEE50B401F84"]
+			icon: { id: "feedback:electrostatic_generator" }
+			id: "69138601C3C58F1E"
+			shape: "square"
+			tasks: [
+			{
+				id: "4A570A7C32E9B71E"
+				item: { count: 1, id: "feedback:electrostatic_generator" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["637ACEE50B401F84"]
+			icon: { id: "feedback:galvanic_cell" }
+			id: "676B1FCA974B29A3"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/electricity/cell"
+				criterion: ""
+				id: "0D94CCFA3DA87C20"
+				type: "advancement"
+			}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["676B1FCA974B29A3"]
+			icon: { id: "feedback:galvanic_cell" }
+			id: "4D67C70FD4A2C46F"
+			shape: "square"
+			tasks: [
+			{
+				id: "04D0E7D7D2AE1E54"
+				item: { count: 1, id: "feedback:galvanic_cell" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D67C70FD4A2C46F"]
+			icon: { id: "feedback:galvanic_cell_pack" }
+			id: "7D0106CA2B287909"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "37FC0E3734C9F56D"
+				item: { count: 1, id: "feedback:galvanic_cell_pack" }
+				type: "item"
+			}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D67C70FD4A2C46F"]
+			icon: { id: "feedback:thermoelectric_generator" }
+			id: "1B658DC821789202"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "370D6EFEF65D89CD"
+				item: { count: 1, id: "feedback:thermoelectric_generator" }
+				type: "item"
+			}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["676B1FCA974B29A3"]
+			icon: { id: "feedback:dynamotor" }
+			id: "1009C75C5968D50D"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/electricity/dynamo"
+				criterion: ""
+				id: "7CBB971C3CE49A4F"
+				type: "advancement"
+			}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1009C75C5968D50D"]
+			icon: { id: "feedback:dynamotor" }
+			id: "7694E81268F128DA"
+			shape: "square"
+			tasks: [
+			{
+				id: "28832FB052A5289F"
+				item: { count: 1, id: "feedback:dynamotor" }
+				type: "item"
+			}
+			]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1009C75C5968D50D"]
+			icon: { id: "feedback:cable" }
+			id: "74B63C358E819FA4"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/electricity/cable"
+				criterion: ""
+				id: "186246C5D5D3FF15"
+				type: "advancement"
+			}
+			]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["74B63C358E819FA4"]
+			icon: { id: "feedback:cable" }
+			id: "13B4384940F95F8F"
+			shape: "square"
+			tasks: [
+			{
+				id: "4790282172DBB4C6"
+				item: { count: 1, id: "feedback:cable" }
+				type: "item"
+			}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["676B1FCA974B29A3"]
+			icon: { id: "feedback:battery" }
+			id: "2D3F71D5384F4425"
+			shape: "circle"
+			tasks: [
+			{
+				id: "1DDC2887DF3FFE82"
+				item: { count: 1, id: "feedback:battery" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2D3F71D5384F4425" "13B4384940F95F8F"]
+			icon: { id: "feedback:charger" }
+			id: "5FD512D276B299FE"
+			shape: "square"
+			tasks: [
+			{
+				id: "24AD568924C5AFA4"
+				item: { count: 1, id: "feedback:charger" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D3F71D5384F4425" "13B4384940F95F8F"]
+			icon: { id: "feedback:rectifier" }
+			id: "51D26155DF410D5C"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "2BEB0AF6A5A1D0E9"
+				item: { count: 1, id: "feedback:rectifier" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["13B4384940F95F8F"]
+			icon: { id: "feedback:breaker" }
+			id: "3B1368368B9BFE0C"
+			shape: "circle"
+			tasks: [
+			{
+				id: "3BAB5B130253A502"
+				item: { count: 1, id: "feedback:breaker" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["13B4384940F95F8F"]
+			icon: { id: "feedback:fuse" }
+			id: "7ED51153DEFF9BC9"
+			shape: "square"
+			tasks: [
+			{
+				id: "57EF97D618183CCD"
+				item: { count: 1, id: "feedback:fuse" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["13B4384940F95F8F"]
+			icon: { id: "feedback:electromagnet" }
+			id: "4ABFA74C87F277EC"
+			shape: "circle"
+			tasks: [
+			{
+				id: "59091FD286A5BE7A"
+				item: { count: 1, id: "feedback:electromagnet" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["13B4384940F95F8F"]
+			icon: { id: "feedback:lamp" }
+			id: "42EB53090F7D4157"
+			shape: "square"
+			tasks: [
+			{
+				id: "13A2B558B0B80C1B"
+				item: { count: 1, id: "feedback:lamp" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["69138601C3C58F1E" "13B4384940F95F8F"]
+			icon: { id: "feedback:leyden_jar" }
+			id: "2984609CA157C059"
+			shape: "circle"
+			tasks: [
+			{
+				id: "2566EBD6AFA8C6AC"
+				item: { count: 1, id: "feedback:leyden_jar" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["3B1368368B9BFE0C" "7ED51153DEFF9BC9"]
+			icon: { id: "feedback:electrolytic_cell" }
+			id: "4B3E8636338ECF59"
+			shape: "circle"
+			tasks: [
+			{
+				id: "7C7378005E0E0733"
+				item: { count: 1, id: "feedback:electrolytic_cell" }
+				type: "item"
+			}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["637ACEE50B401F84"]
+			icon: { id: "feedback:treatise_electrical_1" }
+			id: "6BB9FDABE2C0C8EB"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "16361B976A131288"
+				item: { count: 1, id: "feedback:treatise_electrical_1" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6BB9FDABE2C0C8EB"]
+			icon: { id: "feedback:treatise_electrical_2" }
+			id: "12C2B88838265C54"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "3E9DABD105F65FC4"
+				item: { count: 1, id: "feedback:treatise_electrical_2" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["12C2B88838265C54"]
+			icon: { id: "feedback:treatise_electrical_3" }
+			id: "06419F0120483C04"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "47B4F1BAAFDC08C4"
+				item: { count: 1, id: "feedback:treatise_electrical_3" }
+				type: "item"
+			}
+			]
+			x: 4.5d
+			y: 6.0d
+		}
+	]
+}

@@ -1,0 +1,667 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "heat"
+	group: "30D13E4776495F39"
+	icon: { id: "feedback:firebox" }
+	id: "7DF200847AB5D229"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4A10E1BFC1F0C7BC"]
+			icon: { id: "feedback:campfire" }
+			id: "188F986CFD3165A7"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/heat/first_fire"
+				criterion: ""
+				id: "5C8372C01ED0BA08"
+				type: "advancement"
+			}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["188F986CFD3165A7"]
+			icon: { id: "feedback:thermometer" }
+			id: "10A4E51862D9F0AD"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/heat/readable"
+				criterion: ""
+				id: "4606209C61057A06"
+				type: "advancement"
+			}
+			{
+				id: "046890B0A1D817D3"
+				item: { count: 1, id: "feedback:thermometer" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["188F986CFD3165A7"]
+			icon: { id: "feedback:tongs" }
+			id: "3A983FCC14404DB3"
+			shape: "square"
+			tasks: [
+			{
+				advancement: "feedback:progress/heat/tongs"
+				criterion: ""
+				id: "7BA464E3B43D7C94"
+				type: "advancement"
+			}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["188F986CFD3165A7"]
+			icon: { id: "minecraft:charcoal" }
+			id: "48F829CC00DB284A"
+			shape: "square"
+			tasks: [
+			{
+				id: "19C962EA3CB5BD8A"
+				item: { count: 1, id: "minecraft:charcoal" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["188F986CFD3165A7"]
+			icon: { id: "minecraft:brick" }
+			id: "4BC474359EF5F912"
+			shape: "circle"
+			tasks: [
+			{
+				id: "58D2DF1811A95582"
+				item: { count: 1, id: "minecraft:brick" }
+				count: 8L
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4BC474359EF5F912"]
+			icon: { id: "feedback:firebox" }
+			id: "02D3D53D1A382F6D"
+			shape: "circle"
+			tasks: [
+			{
+				id: "2AE93C17317EFD88"
+				item: { count: 1, id: "feedback:firebox" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4BC474359EF5F912"]
+			icon: { id: "feedback:crucible_shell" }
+			id: "20E47FF76E6E8A28"
+			shape: "circle"
+			tasks: [
+			{
+				id: "56C8A2DD68CF292B"
+				item: { count: 1, id: "feedback:crucible_shell" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["02D3D53D1A382F6D" "20E47FF76E6E8A28" "10A4E51862D9F0AD"]
+			icon: { id: "feedback:crucible" }
+			id: "50CCAA2AA559EC7C"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/heat/pour"
+				criterion: ""
+				id: "3B94163C9A72012C"
+				type: "advancement"
+			}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50CCAA2AA559EC7C"]
+			icon: { id: "minecraft:copper_ingot" }
+			id: "1BADC7C2557DDAA0"
+			shape: "square"
+			tasks: [
+			{
+				id: "2E18CB0F11058A42"
+				item: { count: 1, id: "minecraft:copper_ingot" }
+				type: "item"
+			}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4BC474359EF5F912"]
+			icon: { id: "feedback:ingot_mold" }
+			id: "6062E7D8E826525E"
+			shape: "square"
+			tasks: [
+			{
+				id: "4DC1B0BDC4FA9A80"
+				item: { count: 1, id: "feedback:ingot_mold" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["50CCAA2AA559EC7C" "6062E7D8E826525E"]
+			icon: { id: "feedback:casting_basin" }
+			id: "18718D11B426AAC1"
+			shape: "square"
+			tasks: [
+			{
+				id: "004A57324AE5F60C"
+				item: { count: 1, id: "feedback:casting_basin" }
+				type: "item"
+			}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1BADC7C2557DDAA0"]
+			icon: { id: "feedback:hand_hammer" }
+			id: "4738E0EFDF12225E"
+			shape: "circle"
+			tasks: [
+			{
+				id: "2B4392C641ADE60E"
+				item: { count: 1, id: "feedback:hand_hammer" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4738E0EFDF12225E"]
+			icon: { id: "feedback:copper_plate" }
+			id: "2FFEE5651FBA9F68"
+			shape: "square"
+			tasks: [
+			{
+				id: "55EB4160E14E380C"
+				item: { count: 1, id: "feedback:copper_plate" }
+				type: "item"
+			}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50CCAA2AA559EC7C"]
+			icon: { id: "feedback:tin_ingot" }
+			id: "275202100E7B1E4B"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/heat/tin"
+				criterion: ""
+				id: "5A4F9F1267E9493C"
+				type: "advancement"
+			}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["50CCAA2AA559EC7C"]
+			icon: { id: "feedback:lead_ingot" }
+			id: "708A00651AA77B3C"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/heat/lead"
+				criterion: ""
+				id: "6DB9DB288C9F6676"
+				type: "advancement"
+			}
+			]
+			x: 6.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["275202100E7B1E4B" "1BADC7C2557DDAA0"]
+			icon: { id: "feedback:bronze_ingot" }
+			id: "037306F9170B66B4"
+			shape: "circle"
+			tasks: [
+			{
+				id: "4FF1B3948EC52486"
+				item: { count: 1, id: "feedback:bronze_ingot" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1BADC7C2557DDAA0" "50CCAA2AA559EC7C"]
+			icon: { id: "feedback:brass_ingot" }
+			id: "7683F232CBDE1400"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/heat/brass"
+				criterion: ""
+				id: "1DFF1528089B9DB5"
+				type: "advancement"
+			}
+			]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["037306F9170B66B4" "4738E0EFDF12225E"]
+			icon: { id: "feedback:smithing_table" }
+			id: "78418E720DEDA4BB"
+			shape: "circle"
+			tasks: [
+			{
+				id: "640B5CBFD50901E5"
+				item: { count: 1, id: "feedback:smithing_table" }
+				type: "item"
+			}
+			]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["78418E720DEDA4BB"]
+			icon: { id: "feedback:prospector_pick" }
+			id: "0E6662C6387F4D51"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "4A3DD907097C2427"
+				item: { count: 1, id: "feedback:prospector_pick" }
+				type: "item"
+			}
+			]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["02D3D53D1A382F6D" "78418E720DEDA4BB"]
+			icon: { id: "feedback:hearth" }
+			id: "7534CF0E7D49FB41"
+			shape: "square"
+			tasks: [
+			{
+				id: "6B62CE69795B1FCD"
+				item: { count: 1, id: "feedback:hearth" }
+				type: "item"
+			}
+			]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["50CCAA2AA559EC7C"]
+			icon: { id: "feedback:glass_ingot" }
+			id: "1D0C1024D1B4FF4A"
+			shape: "square"
+			tasks: [
+			{
+				advancement: "feedback:progress/heat/glass"
+				criterion: ""
+				id: "1D8DD2B030AC675F"
+				type: "advancement"
+			}
+			]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1D0C1024D1B4FF4A" "0D44C57A49029473"]
+			icon: { id: "feedback:quartz_glass_ingot" }
+			id: "5212324AD4B931AA"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				advancement: "feedback:progress/heat/quartz_glass"
+				criterion: ""
+				id: "0A2F585CF5DD68F8"
+				type: "advancement"
+			}
+			]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1959520F5ADC28E4" "50CCAA2AA559EC7C"]
+			icon: { id: "feedback:blast_furnace" }
+			id: "0D44C57A49029473"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/heat/iron_air"
+				criterion: ""
+				id: "34FE471D6019192E"
+				type: "advancement"
+			}
+			]
+			x: 6.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["02D3D53D1A382F6D" "0D44C57A49029473"]
+			icon: { id: "feedback:bellows" }
+			id: "3A1297392ACAD267"
+			shape: "circle"
+			tasks: [
+			{
+				id: "26AEF5F25FCF9592"
+				item: { count: 1, id: "feedback:bellows" }
+				type: "item"
+			}
+			{
+				id: "7C5493D06C6B778F"
+				item: { count: 1, id: "feedback:crank_linkage" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["50CCAA2AA559EC7C"]
+			icon: { id: "feedback:insulation" }
+			id: "634264D94C971FE2"
+			shape: "square"
+			tasks: [
+			{
+				id: "1DD188C0DF26A61C"
+				item: { count: 1, id: "feedback:insulation" }
+				type: "item"
+			}
+			]
+			x: 6.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["50CCAA2AA559EC7C"]
+			icon: { id: "feedback:refractory_lining" }
+			id: "26E443E74B2147A2"
+			shape: "square"
+			tasks: [
+			{
+				id: "0C688A82E5B9E7B1"
+				item: { count: 1, id: "feedback:refractory_lining" }
+				type: "item"
+			}
+			]
+			x: 6.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["0D44C57A49029473"]
+			icon: { id: "feedback:firebrick" }
+			id: "2B6B93A9B2CF4769"
+			shape: "square"
+			tasks: [
+			{
+				advancement: "feedback:progress/heat/firebrick"
+				criterion: ""
+				id: "40AA62916D2A6E18"
+				type: "advancement"
+			}
+			]
+			x: 7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["0D44C57A49029473" "3A1297392ACAD267"]
+			icon: { id: "feedback:cast_iron" }
+			id: "258E356F7448CD82"
+			shape: "square"
+			tasks: [
+			{
+				id: "3428BC2FA5F0DF37"
+				item: { count: 1, id: "feedback:cast_iron" }
+				type: "item"
+			}
+			]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3A1297392ACAD267"]
+			icon: { id: "feedback:iron_bloom" }
+			id: "24CB2C17D139EC9E"
+			shape: "circle"
+			tasks: [
+			{
+				id: "6F62CE4725638C20"
+				item: { count: 1, id: "feedback:iron_bloom" }
+				type: "item"
+			}
+			]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["24CB2C17D139EC9E" "7534CF0E7D49FB41"]
+			icon: { id: "minecraft:iron_ingot" }
+			id: "71F23EC0CC6438C8"
+			shape: "circle"
+			tasks: [
+			{
+				id: "329C1B01D3817D31"
+				item: { count: 1, id: "minecraft:iron_ingot" }
+				type: "item"
+			}
+			{
+				id: "3255B8704EE7C7DA"
+				item: { count: 1, id: "feedback:bloomery_slag" }
+				type: "item"
+			}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71F23EC0CC6438C8"]
+			icon: { id: "feedback:anvil" }
+			id: "0B77E3C295907BAA"
+			shape: "square"
+			tasks: [
+			{
+				id: "17C78C782044AD40"
+				item: { count: 1, id: "feedback:anvil" }
+				type: "item"
+			}
+			]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["258E356F7448CD82" "71F23EC0CC6438C8"]
+			icon: { id: "feedback:puddling_furnace" }
+			id: "1175FDCBC833D14D"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "5CF61990AAAF3469"
+				item: { count: 1, id: "feedback:puddling_furnace" }
+				type: "item"
+			}
+			]
+			x: 13.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["71F23EC0CC6438C8" "634264D94C971FE2" "26E443E74B2147A2" "10A4E51862D9F0AD"]
+			icon: { id: "feedback:steel_ingot" }
+			id: "43DA2EA1811B681A"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/heat/steel"
+				criterion: ""
+				id: "1E0F2FB7FBEB6072"
+				type: "advancement"
+			}
+			]
+			x: 13.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["43DA2EA1811B681A"]
+			icon: { id: "feedback:graphite" }
+			id: "168AA6C711A09A5B"
+			shape: "square"
+			tasks: [
+			{
+				advancement: "feedback:progress/heat/graphite"
+				criterion: ""
+				id: "3DC07A432AA8889F"
+				type: "advancement"
+			}
+			]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43DA2EA1811B681A" "3A983FCC14404DB3"]
+			icon: { id: "feedback:hardened_steel" }
+			id: "20F8FB56A622500E"
+			shape: "square"
+			tasks: [
+			{
+				id: "02D87F95694B32D2"
+				item: { count: 1, id: "feedback:hardened_steel" }
+				type: "item"
+			}
+			]
+			x: 15.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["20F8FB56A622500E"]
+			icon: { id: "feedback:tempered_steel" }
+			id: "053683ADC78C7420"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/heat/temper"
+				criterion: ""
+				id: "7B0FA97F0AA67097"
+				type: "advancement"
+			}
+			]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43DA2EA1811B681A"]
+			icon: { id: "feedback:damper" }
+			id: "33A0B7C4227EE7B4"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "7E67E5DC7300B65C"
+				item: { count: 1, id: "feedback:damper" }
+				type: "item"
+			}
+			]
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["053683ADC78C7420"]
+			icon: { id: "feedback:annealing_furnace" }
+			id: "04B72CACE79DA952"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "5C0EA7189927E501"
+				item: { count: 1, id: "feedback:annealing_furnace" }
+				type: "item"
+			}
+			]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["053683ADC78C7420" "03C84BB7A2AA55B0"]
+			icon: { id: "feedback:tungsten_carbide_green_compact" }
+			id: "26D83E436C4FFF2B"
+			optional: true
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/heat/hard_part"
+				criterion: ""
+				id: "70E328976849B66B"
+				type: "advancement"
+			}
+			]
+			x: 18.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["558657879EC52D94" "43DA2EA1811B681A"]
+			icon: { id: "feedback:arc_hearth" }
+			id: "75C360542D507892"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/heat/hotter"
+				criterion: ""
+				id: "1D8CA23909D6ED9A"
+				type: "advancement"
+			}
+			]
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["75C360542D507892"]
+			icon: { id: "minecraft:lava_bucket" }
+			id: "587ADD74E5A9E31D"
+			shape: "square"
+			tasks: [
+			{
+				advancement: "feedback:progress/heat/lava_fire"
+				criterion: ""
+				id: "3853C108AF97289D"
+				type: "advancement"
+			}
+			]
+			x: 16.5d
+			y: 1.5d
+		}
+	]
+}

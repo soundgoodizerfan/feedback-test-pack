@@ -1,0 +1,319 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "survival"
+	group: "149BF26CB820257A"
+	icon: { id: "feedback:campfire" }
+	id: "04A46C02458195AF"
+	images: [ ]
+	order_index: 13
+	quest_links: [ ]
+	quests: [
+		{
+			icon: { id: "minecraft:campfire" }
+			id: "66073F1666530F34"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/survival_root"
+				criterion: ""
+				id: "5F1D4697FFE1D64D"
+				type: "advancement"
+			}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66073F1666530F34"]
+			id: "6904675BDE404643"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/survival/burn_notice"
+				criterion: ""
+				id: "61AB3AA2BE766888"
+				type: "advancement"
+			}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6904675BDE404643"]
+			id: "16F50C5464E88E5B"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/survival/live_wire"
+				criterion: ""
+				id: "7334A70B7F05B5C2"
+				type: "advancement"
+			}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6904675BDE404643"]
+			id: "66B73035DDD8E8F8"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/survival/cough"
+				criterion: ""
+				id: "64D14E9403A71027"
+				type: "advancement"
+			}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6904675BDE404643"]
+			icon: { id: "feedback:tongs" }
+			id: "674423AE8376FA62"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/survival/hands_off"
+				criterion: ""
+				id: "059593260454E6E8"
+				type: "advancement"
+			}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6904675BDE404643"]
+			icon: { id: "feedback:tongs" }
+			id: "39AC4729F0735B1F"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "6E568FAC63B1EF0E"
+				item: { count: 1, id: "feedback:tongs" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["16F50C5464E88E5B"]
+			icon: { id: "feedback:cable" }
+			id: "38ED576FA330BEB4"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "2451558289AEA8E2"
+				item: { count: 1, id: "feedback:cable" }
+				type: "item"
+			}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66073F1666530F34"]
+			id: "157369236735CE43"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/survival/campfire"
+				criterion: ""
+				id: "1AF8AE4A2EEC9803"
+				type: "advancement"
+			}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["157369236735CE43"]
+			id: "00B22E201C48801F"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/survival/bedroll"
+				criterion: ""
+				id: "4EE1F6F05FD4B6EC"
+				type: "advancement"
+			}
+			]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["00B22E201C48801F"]
+			id: "4DB13A508EF6750A"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/survival/bed"
+				criterion: ""
+				id: "1F29AE67B32CEFDC"
+				type: "advancement"
+			}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4DB13A508EF6750A"]
+			id: "057F4A942EFF432B"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/survival/slept"
+				criterion: ""
+				id: "1E5ACF8DD17BB97D"
+				type: "advancement"
+			}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["157369236735CE43"]
+			id: "4F1E41836AC8629A"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/survival/warm_room"
+				criterion: ""
+				id: "672158783A0AB1D8"
+				type: "advancement"
+			}
+			]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4F1E41836AC8629A"]
+			icon: { id: "feedback:hearth" }
+			id: "09CFDA00A8BCFDE1"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "3614AABA944BD8FC"
+				item: { count: 1, id: "feedback:hearth" }
+				type: "item"
+			}
+			]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4F1E41836AC8629A"]
+			id: "0F8059EA525EBE2F"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/survival/winter_store"
+				criterion: ""
+				id: "38A36EA36931964D"
+				type: "advancement"
+			}
+			]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["66073F1666530F34"]
+			id: "66EF47A785FCFF05"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/survival/hafted"
+				criterion: ""
+				id: "720FCCF573C4EF12"
+				type: "advancement"
+			}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["66EF47A785FCFF05"]
+			id: "39346E556F3C760A"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/survival/lashed"
+				criterion: ""
+				id: "149A9393A22FC623"
+				type: "advancement"
+			}
+			]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["39346E556F3C760A"]
+			id: "3C5E85837AB7B4DC"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/survival/heavy_load"
+				criterion: ""
+				id: "3994E840637AF224"
+				type: "advancement"
+			}
+			]
+			x: 4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["66EF47A785FCFF05"]
+			id: "5F2E6F38D730DC4A"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/survival/right_tool"
+				criterion: ""
+				id: "138309C19B671C75"
+				type: "advancement"
+			}
+			]
+			x: 3.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["39346E556F3C760A"]
+			icon: { id: "feedback:grapple" }
+			id: "42AFB04516F010FE"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "2E00B6DD1F06C455"
+				item: { count: 1, id: "feedback:grapple" }
+				type: "item"
+			}
+			]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3C5E85837AB7B4DC"]
+			icon: { id: "feedback:backpack" }
+			id: "1CBF0FE52A1F501F"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "10091C64F1E43FA8"
+				item: { count: 1, id: "feedback:backpack" }
+				type: "item"
+			}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+	]
+}

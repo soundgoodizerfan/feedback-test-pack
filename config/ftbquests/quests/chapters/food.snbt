@@ -1,0 +1,339 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "food"
+	group: "149BF26CB820257A"
+	icon: { id: "feedback:skillet" }
+	id: "64325D1FE0D3927F"
+	images: [ ]
+	order_index: 14
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["66073F1666530F34"]
+			icon: { id: "feedback:prep_table" }
+			id: "5E42A189D61F4A55"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/food/prep"
+				criterion: ""
+				id: "0DB0DCE981753E3C"
+				type: "advancement"
+			}
+			{
+				id: "584BC3AF68AB7E92"
+				item: { count: 1, id: "feedback:prep_table" }
+				type: "item"
+			}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E42A189D61F4A55"]
+			icon: { id: "feedback:hand_knife" }
+			id: "3D753DCD6565FF5B"
+			shape: "square"
+			tasks: [
+			{
+				id: "159FCF6FEC6AACD1"
+				item: { count: 1, id: "feedback:hand_knife" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D753DCD6565FF5B"]
+			icon: { id: "feedback:ceramic_bowl" }
+			id: "618D82E9909540F5"
+			shape: "square"
+			tasks: [
+			{
+				id: "7CD3CB7E2A7A86FD"
+				item: { count: 1, id: "feedback:ceramic_bowl" }
+				type: "item"
+			}
+			{
+				id: "3CFFC705768F5DF9"
+				item: { count: 1, id: "feedback:wooden_skewer" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5E42A189D61F4A55"]
+			icon: { id: "feedback:skillet" }
+			id: "165775E24D7C3853"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/food/skillet"
+				criterion: ""
+				id: "6F1C184D52D584A4"
+				type: "advancement"
+			}
+			{
+				id: "2993913F000F94A4"
+				item: { count: 1, id: "feedback:skillet" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["165775E24D7C3853"]
+			id: "31DA700788582C28"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/food/just_right"
+				criterion: ""
+				id: "2BE2146374FED08D"
+				type: "advancement"
+			}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["165775E24D7C3853"]
+			icon: { id: "feedback:spatula" }
+			id: "6766D515656752AF"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "6F40A17F48545221"
+				item: { count: 1, id: "feedback:spatula" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["165775E24D7C3853"]
+			icon: { id: "feedback:stockpot" }
+			id: "29F505259DD46349"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/food/pot"
+				criterion: ""
+				id: "3455BE072003E087"
+				type: "advancement"
+			}
+			{
+				id: "51D232D066BE46B2"
+				item: { count: 1, id: "feedback:stockpot" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["29F505259DD46349"]
+			icon: { id: "feedback:salt" }
+			id: "19640ED92FD7FD48"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "0D858499CB6D47AC"
+				item: { count: 1, id: "feedback:salt" }
+				type: "item"
+			}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29F505259DD46349"]
+			icon: { id: "feedback:spoon" }
+			id: "43E390E6CBD85FD7"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "7A8A4B780403DA5E"
+				item: { count: 1, id: "feedback:spoon" }
+				type: "item"
+			}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["66073F1666530F34"]
+			icon: { id: "feedback:cabbage_seed" }
+			id: "799FECDFA99514BB"
+			shape: "circle"
+			tasks: [
+			{
+				id: "65F89F31229FE4D1"
+				item: { count: 1, id: "feedback:cabbage_seed" }
+				type: "item"
+			}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["799FECDFA99514BB"]
+			icon: { id: "feedback:tomato" }
+			id: "096DC39F890D86EC"
+			shape: "square"
+			tasks: [
+			{
+				id: "448E0BEC5546136C"
+				item: { count: 1, id: "feedback:tomato" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["799FECDFA99514BB" "5E42A189D61F4A55"]
+			icon: { id: "feedback:dough" }
+			id: "6714029728CEF6F8"
+			shape: "circle"
+			tasks: [
+			{
+				id: "66E0EB6EE96A835D"
+				item: { count: 1, id: "feedback:dough" }
+				type: "item"
+			}
+			{
+				id: "658FF19C59D05EA9"
+				item: { count: 1, id: "feedback:loaf" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["799FECDFA99514BB" "68C871680B024316"]
+			icon: { id: "feedback:thresher" }
+			id: "5C526BFB2E217475"
+			shape: "circle"
+			tasks: [
+			{
+				id: "3EFB4BD1F448CFC8"
+				item: { count: 1, id: "feedback:thresher" }
+				type: "item"
+			}
+			{
+				id: "265E5A4515C93BB2"
+				item: { count: 1, id: "feedback:straw" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["096DC39F890D86EC"]
+			icon: { id: "feedback:fertiliser" }
+			id: "5B32C0F8AADE715C"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "3F79B66BBA5F6E50"
+				item: { count: 1, id: "feedback:fertiliser" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["157369236735CE43"]
+			icon: { id: "feedback:drying_rack" }
+			id: "261444A6A443C8B0"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/food/dried"
+				criterion: ""
+				id: "11AC0DBE6A63D39A"
+				type: "advancement"
+			}
+			{
+				id: "59EDBAE99A294F40"
+				item: { count: 1, id: "feedback:drying_rack" }
+				type: "item"
+			}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["261444A6A443C8B0"]
+			icon: { id: "feedback:ice_box" }
+			id: "291F355288A55856"
+			shape: "circle"
+			tasks: [
+			{
+				id: "26C8C87D4E7C5C42"
+				item: { count: 1, id: "feedback:ice_box" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["291F355288A55856"]
+			icon: { id: "feedback:refrigeration_unit" }
+			id: "1CB4576B1D85EA64"
+			shape: "circle"
+			tasks: [
+			{
+				id: "12F1FF198FC208CA"
+				item: { count: 1, id: "feedback:refrigeration_unit" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1CB4576B1D85EA64"]
+			id: "45EFBFF645CD0C42"
+			shape: "square"
+			tasks: [
+			{
+				id: "7C8F253347DF3847"
+				type: "checkmark"
+			}
+			]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["291F355288A55856"]
+			id: "53FCF31BE2083FFE"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/survival/winter_store"
+				criterion: ""
+				id: "2B769AC444B6CCD0"
+				type: "advancement"
+			}
+			]
+			x: 3.0d
+			y: 9.0d
+		}
+	]
+}

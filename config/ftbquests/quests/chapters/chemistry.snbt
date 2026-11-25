@@ -1,0 +1,466 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chemistry"
+	group: "30D13E4776495F39"
+	icon: { id: "feedback:reactor" }
+	id: "579054965C31FBE8"
+	images: [ ]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6EB3711E876C19F1"]
+			icon: { id: "feedback:salt" }
+			id: "447C18F90C15CC80"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/chem/salt"
+				criterion: ""
+				id: "23C0DAF350B4E654"
+				type: "advancement"
+			}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6EB3711E876C19F1"]
+			icon: { id: "feedback:pump" }
+			id: "0242EAEEF85A1464"
+			shape: "square"
+			tasks: [
+			{
+				id: "413D330E1AF52CFE"
+				item: { count: 1, id: "feedback:pump" }
+				type: "item"
+			}
+			{
+				id: "71E553B3556C3C8B"
+				item: { count: 1, id: "feedback:valve" }
+				type: "item"
+			}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0242EAEEF85A1464"]
+			icon: { id: "feedback:treatise_chemical_1" }
+			id: "2516CD7B854AE284"
+			shape: "square"
+			tasks: [
+			{
+				id: "10230BD7B723B667"
+				item: { count: 1, id: "feedback:treatise_chemical_1" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2516CD7B854AE284"]
+			icon: { id: "feedback:pressure_vessel" }
+			id: "3DFF5CDCFF5BDE56"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/chem/pressure"
+				criterion: ""
+				id: "4F4EF86D6EA7CCCC"
+				type: "advancement"
+			}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DFF5CDCFF5BDE56"]
+			icon: { id: "feedback:bellows" }
+			id: "3D1A0ED62BBA014F"
+			shape: "square"
+			tasks: [
+			{
+				id: "0EB03C1A1AD368FC"
+				item: { count: 1, id: "feedback:bellows" }
+				type: "item"
+			}
+			{
+				id: "7C7B0D98B6EF4A8E"
+				item: { count: 1, id: "feedback:pressure_gauge" }
+				type: "item"
+			}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DFF5CDCFF5BDE56"]
+			icon: { id: "feedback:gas_tank" }
+			id: "30BCCB533161179C"
+			shape: "square"
+			tasks: [
+			{
+				id: "074870B4A423B3FF"
+				item: { count: 1, id: "feedback:gas_tank" }
+				type: "item"
+			}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["30BCCB533161179C"]
+			icon: { id: "feedback:flare" }
+			id: "42D94BFB11145303"
+			shape: "square"
+			tasks: [
+			{
+				id: "3A21E90EBC09CDA2"
+				item: { count: 1, id: "feedback:flare" }
+				type: "item"
+			}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["30BCCB533161179C"]
+			icon: { id: "feedback:compressor" }
+			id: "53D735D818749101"
+			shape: "square"
+			tasks: [
+			{
+				id: "71815B7911C32F4E"
+				item: { count: 1, id: "feedback:treatise_chemical_2" }
+				type: "item"
+			}
+			{
+				id: "13987403E285151C"
+				item: { count: 1, id: "feedback:compressor" }
+				type: "item"
+			}
+			]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3DFF5CDCFF5BDE56"]
+			icon: { id: "feedback:electrolyser" }
+			id: "743A3769BCA84A04"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/chem/electrolysis"
+				criterion: ""
+				id: "708C33C15095F236"
+				type: "advancement"
+			}
+			]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["743A3769BCA84A04"]
+			icon: { id: "feedback:reactor" }
+			id: "2F0D4EA98BD3FE00"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/chem/acid"
+				criterion: ""
+				id: "7D13A9FC858AED0A"
+				type: "advancement"
+			}
+			]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2F0D4EA98BD3FE00" "447C18F90C15CC80"]
+			icon: { id: "feedback:salt" }
+			id: "77DDFED06211ECE2"
+			shape: "square"
+			tasks: [
+			{
+				id: "610C89179F745D68"
+				type: "checkmark"
+			}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77DDFED06211ECE2"]
+			icon: { id: "feedback:pyrite" }
+			id: "272288A25D096D7A"
+			shape: "square"
+			tasks: [
+			{
+				id: "51DE19C3860B87AC"
+				item: { count: 1, id: "feedback:pyrite" }
+				type: "item"
+			}
+			{
+				id: "074354FD4755552E"
+				type: "checkmark"
+			}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77DDFED06211ECE2"]
+			icon: { id: "feedback:reactor" }
+			id: "58D2BB7C92A33393"
+			shape: "square"
+			tasks: [
+			{
+				id: "6473197B4075D764"
+				type: "checkmark"
+			}
+			]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["272288A25D096D7A" "58D2BB7C92A33393"]
+			icon: { id: "feedback:fertiliser" }
+			id: "192FBB27B7AB7700"
+			shape: "circle"
+			tasks: [
+			{
+				id: "3F292101DE0BC3BB"
+				item: { count: 1, id: "feedback:fertiliser" }
+				type: "item"
+			}
+			]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2516CD7B854AE284"]
+			icon: { id: "feedback:mixer" }
+			id: "18300EE5A546A45B"
+			shape: "square"
+			tasks: [
+			{
+				id: "05295BFF6521E548"
+				item: { count: 1, id: "feedback:mixer" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["77DDFED06211ECE2"]
+			icon: { id: "feedback:alumina" }
+			id: "43390F7CEE15258A"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/chem/aluminium"
+				criterion: ""
+				id: "25F547DE3C25C208"
+				type: "advancement"
+			}
+			{
+				id: "00DF2B524226114A"
+				item: { count: 1, id: "feedback:alumina" }
+				type: "item"
+			}
+			]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2F0D4EA98BD3FE00"]
+			icon: { id: "feedback:wellhead" }
+			id: "7B3B6E5D6ECA8432"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/chem/oil"
+				criterion: ""
+				id: "594DEC4C01DFD136"
+				type: "advancement"
+			}
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7B3B6E5D6ECA8432"]
+			icon: { id: "feedback:survey_meter" }
+			id: "7879AC3D4378E015"
+			shape: "square"
+			tasks: [
+			{
+				id: "6BA8EDD5FFD0354C"
+				item: { count: 1, id: "feedback:survey_meter" }
+				type: "item"
+			}
+			{
+				id: "79FC8E15705D03BF"
+				item: { count: 1, id: "feedback:copper_bucket" }
+				type: "item"
+			}
+			]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7879AC3D4378E015"]
+			icon: { id: "feedback:derrick_base" }
+			id: "42AC0F1CD6F05B2A"
+			shape: "circle"
+			tasks: [
+			{
+				id: "225D677FD6B4322B"
+				item: { count: 1, id: "feedback:derrick_base" }
+				type: "item"
+			}
+			{
+				id: "22D092FE54DA2C55"
+				item: { count: 1, id: "feedback:wellhead" }
+				type: "item"
+			}
+			]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["42AC0F1CD6F05B2A" "3DFF5CDCFF5BDE56"]
+			icon: { id: "feedback:reboiler" }
+			id: "42077C44CFE51F02"
+			shape: "circle"
+			tasks: [
+			{
+				id: "34A0355A663639B4"
+				item: { count: 1, id: "feedback:reboiler" }
+				type: "item"
+			}
+			{
+				id: "5E23AE4F3272104B"
+				item: { count: 1, id: "feedback:tray" }
+				type: "item"
+			}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["42077C44CFE51F02"]
+			icon: { id: "feedback:reactor" }
+			id: "5DAA24750E10BDF3"
+			shape: "square"
+			tasks: [
+			{
+				id: "046FB624CB7AAA4F"
+				type: "checkmark"
+			}
+			]
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DAA24750E10BDF3"]
+			icon: { id: "feedback:reactor" }
+			id: "75F093FE062CF6EE"
+			shape: "square"
+			tasks: [
+			{
+				id: "7A9F65112FB43741"
+				type: "checkmark"
+			}
+			]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F0D4EA98BD3FE00"]
+			icon: { id: "feedback:reactor" }
+			id: "7B5346F28EFB8F55"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "70967386E803BE19"
+				type: "checkmark"
+			}
+			]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["77DDFED06211ECE2"]
+			icon: { id: "feedback:reactor" }
+			id: "44057A14D1D520E9"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "43F1E43F15800DCD"
+				type: "checkmark"
+			}
+			]
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["53D735D818749101" "2F0D4EA98BD3FE00"]
+			icon: { id: "feedback:cryocooler" }
+			id: "76765F09BC05E3C5"
+			shape: "square"
+			tasks: [
+			{
+				id: "080A63E3F25B4DE2"
+				item: { count: 1, id: "feedback:cryocooler" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["18300EE5A546A45B"]
+			icon: { id: "feedback:demolition_charge" }
+			id: "1873DFD1D676D245"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "4729F085E6922340"
+				item: { count: 1, id: "feedback:demolition_charge" }
+				type: "item"
+			}
+			{
+				id: "00BD27D03AF94529"
+				item: { count: 1, id: "feedback:creeper_pen" }
+				type: "item"
+			}
+			]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["30BCCB533161179C" "743A3769BCA84A04"]
+			icon: { id: "feedback:gas_cell_cloth" }
+			id: "351A81894454C177"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "7B7C12A2274F5AF9"
+				item: { count: 1, id: "feedback:gas_cell_cloth" }
+				type: "item"
+			}
+			]
+			x: 6.0d
+			y: 4.5d
+		}
+	]
+}

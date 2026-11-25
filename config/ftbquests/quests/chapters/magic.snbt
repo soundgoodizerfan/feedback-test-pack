@@ -1,0 +1,307 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "magic"
+	group: "30D13E4776495F39"
+	icon: { id: "feedback:brewing_stand" }
+	id: "0F060B9E16F27A6C"
+	images: [ ]
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["558657879EC52D94"]
+			icon: { id: "feedback:brewing_stand" }
+			id: "7DDD38791AA20037"
+			shape: "circle"
+			tasks: [
+			{
+				id: "52F352A488B66953"
+				item: { count: 1, id: "feedback:mortar" }
+				type: "item"
+			}
+			{
+				id: "2EAC2CF237E6006A"
+				item: { count: 1, id: "feedback:brewing_stand" }
+				type: "item"
+			}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DDD38791AA20037"]
+			icon: { id: "feedback:potion" }
+			id: "6AA47E0C6C42F0AF"
+			shape: "circle"
+			tasks: [
+			{
+				id: "0EAACE933E0CF646"
+				item: { count: 1, id: "feedback:potion" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AA47E0C6C42F0AF"]
+			icon: { id: "feedback:potion" }
+			id: "1F5041895CB19CA5"
+			shape: "square"
+			tasks: [
+			{
+				id: "0E9B89087036C69E"
+				type: "checkmark"
+			}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AA47E0C6C42F0AF"]
+			icon: { id: "feedback:stockpot" }
+			id: "6508144C4BE3DC6D"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "730BBD0A81C3011B"
+				type: "checkmark"
+			}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6AA47E0C6C42F0AF"]
+			icon: { id: "feedback:potion_salts" }
+			id: "3E306A1468ED2279"
+			shape: "square"
+			tasks: [
+			{
+				id: "7B5D7BF522DA82D7"
+				item: { count: 1, id: "feedback:vacuum_dryer" }
+				type: "item"
+			}
+			{
+				id: "0712642F5AD2A5F2"
+				item: { count: 1, id: "feedback:potion_salts" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["558657879EC52D94"]
+			icon: { id: "feedback:research_table" }
+			id: "3C2289E89E9544E2"
+			shape: "square"
+			tasks: [
+			{
+				id: "7404A045121D0AA4"
+				item: { count: 1, id: "feedback:research_table" }
+				type: "item"
+			}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3C2289E89E9544E2"]
+			icon: { id: "feedback:crystal_holder" }
+			id: "477D24A280AEDBAB"
+			shape: "circle"
+			tasks: [
+			{
+				id: "1E934639B39EE2B6"
+				item: { count: 1, id: "feedback:crystal_holder" }
+				type: "item"
+			}
+			{
+				id: "5576BB343C6419E8"
+				item: { count: 1, id: "feedback:xp_container" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["477D24A280AEDBAB"]
+			icon: { id: "feedback:xp_wire" }
+			id: "54D88CEEE882B369"
+			shape: "square"
+			tasks: [
+			{
+				id: "356FF023435F05A1"
+				item: { count: 1, id: "feedback:xp_wire" }
+				count: 3L
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["477D24A280AEDBAB"]
+			icon: { id: "feedback:orb_absorber" }
+			id: "4A62ADC8F2D5DBAE"
+			shape: "square"
+			tasks: [
+			{
+				id: "2274D6EA4A5156B2"
+				item: { count: 1, id: "feedback:orb_absorber" }
+				type: "item"
+			}
+			{
+				id: "643CB6956053C997"
+				item: { count: 1, id: "feedback:xp_meter" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4A62ADC8F2D5DBAE"]
+			icon: { id: "feedback:ore_tap" }
+			id: "5C130D124152051E"
+			shape: "circle"
+			tasks: [
+			{
+				id: "4F73B08683A0EF51"
+				item: { count: 1, id: "feedback:ore_tap" }
+				type: "item"
+			}
+			{
+				id: "53755C7B41F34EA0"
+				item: { count: 1, id: "feedback:trade_tap" }
+				type: "item"
+			}
+			{
+				id: "724E329231BCFCF9"
+				item: { count: 1, id: "feedback:smelter_tap" }
+				type: "item"
+			}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C2289E89E9544E2"]
+			icon: { id: "feedback:enchanting_table" }
+			id: "4A9F5BB8C3BA0D7E"
+			shape: "circle"
+			tasks: [
+			{
+				id: "213968250F3F5151"
+				item: { count: 1, id: "feedback:enchanting_table" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4A9F5BB8C3BA0D7E"]
+			icon: { id: "feedback:blank_rite" }
+			id: "6AE1678E347D298F"
+			shape: "square"
+			tasks: [
+			{
+				id: "181C19C180390E53"
+				item: { count: 1, id: "feedback:blank_rite" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5C130D124152051E" "4A9F5BB8C3BA0D7E"]
+			icon: { id: "feedback:disenchant_stone" }
+			id: "4C37DC421C72969E"
+			shape: "square"
+			tasks: [
+			{
+				id: "01F0CCE6771C3793"
+				item: { count: 1, id: "feedback:disenchant_stone" }
+				type: "item"
+			}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["558657879EC52D94"]
+			icon: { id: "feedback:vis_tap" }
+			id: "437513F68489B775"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "0A338FDB6025510E"
+				item: { count: 1, id: "feedback:vis_tap" }
+				type: "item"
+			}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["437513F68489B775"]
+			icon: { id: "feedback:essentia_adapter" }
+			id: "3F60BA8D27ACE616"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "7DA9BFD1A401A14B"
+				item: { count: 1, id: "feedback:essentia_adapter" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3F60BA8D27ACE616"]
+			icon: { id: "feedback:essentia_vent" }
+			id: "2B9AA1F5DF1C9C5B"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "15D3C04C52C6D82A"
+				item: { count: 1, id: "feedback:essentia_vent" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["437513F68489B775"]
+			icon: { id: "feedback:taint_glaze" }
+			id: "6929599BFFB00AFB"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "15535F3C4366BB10"
+				item: { count: 1, id: "feedback:taint_glaze" }
+				type: "item"
+			}
+			{
+				id: "0EE9F4C2D634CED8"
+				item: { count: 1, id: "feedback:scrubbing_bed" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 6.0d
+		}
+	]
+}

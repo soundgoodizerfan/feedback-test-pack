@@ -1,0 +1,301 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "vehicles"
+	group: "30D13E4776495F39"
+	icon: { id: "feedback:lift" }
+	id: "71B9668A4E7650CB"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["558657879EC52D94"]
+			icon: { id: "feedback:rotary_bearing" }
+			id: "53F81065C2898257"
+			shape: "circle"
+			tasks: [
+			{
+				id: "6B7AE953B87AFE5E"
+				item: { count: 1, id: "feedback:rotary_bearing" }
+				type: "item"
+			}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["53F81065C2898257"]
+			icon: { id: "feedback:lift" }
+			id: "3DD80F2973F8178B"
+			shape: "circle"
+			tasks: [
+			{
+				id: "77D9EB7E6819087C"
+				item: { count: 1, id: "feedback:lift" }
+				type: "item"
+			}
+			{
+				id: "2123F880008DBEF4"
+				item: { count: 1, id: "feedback:pressure_gauge" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DD80F2973F8178B"]
+			icon: { id: "feedback:slider_joint" }
+			id: "265735852860E161"
+			shape: "square"
+			tasks: [
+			{
+				id: "01121C9994952E54"
+				item: { count: 1, id: "feedback:slider_joint" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3DD80F2973F8178B"]
+			icon: { id: "feedback:tire_hub_small" }
+			id: "14BEAAFB50388969"
+			shape: "circle"
+			tasks: [
+			{
+				id: "03CB4E17573C2227"
+				item: { count: 1, id: "feedback:tire_hub_small" }
+				type: "item"
+			}
+			{
+				id: "06B8276FD2F75B11"
+				item: { count: 1, id: "feedback:tire_rubber" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3DD80F2973F8178B" "68C871680B024316"]
+			icon: { id: "feedback:controller" }
+			id: "7C053E54FFEF4495"
+			shape: "square"
+			tasks: [
+			{
+				id: "550C0A7554AC03AC"
+				item: { count: 1, id: "feedback:controller" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7C053E54FFEF4495" "14BEAAFB50388969"]
+			id: "70D479159B7F9337"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/vehicles/seat"
+				criterion: ""
+				id: "2FED1C5D0CE76BDE"
+				type: "advancement"
+			}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7C053E54FFEF4495"]
+			icon: { id: "feedback:pivot_mast" }
+			id: "2E14DB83146FA5EE"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "18E661A90DC10B79"
+				item: { count: 1, id: "feedback:pivot_mast" }
+				type: "item"
+			}
+			]
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3DD80F2973F8178B"]
+			icon: { id: "feedback:winch" }
+			id: "0342E33230F35140"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "0DFAA8752651F8A0"
+				item: { count: 1, id: "feedback:winch" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["558657879EC52D94"]
+			icon: { id: "minecraft:elytra" }
+			id: "08653EB4288F41C0"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "3879633DDA9939D5"
+				item: { count: 1, id: "minecraft:elytra" }
+				type: "item"
+			}
+			]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3DD80F2973F8178B"]
+			icon: { id: "feedback:treatise_aerospace_1" }
+			id: "052D43F29EA638A7"
+			shape: "square"
+			tasks: [
+			{
+				id: "22DD183C35510A51"
+				item: { count: 1, id: "feedback:treatise_aerospace_1" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["052D43F29EA638A7"]
+			icon: { id: "feedback:propeller" }
+			id: "0023AC4B0A98ED49"
+			shape: "circle"
+			tasks: [
+			{
+				id: "1DEA4352571D58A0"
+				item: { count: 1, id: "feedback:propeller" }
+				type: "item"
+			}
+			]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3DD80F2973F8178B"]
+			icon: { id: "feedback:gas_cell_rubber" }
+			id: "483635807FBD0F9D"
+			shape: "circle"
+			tasks: [
+			{
+				id: "12946EE07FF929B7"
+				item: { count: 1, id: "feedback:gas_cell_rubber" }
+				type: "item"
+			}
+			{
+				id: "514BBBC9A136BF5A"
+				item: { count: 1, id: "feedback:vent_valve" }
+				type: "item"
+			}
+			{
+				id: "4AB29B5548BF12E8"
+				item: { count: 1, id: "feedback:ballast_tank" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3DD80F2973F8178B" "68C871680B024316"]
+			id: "388B901EFC2DE7E6"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/flight/thruster"
+				criterion: ""
+				id: "123AFC3DDEE51D9E"
+				type: "advancement"
+			}
+			]
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["388B901EFC2DE7E6"]
+			id: "7A251582C448924A"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/flight/jet"
+				criterion: ""
+				id: "71512162321D9863"
+				type: "advancement"
+			}
+			]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["03C84BB7A2AA55B0"]
+			icon: { id: "feedback:telescope" }
+			id: "5B3DF54E8F8E2F79"
+			shape: "circle"
+			tasks: [
+			{
+				id: "789D1777FFCD2C08"
+				item: { count: 1, id: "feedback:objective_lens" }
+				type: "item"
+			}
+			{
+				id: "12D95DE357323E42"
+				item: { count: 1, id: "feedback:eyepiece_lens" }
+				type: "item"
+			}
+			{
+				id: "1FD8674AE28009E9"
+				item: { count: 1, id: "feedback:telescope_tube" }
+				type: "item"
+			}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5B3DF54E8F8E2F79"]
+			icon: { id: "feedback:telescope" }
+			id: "278ADDD048D0FED5"
+			shape: "square"
+			tasks: [
+			{
+				id: "6131C7E0BF1B60FC"
+				item: { count: 1, id: "feedback:telescope" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["278ADDD048D0FED5"]
+			id: "2C5DAA4A49E4E758"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/space/first_sighting"
+				criterion: ""
+				id: "4D551AB989B647E3"
+				type: "advancement"
+			}
+			]
+			x: 3.0d
+			y: 10.5d
+		}
+	]
+}

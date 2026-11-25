@@ -1,0 +1,306 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "radiation"
+	group: "30D13E4776495F39"
+	icon: { id: "feedback:geiger_counter" }
+	id: "01444FD66C887136"
+	images: [ ]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["68C871680B024316"]
+			icon: { id: "feedback:geiger_counter" }
+			id: "02D73E38016F635C"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/radiation/geiger"
+				criterion: ""
+				id: "7473A0A615091B1E"
+				type: "advancement"
+			}
+			]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["02D73E38016F635C"]
+			icon: { id: "feedback:geiger_counter" }
+			id: "6F38AC1A6BB646C4"
+			shape: "square"
+			tasks: [
+			{
+				id: "4A4D100BCF7CA03D"
+				item: { count: 1, id: "feedback:geiger_counter" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["02D73E38016F635C"]
+			icon: { id: "feedback:dosimeter" }
+			id: "3E772FCE1BE2AB3C"
+			shape: "square"
+			tasks: [
+			{
+				id: "44F5B67077A73035"
+				item: { count: 1, id: "feedback:dosimeter" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6F38AC1A6BB646C4" "3E772FCE1BE2AB3C"]
+			icon: { id: "feedback:dosimeter" }
+			id: "6C7D15FE7D905AD0"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/hazard/radiation"
+				criterion: ""
+				id: "574D5CFA74B27C28"
+				type: "advancement"
+			}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["02D73E38016F635C"]
+			icon: { id: "feedback:lead_chest" }
+			id: "41370EDD8F570279"
+			shape: "square"
+			tasks: [
+			{
+				id: "5E56E76261E3F0E6"
+				item: { count: 1, id: "feedback:lead_chest" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6F38AC1A6BB646C4"]
+			icon: { id: "feedback:radiation_sensor" }
+			id: "409144DDD0AEDF57"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "2C5EA24439504F87"
+				item: { count: 1, id: "feedback:radiation_sensor" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["02D73E38016F635C"]
+			icon: { id: "feedback:respirator" }
+			id: "679F18CC9784ADED"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "74F2F8CACFC6B798"
+				item: { count: 1, id: "feedback:respirator" }
+				type: "item"
+			}
+			]
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["41370EDD8F570279"]
+			icon: { id: "feedback:treatise_nuclear_1" }
+			id: "3DBAA307E2DEF9E1"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "3D19CCAA52B62BCC"
+				item: { count: 1, id: "feedback:treatise_nuclear_1" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3DBAA307E2DEF9E1"]
+			icon: { id: "feedback:fuel_rod" }
+			id: "21535158B9D7B3F6"
+			shape: "square"
+			tasks: [
+			{
+				id: "5136032FD349D09B"
+				item: { count: 1, id: "feedback:fuel_rod" }
+				type: "item"
+			}
+			]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["21535158B9D7B3F6"]
+			icon: { id: "feedback:fuel_channel" }
+			id: "747F1C88B4BBEABE"
+			shape: "square"
+			tasks: [
+			{
+				id: "4BB3C02694B4F5FD"
+				item: { count: 1, id: "feedback:fuel_channel" }
+				type: "item"
+			}
+			{
+				id: "034C74FBD70FD831"
+				item: { count: 1, id: "feedback:graphite_moderator" }
+				type: "item"
+			}
+			{
+				id: "421FEA73528BF230"
+				item: { count: 1, id: "feedback:control_assembly" }
+				type: "item"
+			}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["747F1C88B4BBEABE"]
+			icon: { id: "feedback:scram_trip" }
+			id: "788E1A7BF5A5DCE5"
+			shape: "square"
+			tasks: [
+			{
+				id: "655AB8747BD73BDE"
+				item: { count: 1, id: "feedback:scram_trip" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["747F1C88B4BBEABE"]
+			icon: { id: "feedback:reactor_core" }
+			id: "0BA2ACCC7D1E0BA0"
+			shape: "circle"
+			tasks: [
+			{
+				id: "63716956DF274873"
+				item: { count: 1, id: "feedback:reactor_core" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0BA2ACCC7D1E0BA0" "788E1A7BF5A5DCE5"]
+			icon: { id: "feedback:reactor_core" }
+			id: "011C74745C519E2B"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/radiation/core"
+				criterion: ""
+				id: "2111C591A6E1BB18"
+				type: "advancement"
+			}
+			]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["011C74745C519E2B"]
+			icon: { id: "feedback:flux_meter" }
+			id: "7FC1402563E5D2BC"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "352EEBD6663885F9"
+				item: { count: 1, id: "feedback:flux_meter" }
+				type: "item"
+			}
+			]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["011C74745C519E2B"]
+			icon: { id: "feedback:heat_exchanger" }
+			id: "6408CCDFD43EBA76"
+			shape: "square"
+			tasks: [
+			{
+				id: "441C8AA8D4166356"
+				item: { count: 1, id: "feedback:heat_exchanger" }
+				type: "item"
+			}
+			]
+			x: 10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["011C74745C519E2B"]
+			icon: { id: "feedback:spent_fuel_pool" }
+			id: "30A38593274786FF"
+			shape: "square"
+			tasks: [
+			{
+				id: "1084D29C850F8004"
+				item: { count: 1, id: "feedback:spent_fuel_pool" }
+				type: "item"
+			}
+			{
+				id: "6D7D4318DD3C62ED"
+				item: { count: 1, id: "feedback:spent_fuel_rod" }
+				type: "item"
+			}
+			]
+			x: 10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["011C74745C519E2B"]
+			icon: { id: "feedback:gas_centrifuge" }
+			id: "5921987543C125B2"
+			shape: "square"
+			tasks: [
+			{
+				id: "5917B7C909FA936D"
+				item: { count: 1, id: "feedback:gas_centrifuge" }
+				type: "item"
+			}
+			]
+			x: 10.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5921987543C125B2"]
+			icon: { id: "feedback:enriched_fuel_rod" }
+			id: "5FAAA83895291728"
+			optional: true
+			shape: "square"
+			tasks: [
+			{
+				id: "3D24CF902339129A"
+				item: { count: 1, id: "feedback:enriched_fuel_rod" }
+				type: "item"
+			}
+			]
+			x: 12.0d
+			y: 0.0d
+		}
+	]
+}
