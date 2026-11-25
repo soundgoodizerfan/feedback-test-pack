@@ -96,8 +96,8 @@ hash = "0670ca65c7208aa8211883fae30c935f53cad38196aac46723b10e7bbc695113"
 metafile = true
 
 [[files]]
-file = "mods/falling-leaves.pw.toml"
-hash = "da62216b9b39022fca0772ed18161817389da7a39ef1f62417f33d8911127678"
+file = "mods/fallingleavesforge.pw.toml"
+hash = "5db5e7bdaa8455f290c567e88f918887ec86167565dd6822be8089405e4a8ecd"
 metafile = true
 
 [[files]]
