@@ -27,7 +27,7 @@
 			}
 			]
 			x: 0.0d
-			y: 0.0d
+			y: 1.2d
 		}
 		{
 			dependencies: ["7DDD38791AA20037"]
@@ -42,7 +42,7 @@
 			}
 			]
 			x: 1.5d
-			y: 0.0d
+			y: 1.2d
 		}
 		{
 			dependencies: ["6AA47E0C6C42F0AF"]
@@ -71,7 +71,7 @@
 			}
 			]
 			x: 3.0d
-			y: 1.5d
+			y: 1.2d
 		}
 		{
 			dependencies: ["6AA47E0C6C42F0AF"]
@@ -91,7 +91,7 @@
 			}
 			]
 			x: 3.0d
-			y: 3.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["558657879EC52D94"]
@@ -106,7 +106,7 @@
 			}
 			]
 			x: 0.0d
-			y: 1.5d
+			y: 5.1d
 		}
 		{
 			dependencies: ["3C2289E89E9544E2"]
@@ -126,7 +126,7 @@
 			}
 			]
 			x: 1.5d
-			y: 1.5d
+			y: 4.2d
 		}
 		{
 			dependencies: ["477D24A280AEDBAB"]
@@ -142,7 +142,7 @@
 			}
 			]
 			x: 3.0d
-			y: 4.5d
+			y: 3.6d
 		}
 		{
 			dependencies: ["477D24A280AEDBAB"]
@@ -162,7 +162,7 @@
 			}
 			]
 			x: 3.0d
-			y: 6.0d
+			y: 4.8d
 		}
 		{
 			dependencies: ["4A62ADC8F2D5DBAE"]
@@ -187,7 +187,7 @@
 			}
 			]
 			x: 4.5d
-			y: 0.0d
+			y: 4.8d
 		}
 		{
 			dependencies: ["3C2289E89E9544E2"]
@@ -202,7 +202,7 @@
 			}
 			]
 			x: 1.5d
-			y: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["4A9F5BB8C3BA0D7E"]
@@ -217,7 +217,7 @@
 			}
 			]
 			x: 3.0d
-			y: 7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5C130D124152051E" "4A9F5BB8C3BA0D7E"]
@@ -232,7 +232,7 @@
 			}
 			]
 			x: 6.0d
-			y: 0.0d
+			y: 4.8d
 		}
 		{
 			dependencies: ["558657879EC52D94"]
@@ -248,7 +248,7 @@
 			}
 			]
 			x: 0.0d
-			y: 3.0d
+			y: 7.8d
 		}
 		{
 			dependencies: ["437513F68489B775"]
@@ -264,7 +264,7 @@
 			}
 			]
 			x: 1.5d
-			y: 4.5d
+			y: 7.2d
 		}
 		{
 			dependencies: ["3F60BA8D27ACE616"]
@@ -280,7 +280,7 @@
 			}
 			]
 			x: 3.0d
-			y: 9.0d
+			y: 7.2d
 		}
 		{
 			dependencies: ["437513F68489B775"]
@@ -301,7 +301,7 @@
 			}
 			]
 			x: 1.5d
-			y: 6.0d
+			y: 8.4d
 		}
 	]
 }

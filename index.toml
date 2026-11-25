@@ -10,79 +10,79 @@ hash = "0674c10674ed73560b6f5db61f3a4ab473887a315477b71cd31a039b5e36b010"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/chemistry.snbt"
-hash = "ca277cda33588f4b372869671147dc48796bdb8aecea329c690a986e4f6f135a"
+hash = "9111b6ab10c6e5bad5efd9597ad4d67a4329b6de80cfbe84ef006dec00fdfaa9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/combat.snbt"
-hash = "0a8773f15ee11f28ec7ea6085ae2d37a1840aa4cf1135caacac27abd7f126c62"
+hash = "2d4c33a93c17ee4b44ec7302071c8d95bb3f36632da7433b92ec0d24d898b6f7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/control.snbt"
-hash = "3bb74dd01dcad48150e437b50398a1f7dc9aee39241741e77fca19e5ea78d18a"
+hash = "f7e252418be625b63cc27a0b1a55baa59723da8d607e4a8a70a01c97d5b5845a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/electricity.snbt"
-hash = "68ce25d974d74820ca8105f57f0d448b130eb5882b418460cce39626b405f3c9"
+hash = "5f7d65da2d5544f126946dc8ccf7213b65499fdba7b695e5d1ad90fad2388d65"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ender.snbt"
-hash = "7b17a9b7822894140abad91f2b880c2e20f2409cec28c6704a7ba81e837a9624"
+hash = "1279dae6bdfb0ce6e44b886b06710f8bbe0248d43a517dcfd6e8b237fae6938a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/food.snbt"
-hash = "e1224dfc818e777c96fd931bd95ff71e8c7c54662e07af2758adb04b1bf6bfbe"
+hash = "537e1be9afbd76369c8e45b28c98e35df72ca33e6911c20c2bfc3cc1ea826c9b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gear.snbt"
-hash = "c817b7feeedf723754cd3681c2b0c53132a8244d92be147a058dc9f2897599b2"
+hash = "b462e8cb29528367f3ba1aa9ddf7e27c59b22927cbe92be0ca29a22bc3439c50"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/heat.snbt"
-hash = "a4c06d5f956f10b0c7156a8808e715ec73d37e714feccca6a39739a6ebfa0c9d"
+hash = "dcccc4a3b275558dd822ec6b54210072d773254ff8d86e6811f2421690fda4aa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/machine_shop.snbt"
-hash = "f4696e3c0b11284dacc49da7aa5b93b95360de8b348a941b7a24781f6acec910"
+hash = "c677bb5e336d7628290479a09e85fbe1f9418486238a944ccaead8ea5129ea3b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/magic.snbt"
-hash = "2cac8141f9b3a442c52916e09cb0cccd00da4b61af9e017f64b545584254af2a"
+hash = "4b554874fe32cdbc889c5f1c0b0ed0ab8d74aa717b5919cb2efc276831fc575a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nether.snbt"
-hash = "2ceeededb66d3d5aebeda49d1e5d8ccb2a6f3d6b3c963b3c7d175d5e5ee8aa30"
+hash = "362900ec16bfe1d04f7c3fa128507a16f501ab14408ebdabe3282cb854d56661"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/radiation.snbt"
-hash = "751bc1fc898ed8c2ab708f99026b6b939b6c14ab04ba39fb0bd3eb2443ed5f23"
+hash = "ddbe862965ac9fdc7d2cfda02654ad7011571bb7d9d7fcd3cf27ab2de78f3de6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/rotation.snbt"
-hash = "588d0739f4f127dc4e2079bfc4afe73df5e39a1e45d26550df50df766314f4f6"
+hash = "3ca4628184f584c660e69a486eb6523f9626acdd24049f22d2f2c7504fc917f5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/skills.snbt"
-hash = "f9b265adf3038d1635c640d6c45f3ecd63bdeaa93714654b8e35c7469a9dda45"
+hash = "82fbd59ee7b922bd4f715d12281d8c38a7245f9f2c06caa98fc821ea658423e7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/survival.snbt"
-hash = "b510bef8bc1414896571e14761aaf5c00f328856f6bb46c835dc8e26d4b3a5ac"
+hash = "ce4159303bc74178937f3286febc2ce075aa95408ef01e75a3c4a34b68c64bbe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/trading.snbt"
-hash = "cfeb78db401a5d64b220cdac514efe5a455c96a37ff0307615f879a1e68e72ea"
+hash = "37ee1038edab0aed4ba3db512fd78c23c89e604577d764a32dc29cb9e1398061"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/treatises.snbt"
-hash = "3ec3e60b718384abc6a7c80e0c43a22b55677a00bdd1679717b3f281c0cc4591"
+hash = "30637e7636a35c7c1fa80610ba2ddbca492e8636db16f38b6b225bb722598acd"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/vehicles.snbt"
-hash = "a5c7efcf106618ce220a81656ad956c77520550ef2d74c6828f177bc84670462"
+hash = "aacb8398180fd8643a80126d1ff5c3c3a4af7966397dcabd303efa0d499a0817"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/weapons.snbt"
-hash = "0e54a28ff3b73aa586135b328ae5372b1f92d8023b2f082a94ce1bb82204aba2"
+hash = "c11f082960937725de4c9aa62ce1164ebf9a7aab6282b02f444a8c8b1bebb1e5"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -90,7 +90,7 @@ hash = "381486b47e7f1202cc15eafb02ba2d5f31e8947e3eefd2d66f8fd14855c8bdbf"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "e43b50e0ffb459bfaa106ea7a4ec56ff8bbaac08bb64e521996c85d98465dd4d"
+hash = "320f636c53081ea6c280263d6b817b589f19f724fe9fb05dced4166312cde9cd"
 
 [[files]]
 file = "mods/ai-improvements.pw.toml"

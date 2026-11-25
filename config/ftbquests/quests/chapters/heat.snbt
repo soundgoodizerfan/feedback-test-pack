@@ -23,7 +23,7 @@
 			}
 			]
 			x: 0.0d
-			y: 0.0d
+			y: 11.8d
 		}
 		{
 			dependencies: ["188F986CFD3165A7"]
@@ -60,7 +60,7 @@
 			}
 			]
 			x: 1.5d
-			y: 1.5d
+			y: 1.2d
 		}
 		{
 			dependencies: ["188F986CFD3165A7"]
@@ -75,7 +75,7 @@
 			}
 			]
 			x: 1.5d
-			y: 3.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["188F986CFD3165A7"]
@@ -91,7 +91,7 @@
 			}
 			]
 			x: 1.5d
-			y: 4.5d
+			y: 23.6d
 		}
 		{
 			dependencies: ["4BC474359EF5F912"]
@@ -106,7 +106,7 @@
 			}
 			]
 			x: 3.0d
-			y: 0.0d
+			y: 18.4d
 		}
 		{
 			dependencies: ["4BC474359EF5F912"]
@@ -121,7 +121,7 @@
 			}
 			]
 			x: 3.0d
-			y: 1.5d
+			y: 27.6d
 		}
 		{
 			dependencies: ["02D3D53D1A382F6D" "20E47FF76E6E8A28" "10A4E51862D9F0AD"]
@@ -137,7 +137,7 @@
 			}
 			]
 			x: 4.5d
-			y: 0.0d
+			y: 18.4d
 		}
 		{
 			dependencies: ["50CCAA2AA559EC7C"]
@@ -152,7 +152,7 @@
 			}
 			]
 			x: 6.0d
-			y: 0.0d
+			y: 10.3d
 		}
 		{
 			dependencies: ["4BC474359EF5F912"]
@@ -167,7 +167,7 @@
 			}
 			]
 			x: 3.0d
-			y: 3.0d
+			y: 28.8d
 		}
 		{
 			dependencies: ["50CCAA2AA559EC7C" "6062E7D8E826525E"]
@@ -182,22 +182,21 @@
 			}
 			]
 			x: 6.0d
-			y: 1.5d
+			y: 16.8d
 		}
 		{
 			dependencies: ["1BADC7C2557DDAA0"]
-			icon: { id: "feedback:hand_hammer" }
+			icon: { id: "feedback:hafted_tool" }
 			id: "4738E0EFDF12225E"
 			shape: "circle"
 			tasks: [
 			{
 				id: "2B4392C641ADE60E"
-				item: { count: 1, id: "feedback:hand_hammer" }
-				type: "item"
+				type: "checkmark"
 			}
 			]
 			x: 7.5d
-			y: 0.0d
+			y: 5.1d
 		}
 		{
 			dependencies: ["4738E0EFDF12225E"]
@@ -212,7 +211,7 @@
 			}
 			]
 			x: 9.0d
-			y: 0.0d
+			y: 3.6d
 		}
 		{
 			dependencies: ["50CCAA2AA559EC7C"]
@@ -228,7 +227,7 @@
 			}
 			]
 			x: 6.0d
-			y: 3.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["50CCAA2AA559EC7C"]
@@ -244,7 +243,7 @@
 			}
 			]
 			x: 6.0d
-			y: 4.5d
+			y: 19.2d
 		}
 		{
 			dependencies: ["275202100E7B1E4B" "1BADC7C2557DDAA0"]
@@ -259,10 +258,10 @@
 			}
 			]
 			x: 7.5d
-			y: 1.5d
+			y: 14.4d
 		}
 		{
-			dependencies: ["1BADC7C2557DDAA0" "50CCAA2AA559EC7C"]
+			dependencies: ["1BADC7C2557DDAA0"]
 			icon: { id: "feedback:brass_ingot" }
 			id: "7683F232CBDE1400"
 			shape: "hexagon"
@@ -275,7 +274,7 @@
 			}
 			]
 			x: 7.5d
-			y: 3.0d
+			y: 15.6d
 		}
 		{
 			dependencies: ["037306F9170B66B4" "4738E0EFDF12225E"]
@@ -290,26 +289,25 @@
 			}
 			]
 			x: 9.0d
-			y: 1.5d
+			y: 6.6d
 		}
 		{
 			dependencies: ["78418E720DEDA4BB"]
-			icon: { id: "feedback:prospector_pick" }
+			icon: { id: "feedback:hafted_tool" }
 			id: "0E6662C6387F4D51"
 			optional: true
 			shape: "square"
 			tasks: [
 			{
 				id: "4A3DD907097C2427"
-				item: { count: 1, id: "feedback:prospector_pick" }
-				type: "item"
+				type: "checkmark"
 			}
 			]
 			x: 10.5d
-			y: 0.0d
+			y: 4.8d
 		}
 		{
-			dependencies: ["02D3D53D1A382F6D" "78418E720DEDA4BB"]
+			dependencies: ["78418E720DEDA4BB"]
 			icon: { id: "feedback:hearth" }
 			id: "7534CF0E7D49FB41"
 			shape: "square"
@@ -321,7 +319,7 @@
 			}
 			]
 			x: 10.5d
-			y: 1.5d
+			y: 8.4d
 		}
 		{
 			dependencies: ["50CCAA2AA559EC7C"]
@@ -337,7 +335,7 @@
 			}
 			]
 			x: 6.0d
-			y: 6.0d
+			y: 20.4d
 		}
 		{
 			dependencies: ["1D0C1024D1B4FF4A" "0D44C57A49029473"]
@@ -354,10 +352,10 @@
 			}
 			]
 			x: 7.5d
-			y: 4.5d
+			y: 20.4d
 		}
 		{
-			dependencies: ["1959520F5ADC28E4" "50CCAA2AA559EC7C"]
+			dependencies: ["50CCAA2AA559EC7C" "1959520F5ADC28E4"]
 			icon: { id: "feedback:blast_furnace" }
 			id: "0D44C57A49029473"
 			shape: "hexagon"
@@ -370,10 +368,10 @@
 			}
 			]
 			x: 6.0d
-			y: 7.5d
+			y: 23.1d
 		}
 		{
-			dependencies: ["02D3D53D1A382F6D" "0D44C57A49029473"]
+			dependencies: ["0D44C57A49029473"]
 			icon: { id: "feedback:bellows" }
 			id: "3A1297392ACAD267"
 			shape: "circle"
@@ -390,7 +388,7 @@
 			}
 			]
 			x: 7.5d
-			y: 6.0d
+			y: 22.2d
 		}
 		{
 			dependencies: ["50CCAA2AA559EC7C"]
@@ -405,7 +403,7 @@
 			}
 			]
 			x: 6.0d
-			y: 9.0d
+			y: 25.2d
 		}
 		{
 			dependencies: ["50CCAA2AA559EC7C"]
@@ -420,7 +418,7 @@
 			}
 			]
 			x: 6.0d
-			y: 10.5d
+			y: 26.4d
 		}
 		{
 			dependencies: ["0D44C57A49029473"]
@@ -436,10 +434,10 @@
 			}
 			]
 			x: 7.5d
-			y: 7.5d
+			y: 24.0d
 		}
 		{
-			dependencies: ["0D44C57A49029473" "3A1297392ACAD267"]
+			dependencies: ["3A1297392ACAD267"]
 			icon: { id: "feedback:cast_iron" }
 			id: "258E356F7448CD82"
 			shape: "square"
@@ -451,7 +449,7 @@
 			}
 			]
 			x: 9.0d
-			y: 3.0d
+			y: 21.6d
 		}
 		{
 			dependencies: ["3A1297392ACAD267"]
@@ -466,7 +464,7 @@
 			}
 			]
 			x: 9.0d
-			y: 4.5d
+			y: 22.8d
 		}
 		{
 			dependencies: ["24CB2C17D139EC9E" "7534CF0E7D49FB41"]
@@ -486,7 +484,7 @@
 			}
 			]
 			x: 12.0d
-			y: 0.0d
+			y: 8.4d
 		}
 		{
 			dependencies: ["71F23EC0CC6438C8"]
@@ -501,7 +499,7 @@
 			}
 			]
 			x: 13.5d
-			y: 0.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["258E356F7448CD82" "71F23EC0CC6438C8"]
@@ -517,10 +515,10 @@
 			}
 			]
 			x: 13.5d
-			y: 1.5d
+			y: 7.2d
 		}
 		{
-			dependencies: ["71F23EC0CC6438C8" "634264D94C971FE2" "26E443E74B2147A2" "10A4E51862D9F0AD"]
+			dependencies: ["71F23EC0CC6438C8" "634264D94C971FE2" "26E443E74B2147A2"]
 			icon: { id: "feedback:steel_ingot" }
 			id: "43DA2EA1811B681A"
 			shape: "hexagon"
@@ -533,7 +531,7 @@
 			}
 			]
 			x: 13.5d
-			y: 3.0d
+			y: 10.8d
 		}
 		{
 			dependencies: ["43DA2EA1811B681A"]
@@ -549,7 +547,7 @@
 			}
 			]
 			x: 15.0d
-			y: 0.0d
+			y: 8.4d
 		}
 		{
 			dependencies: ["43DA2EA1811B681A" "3A983FCC14404DB3"]
@@ -564,7 +562,7 @@
 			}
 			]
 			x: 15.0d
-			y: 1.5d
+			y: 10.2d
 		}
 		{
 			dependencies: ["20F8FB56A622500E"]
@@ -580,7 +578,7 @@
 			}
 			]
 			x: 16.5d
-			y: 0.0d
+			y: 10.2d
 		}
 		{
 			dependencies: ["43DA2EA1811B681A"]
@@ -596,7 +594,7 @@
 			}
 			]
 			x: 15.0d
-			y: 3.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["053683ADC78C7420"]
@@ -612,7 +610,7 @@
 			}
 			]
 			x: 18.0d
-			y: 0.0d
+			y: 9.6d
 		}
 		{
 			dependencies: ["053683ADC78C7420" "03C84BB7A2AA55B0"]
@@ -629,10 +627,10 @@
 			}
 			]
 			x: 18.0d
-			y: 1.5d
+			y: 10.8d
 		}
 		{
-			dependencies: ["558657879EC52D94" "43DA2EA1811B681A"]
+			dependencies: ["43DA2EA1811B681A" "558657879EC52D94"]
 			icon: { id: "feedback:arc_hearth" }
 			id: "75C360542D507892"
 			shape: "hexagon"
@@ -645,7 +643,7 @@
 			}
 			]
 			x: 15.0d
-			y: 4.5d
+			y: 13.2d
 		}
 		{
 			dependencies: ["75C360542D507892"]
@@ -661,7 +659,7 @@
 			}
 			]
 			x: 16.5d
-			y: 1.5d
+			y: 13.2d
 		}
 	]
 }

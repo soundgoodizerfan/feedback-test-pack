@@ -23,7 +23,7 @@
 			}
 			]
 			x: 0.0d
-			y: 0.0d
+			y: 5.4d
 		}
 		{
 			dependencies: ["1A96C4BEDB9F42DA"]
@@ -53,7 +53,7 @@
 			}
 			]
 			x: 1.5d
-			y: 1.5d
+			y: 1.2d
 		}
 		{
 			dependencies: ["1A96C4BEDB9F42DA"]
@@ -68,7 +68,7 @@
 			}
 			]
 			x: 1.5d
-			y: 3.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["001F833861288838"]
@@ -83,7 +83,7 @@
 			}
 			]
 			x: 3.0d
-			y: 0.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["69F062D9A3486F4D"]
@@ -99,7 +99,7 @@
 			}
 			]
 			x: 4.5d
-			y: 0.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["69F062D9A3486F4D"]
@@ -114,7 +114,7 @@
 			}
 			]
 			x: 4.5d
-			y: 1.5d
+			y: 3.6d
 		}
 		{
 			dependencies: ["1A96C4BEDB9F42DA"]
@@ -130,7 +130,7 @@
 			}
 			]
 			x: 1.5d
-			y: 4.5d
+			y: 10.8d
 		}
 		{
 			dependencies: ["54ECA7CE07A3BA48"]
@@ -145,7 +145,7 @@
 			}
 			]
 			x: 3.0d
-			y: 1.5d
+			y: 10.8d
 		}
 		{
 			dependencies: ["016DD0AF07D0A28F"]
@@ -165,7 +165,7 @@
 			}
 			]
 			x: 4.5d
-			y: 3.0d
+			y: 9.6d
 		}
 		{
 			dependencies: ["016DD0AF07D0A28F"]
@@ -180,7 +180,7 @@
 			}
 			]
 			x: 4.5d
-			y: 4.5d
+			y: 10.8d
 		}
 		{
 			dependencies: ["016DD0AF07D0A28F"]
@@ -196,7 +196,7 @@
 			}
 			]
 			x: 4.5d
-			y: 6.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["47BB1F198AC92DB6"]
@@ -216,7 +216,7 @@
 			}
 			]
 			x: 6.0d
-			y: 0.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["750A788C860C063C"]
@@ -231,7 +231,7 @@
 			}
 			]
 			x: 7.5d
-			y: 0.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["001F833861288838"]
@@ -246,7 +246,7 @@
 			}
 			]
 			x: 3.0d
-			y: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7DEAA4FFB7092ADA"]
@@ -261,7 +261,7 @@
 			}
 			]
 			x: 4.5d
-			y: 7.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["646843916B048173"]
@@ -277,7 +277,7 @@
 			}
 			]
 			x: 6.0d
-			y: 1.5d
+			y: 4.8d
 		}
 		{
 			dependencies: ["646843916B048173"]
@@ -292,7 +292,7 @@
 			}
 			]
 			x: 6.0d
-			y: 3.0d
+			y: 7.2d
 		}
 		{
 			dependencies: ["7083ACA00499FF96"]
@@ -308,7 +308,7 @@
 			}
 			]
 			x: 7.5d
-			y: 1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["7083ACA00499FF96"]
@@ -329,7 +329,7 @@
 			}
 			]
 			x: 7.5d
-			y: 3.0d
+			y: 7.2d
 		}
 		{
 			dependencies: ["7083ACA00499FF96" "4D0EA602FA913EBC"]
@@ -345,7 +345,7 @@
 			}
 			]
 			x: 9.0d
-			y: 0.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["7083ACA00499FF96"]
@@ -366,7 +366,7 @@
 			}
 			]
 			x: 7.5d
-			y: 4.5d
+			y: 8.4d
 		}
 	]
 }

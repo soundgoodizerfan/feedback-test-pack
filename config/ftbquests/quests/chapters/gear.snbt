@@ -51,7 +51,7 @@
 			}
 			]
 			x: 0.0d
-			y: 1.5d
+			y: 4.8d
 		}
 		{
 			dependencies: ["0B1DA0DC782CF2B8"]
@@ -66,7 +66,7 @@
 			}
 			]
 			x: 1.5d
-			y: 1.5d
+			y: 1.2d
 		}
 		{
 			dependencies: ["0B1DA0DC782CF2B8" "558657879EC52D94"]
@@ -81,7 +81,7 @@
 			}
 			]
 			x: 1.5d
-			y: 3.0d
+			y: 4.2d
 		}
 		{
 			dependencies: ["46C278743EDC5F3D"]
@@ -96,7 +96,7 @@
 			}
 			]
 			x: 3.0d
-			y: 0.0d
+			y: 2.4d
 		}
 		{
 			dependencies: ["46C278743EDC5F3D" "68C871680B024316"]
@@ -112,7 +112,7 @@
 			}
 			]
 			x: 3.0d
-			y: 1.5d
+			y: 3.6d
 		}
 		{
 			dependencies: ["46C278743EDC5F3D"]
@@ -128,7 +128,7 @@
 			}
 			]
 			x: 3.0d
-			y: 3.0d
+			y: 4.8d
 		}
 		{
 			dependencies: ["46C278743EDC5F3D"]
@@ -144,7 +144,7 @@
 			}
 			]
 			x: 3.0d
-			y: 4.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["1959520F5ADC28E4"]
@@ -159,7 +159,7 @@
 			}
 			]
 			x: 0.0d
-			y: 3.0d
+			y: 12.0d
 		}
 		{
 			dependencies: ["0B1DA0DC782CF2B8" "68C871680B024316"]
@@ -174,7 +174,7 @@
 			}
 			]
 			x: 1.5d
-			y: 4.5d
+			y: 8.4d
 		}
 		{
 			dependencies: ["2C4866A70BAB0533" "1B8B4D8305F1C1A7"]
@@ -189,7 +189,7 @@
 			}
 			]
 			x: 3.0d
-			y: 6.0d
+			y: 8.4d
 		}
 		{
 			dependencies: ["4D18E2ED429337DB"]
@@ -204,7 +204,7 @@
 			}
 			]
 			x: 4.5d
-			y: 0.0d
+			y: 7.2d
 		}
 		{
 			dependencies: ["4D18E2ED429337DB" "68C871680B024316"]
@@ -219,7 +219,7 @@
 			}
 			]
 			x: 4.5d
-			y: 1.5d
+			y: 9.6d
 		}
 		{
 			dependencies: ["3B15B7A6610DB1B4"]
@@ -234,7 +234,7 @@
 			}
 			]
 			x: 6.0d
-			y: 0.0d
+			y: 8.4d
 		}
 		{
 			dependencies: ["3B15B7A6610DB1B4"]
@@ -250,7 +250,7 @@
 			}
 			]
 			x: 6.0d
-			y: 1.5d
+			y: 9.6d
 		}
 		{
 			dependencies: ["3B15B7A6610DB1B4"]
@@ -266,10 +266,10 @@
 			}
 			]
 			x: 6.0d
-			y: 3.0d
+			y: 10.8d
 		}
 		{
-			dependencies: ["42BB5C06C39AC9A6" "1B8B4D8305F1C1A7"]
+			dependencies: ["42BB5C06C39AC9A6"]
 			icon: { id: "feedback:auto_engineer" }
 			id: "2E49B0EFB9F57DDC"
 			shape: "hexagon"
@@ -281,7 +281,7 @@
 			}
 			]
 			x: 7.5d
-			y: 0.0d
+			y: 8.4d
 		}
 	]
 }
