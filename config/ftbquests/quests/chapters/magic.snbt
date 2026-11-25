@@ -12,7 +12,8 @@
 		{
 			icon: { id: "feedback:brewing_stand" }
 			id: "380B5FD56F79044C"
-			shape: "circle"
+			size: 1.80d
+			shape: "octagon"
 			tasks: [
 			{
 				id: "12BB651F02B28ADC"
@@ -20,7 +21,7 @@
 			}
 			]
 			x: 0.0d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["380B5FD56F79044C" "558657879EC52D94"]
@@ -40,7 +41,7 @@
 			}
 			]
 			x: 1.5d
-			y: 5.0d
+			y: 5.8d
 		}
 		{
 			dependencies: ["7DDD38791AA20037"]
@@ -55,13 +56,13 @@
 			}
 			]
 			x: 3.0d
-			y: 5.0d
+			y: 5.8d
 		}
 		{
 			dependencies: ["6AA47E0C6C42F0AF"]
 			icon: { id: "feedback:potion" }
 			id: "1F5041895CB19CA5"
-			shape: "square"
+			shape: "rsquare"
 			tasks: [
 			{
 				id: "0E9B89087036C69E"
@@ -69,14 +70,15 @@
 			}
 			]
 			x: 4.5d
-			y: 5.0d
+			y: 5.8d
 		}
 		{
 			dependencies: ["6AA47E0C6C42F0AF"]
 			icon: { id: "feedback:stockpot" }
 			id: "6508144C4BE3DC6D"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "730BBD0A81C3011B"
@@ -84,13 +86,13 @@
 			}
 			]
 			x: 4.5d
-			y: 6.0d
+			y: 6.9d
 		}
 		{
 			dependencies: ["6AA47E0C6C42F0AF"]
 			icon: { id: "feedback:potion_salts" }
 			id: "3E306A1468ED2279"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "7B5D7BF522DA82D7"
@@ -104,13 +106,13 @@
 			}
 			]
 			x: 4.5d
-			y: 7.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["380B5FD56F79044C" "558657879EC52D94"]
 			icon: { id: "feedback:research_table" }
 			id: "3C2289E89E9544E2"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "7404A045121D0AA4"
@@ -119,7 +121,7 @@
 			}
 			]
 			x: 1.5d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["3C2289E89E9544E2"]
@@ -139,13 +141,13 @@
 			}
 			]
 			x: 3.0d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["477D24A280AEDBAB"]
 			icon: { id: "feedback:xp_wire" }
 			id: "54D88CEEE882B369"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "356FF023435F05A1"
@@ -155,13 +157,13 @@
 			}
 			]
 			x: 4.5d
-			y: 4.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["477D24A280AEDBAB"]
 			icon: { id: "feedback:orb_absorber" }
 			id: "4A62ADC8F2D5DBAE"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "2274D6EA4A5156B2"
@@ -175,7 +177,7 @@
 			}
 			]
 			x: 4.5d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["4A62ADC8F2D5DBAE"]
@@ -200,7 +202,7 @@
 			}
 			]
 			x: 6.0d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["3C2289E89E9544E2"]
@@ -215,13 +217,13 @@
 			}
 			]
 			x: 3.0d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["4A9F5BB8C3BA0D7E"]
 			icon: { id: "feedback:blank_rite" }
 			id: "6AE1678E347D298F"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "181C19C180390E53"
@@ -230,13 +232,13 @@
 			}
 			]
 			x: 4.5d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["5C130D124152051E" "4A9F5BB8C3BA0D7E"]
 			icon: { id: "feedback:disenchant_stone" }
 			id: "4C37DC421C72969E"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "01F0CCE6771C3793"
@@ -245,14 +247,15 @@
 			}
 			]
 			x: 7.5d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["380B5FD56F79044C" "558657879EC52D94"]
 			icon: { id: "feedback:vis_tap" }
 			id: "437513F68489B775"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "0A338FDB6025510E"
@@ -261,14 +264,15 @@
 			}
 			]
 			x: 1.5d
-			y: 1.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["437513F68489B775"]
 			icon: { id: "feedback:essentia_adapter" }
 			id: "3F60BA8D27ACE616"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "7DA9BFD1A401A14B"
@@ -277,14 +281,15 @@
 			}
 			]
 			x: 3.0d
-			y: 1.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["3F60BA8D27ACE616"]
 			icon: { id: "feedback:essentia_vent" }
 			id: "2B9AA1F5DF1C9C5B"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "15D3C04C52C6D82A"
@@ -293,14 +298,15 @@
 			}
 			]
 			x: 4.5d
-			y: 1.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["437513F68489B775"]
 			icon: { id: "feedback:taint_glaze" }
 			id: "6929599BFFB00AFB"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "15535F3C4366BB10"

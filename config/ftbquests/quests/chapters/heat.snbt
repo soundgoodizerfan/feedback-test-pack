@@ -13,7 +13,8 @@
 			dependencies: ["4A10E1BFC1F0C7BC"]
 			icon: { id: "feedback:campfire" }
 			id: "188F986CFD3165A7"
-			shape: "hexagon"
+			size: 1.80d
+			shape: "octagon"
 			tasks: [
 			{
 				advancement: "feedback:progress/heat/first_fire"
@@ -23,12 +24,13 @@
 			}
 			]
 			x: 0.0d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["188F986CFD3165A7"]
 			icon: { id: "feedback:thermometer" }
 			id: "10A4E51862D9F0AD"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -44,13 +46,14 @@
 			}
 			]
 			x: 1.5d
-			y: 4.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["188F986CFD3165A7"]
 			icon: { id: "feedback:tongs" }
 			id: "3A983FCC14404DB3"
-			shape: "square"
+			size: 1.25d
+			shape: "hexagon"
 			tasks: [
 			{
 				advancement: "feedback:progress/heat/tongs"
@@ -60,13 +63,13 @@
 			}
 			]
 			x: 1.5d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["188F986CFD3165A7"]
 			icon: { id: "minecraft:charcoal" }
 			id: "48F829CC00DB284A"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "19C962EA3CB5BD8A"
@@ -75,7 +78,7 @@
 			}
 			]
 			x: 1.5d
-			y: 5.0d
+			y: 5.8d
 		}
 		{
 			dependencies: ["188F986CFD3165A7"]
@@ -91,7 +94,7 @@
 			}
 			]
 			x: 1.5d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["4BC474359EF5F912"]
@@ -106,7 +109,7 @@
 			}
 			]
 			x: 3.0d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["4BC474359EF5F912"]
@@ -121,13 +124,14 @@
 			}
 			]
 			x: 3.0d
-			y: 4.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["02D3D53D1A382F6D" "20E47FF76E6E8A28" "10A4E51862D9F0AD"]
 			icon: { id: "feedback:crucible" }
 			id: "50CCAA2AA559EC7C"
-			shape: "hexagon"
+			size: 1.50d
+			shape: "octagon"
 			tasks: [
 			{
 				advancement: "feedback:progress/heat/pour"
@@ -137,13 +141,13 @@
 			}
 			]
 			x: 4.5d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["50CCAA2AA559EC7C"]
 			icon: { id: "minecraft:copper_ingot" }
 			id: "1BADC7C2557DDAA0"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "2E18CB0F11058A42"
@@ -152,13 +156,13 @@
 			}
 			]
 			x: 6.0d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["4BC474359EF5F912"]
 			icon: { id: "feedback:ingot_mold" }
 			id: "6062E7D8E826525E"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "4DC1B0BDC4FA9A80"
@@ -167,13 +171,13 @@
 			}
 			]
 			x: 3.0d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["50CCAA2AA559EC7C" "6062E7D8E826525E"]
 			icon: { id: "feedback:casting_basin" }
 			id: "18718D11B426AAC1"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "004A57324AE5F60C"
@@ -182,13 +186,13 @@
 			}
 			]
 			x: 6.0d
-			y: 4.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["1BADC7C2557DDAA0"]
 			icon: { id: "feedback:hafted_tool" }
 			id: "4738E0EFDF12225E"
-			shape: "circle"
+			shape: "rsquare"
 			tasks: [
 			{
 				id: "2B4392C641ADE60E"
@@ -196,13 +200,13 @@
 			}
 			]
 			x: 7.5d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["4738E0EFDF12225E"]
 			icon: { id: "feedback:copper_plate" }
 			id: "2FFEE5651FBA9F68"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "55EB4160E14E380C"
@@ -211,12 +215,13 @@
 			}
 			]
 			x: 9.0d
-			y: 4.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["50CCAA2AA559EC7C"]
 			icon: { id: "feedback:tin_ingot" }
 			id: "275202100E7B1E4B"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -227,12 +232,13 @@
 			}
 			]
 			x: 6.0d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["50CCAA2AA559EC7C"]
 			icon: { id: "feedback:lead_ingot" }
 			id: "708A00651AA77B3C"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -243,7 +249,7 @@
 			}
 			]
 			x: 6.0d
-			y: 6.0d
+			y: 6.9d
 		}
 		{
 			dependencies: ["275202100E7B1E4B" "1BADC7C2557DDAA0"]
@@ -258,12 +264,13 @@
 			}
 			]
 			x: 7.5d
-			y: 4.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["1BADC7C2557DDAA0"]
 			icon: { id: "feedback:brass_ingot" }
 			id: "7683F232CBDE1400"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -274,7 +281,7 @@
 			}
 			]
 			x: 7.5d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["037306F9170B66B4" "4738E0EFDF12225E"]
@@ -289,14 +296,15 @@
 			}
 			]
 			x: 9.0d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["78418E720DEDA4BB"]
 			icon: { id: "feedback:hafted_tool" }
 			id: "0E6662C6387F4D51"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "4A3DD907097C2427"
@@ -304,13 +312,13 @@
 			}
 			]
 			x: 10.5d
-			y: 4.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["78418E720DEDA4BB"]
 			icon: { id: "feedback:hearth" }
 			id: "7534CF0E7D49FB41"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "6B62CE69795B1FCD"
@@ -319,13 +327,14 @@
 			}
 			]
 			x: 10.5d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["50CCAA2AA559EC7C"]
 			icon: { id: "feedback:glass_ingot" }
 			id: "1D0C1024D1B4FF4A"
-			shape: "square"
+			size: 1.25d
+			shape: "hexagon"
 			tasks: [
 			{
 				advancement: "feedback:progress/heat/glass"
@@ -335,14 +344,15 @@
 			}
 			]
 			x: 6.0d
-			y: 1.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["1D0C1024D1B4FF4A"]
 			icon: { id: "feedback:quartz_glass_ingot" }
 			id: "5212324AD4B931AA"
 			optional: true
-			shape: "square"
+			size: 1.25d
+			shape: "hexagon"
 			tasks: [
 			{
 				advancement: "feedback:progress/heat/quartz_glass"
@@ -352,12 +362,13 @@
 			}
 			]
 			x: 7.5d
-			y: 1.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["50CCAA2AA559EC7C" "1959520F5ADC28E4"]
 			icon: { id: "feedback:blast_furnace" }
 			id: "0D44C57A49029473"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -368,7 +379,7 @@
 			}
 			]
 			x: 6.0d
-			y: 5.0d
+			y: 5.8d
 		}
 		{
 			dependencies: ["0D44C57A49029473"]
@@ -388,13 +399,13 @@
 			}
 			]
 			x: 7.5d
-			y: 5.0d
+			y: 5.8d
 		}
 		{
 			dependencies: ["50CCAA2AA559EC7C"]
 			icon: { id: "feedback:insulation" }
 			id: "634264D94C971FE2"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "1DD188C0DF26A61C"
@@ -409,7 +420,7 @@
 			dependencies: ["50CCAA2AA559EC7C"]
 			icon: { id: "feedback:refractory_lining" }
 			id: "26E443E74B2147A2"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "0C688A82E5B9E7B1"
@@ -418,13 +429,14 @@
 			}
 			]
 			x: 6.0d
-			y: 7.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["0D44C57A49029473"]
 			icon: { id: "feedback:firebrick" }
 			id: "2B6B93A9B2CF4769"
-			shape: "square"
+			size: 1.25d
+			shape: "hexagon"
 			tasks: [
 			{
 				advancement: "feedback:progress/heat/firebrick"
@@ -434,13 +446,13 @@
 			}
 			]
 			x: 7.5d
-			y: 6.0d
+			y: 6.9d
 		}
 		{
 			dependencies: ["3A1297392ACAD267"]
 			icon: { id: "feedback:cast_iron" }
 			id: "258E356F7448CD82"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "3428BC2FA5F0DF37"
@@ -449,7 +461,7 @@
 			}
 			]
 			x: 9.0d
-			y: 5.0d
+			y: 5.8d
 		}
 		{
 			dependencies: ["3A1297392ACAD267"]
@@ -464,7 +476,7 @@
 			}
 			]
 			x: 9.0d
-			y: 6.0d
+			y: 6.9d
 		}
 		{
 			dependencies: ["24CB2C17D139EC9E" "7534CF0E7D49FB41"]
@@ -484,13 +496,13 @@
 			}
 			]
 			x: 12.0d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["71F23EC0CC6438C8"]
 			icon: { id: "feedback:anvil" }
 			id: "0B77E3C295907BAA"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "17C78C782044AD40"
@@ -499,14 +511,15 @@
 			}
 			]
 			x: 13.5d
-			y: 4.0d
+			y: 4.6d
 		}
 		{
-			dependencies: ["258E356F7448CD82" "71F23EC0CC6438C8"]
+			dependencies: ["71F23EC0CC6438C8"]
 			icon: { id: "feedback:puddling_furnace" }
 			id: "1175FDCBC833D14D"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "5CF61990AAAF3469"
@@ -515,13 +528,14 @@
 			}
 			]
 			x: 13.5d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["71F23EC0CC6438C8"]
 			icon: { id: "feedback:steel_ingot" }
 			id: "43DA2EA1811B681A"
-			shape: "hexagon"
+			size: 1.50d
+			shape: "octagon"
 			tasks: [
 			{
 				advancement: "feedback:progress/heat/steel"
@@ -531,13 +545,14 @@
 			}
 			]
 			x: 13.5d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["43DA2EA1811B681A"]
 			icon: { id: "feedback:graphite" }
 			id: "168AA6C711A09A5B"
-			shape: "square"
+			size: 1.25d
+			shape: "hexagon"
 			tasks: [
 			{
 				advancement: "feedback:progress/heat/graphite"
@@ -547,13 +562,13 @@
 			}
 			]
 			x: 15.0d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["43DA2EA1811B681A"]
 			icon: { id: "feedback:hardened_steel" }
 			id: "20F8FB56A622500E"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "02D87F95694B32D2"
@@ -562,12 +577,13 @@
 			}
 			]
 			x: 15.0d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["20F8FB56A622500E"]
 			icon: { id: "feedback:tempered_steel" }
 			id: "053683ADC78C7420"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -578,14 +594,15 @@
 			}
 			]
 			x: 16.5d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["43DA2EA1811B681A"]
 			icon: { id: "feedback:damper" }
 			id: "33A0B7C4227EE7B4"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "7E67E5DC7300B65C"
@@ -594,14 +611,15 @@
 			}
 			]
 			x: 15.0d
-			y: 5.0d
+			y: 5.8d
 		}
 		{
 			dependencies: ["053683ADC78C7420"]
 			icon: { id: "feedback:annealing_furnace" }
 			id: "04B72CACE79DA952"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "5C0EA7189927E501"
@@ -610,13 +628,14 @@
 			}
 			]
 			x: 18.0d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["053683ADC78C7420" "03C84BB7A2AA55B0"]
 			icon: { id: "feedback:tungsten_carbide_green_compact" }
 			id: "26D83E436C4FFF2B"
 			optional: true
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -627,12 +646,13 @@
 			}
 			]
 			x: 18.0d
-			y: 4.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["43DA2EA1811B681A" "558657879EC52D94"]
 			icon: { id: "feedback:arc_hearth" }
 			id: "75C360542D507892"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -643,13 +663,14 @@
 			}
 			]
 			x: 15.0d
-			y: 4.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["75C360542D507892"]
 			icon: { id: "minecraft:lava_bucket" }
 			id: "587ADD74E5A9E31D"
-			shape: "square"
+			size: 1.25d
+			shape: "hexagon"
 			tasks: [
 			{
 				advancement: "feedback:progress/heat/lava_fire"
@@ -659,7 +680,7 @@
 			}
 			]
 			x: 16.5d
-			y: 4.0d
+			y: 4.6d
 		}
 	]
 }

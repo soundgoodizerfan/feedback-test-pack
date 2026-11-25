@@ -13,7 +13,8 @@
 			dependencies: ["558657879EC52D94"]
 			icon: { id: "feedback:electrostatic_generator" }
 			id: "637ACEE50B401F84"
-			shape: "hexagon"
+			size: 1.80d
+			shape: "octagon"
 			tasks: [
 			{
 				advancement: "feedback:progress/electricity/static"
@@ -23,13 +24,13 @@
 			}
 			]
 			x: 0.0d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["637ACEE50B401F84"]
 			icon: { id: "feedback:electrostatic_generator" }
 			id: "69138601C3C58F1E"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "4A570A7C32E9B71E"
@@ -38,12 +39,13 @@
 			}
 			]
 			x: 1.5d
-			y: 4.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["637ACEE50B401F84"]
 			icon: { id: "feedback:galvanic_cell" }
 			id: "676B1FCA974B29A3"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -54,13 +56,13 @@
 			}
 			]
 			x: 1.5d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["676B1FCA974B29A3"]
 			icon: { id: "feedback:galvanic_cell" }
 			id: "4D67C70FD4A2C46F"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "04D0E7D7D2AE1E54"
@@ -69,14 +71,15 @@
 			}
 			]
 			x: 3.0d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["4D67C70FD4A2C46F"]
 			icon: { id: "feedback:galvanic_cell_pack" }
 			id: "7D0106CA2B287909"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "37FC0E3734C9F56D"
@@ -85,14 +88,15 @@
 			}
 			]
 			x: 4.5d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["4D67C70FD4A2C46F"]
 			icon: { id: "feedback:thermoelectric_generator" }
 			id: "1B658DC821789202"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "370D6EFEF65D89CD"
@@ -101,12 +105,13 @@
 			}
 			]
 			x: 4.5d
-			y: 1.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["676B1FCA974B29A3"]
 			icon: { id: "feedback:dynamotor" }
 			id: "1009C75C5968D50D"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -117,13 +122,13 @@
 			}
 			]
 			x: 3.0d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["1009C75C5968D50D"]
 			icon: { id: "feedback:dynamotor" }
 			id: "7694E81268F128DA"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "28832FB052A5289F"
@@ -132,12 +137,13 @@
 			}
 			]
 			x: 4.5d
-			y: 4.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["1009C75C5968D50D"]
 			icon: { id: "feedback:cable" }
 			id: "74B63C358E819FA4"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -148,13 +154,14 @@
 			}
 			]
 			x: 4.5d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["74B63C358E819FA4"]
 			icon: { id: "feedback:cable" }
 			id: "13B4384940F95F8F"
-			shape: "square"
+			size: 1.50d
+			shape: "octagon"
 			tasks: [
 			{
 				id: "4790282172DBB4C6"
@@ -163,7 +170,7 @@
 			}
 			]
 			x: 6.0d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["676B1FCA974B29A3"]
@@ -178,13 +185,13 @@
 			}
 			]
 			x: 3.0d
-			y: 4.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["2D3F71D5384F4425" "13B4384940F95F8F"]
 			icon: { id: "feedback:charger" }
 			id: "5FD512D276B299FE"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "24AD568924C5AFA4"
@@ -193,14 +200,15 @@
 			}
 			]
 			x: 7.5d
-			y: 4.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["2D3F71D5384F4425" "13B4384940F95F8F"]
 			icon: { id: "feedback:rectifier" }
 			id: "51D26155DF410D5C"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "2BEB0AF6A5A1D0E9"
@@ -209,7 +217,7 @@
 			}
 			]
 			x: 7.5d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["13B4384940F95F8F"]
@@ -224,13 +232,13 @@
 			}
 			]
 			x: 7.5d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["13B4384940F95F8F"]
 			icon: { id: "feedback:fuse" }
 			id: "7ED51153DEFF9BC9"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "57EF97D618183CCD"
@@ -239,7 +247,7 @@
 			}
 			]
 			x: 7.5d
-			y: 5.0d
+			y: 5.8d
 		}
 		{
 			dependencies: ["13B4384940F95F8F"]
@@ -254,13 +262,13 @@
 			}
 			]
 			x: 7.5d
-			y: 1.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["13B4384940F95F8F"]
 			icon: { id: "feedback:lamp" }
 			id: "42EB53090F7D4157"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "13A2B558B0B80C1B"
@@ -269,7 +277,7 @@
 			}
 			]
 			x: 7.5d
-			y: 6.0d
+			y: 6.9d
 		}
 		{
 			dependencies: ["13B4384940F95F8F"]
@@ -299,14 +307,15 @@
 			}
 			]
 			x: 9.0d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["637ACEE50B401F84"]
 			icon: { id: "feedback:treatise_electrical_1" }
 			id: "6BB9FDABE2C0C8EB"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "16361B976A131288"
@@ -315,14 +324,15 @@
 			}
 			]
 			x: 1.5d
-			y: 5.0d
+			y: 5.8d
 		}
 		{
 			dependencies: ["6BB9FDABE2C0C8EB"]
 			icon: { id: "feedback:treatise_electrical_2" }
 			id: "12C2B88838265C54"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "3E9DABD105F65FC4"
@@ -331,14 +341,15 @@
 			}
 			]
 			x: 3.0d
-			y: 5.0d
+			y: 5.8d
 		}
 		{
 			dependencies: ["12C2B88838265C54"]
 			icon: { id: "feedback:treatise_electrical_3" }
 			id: "06419F0120483C04"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "47B4F1BAAFDC08C4"
@@ -347,7 +358,7 @@
 			}
 			]
 			x: 4.5d
-			y: 5.0d
+			y: 5.8d
 		}
 	]
 }

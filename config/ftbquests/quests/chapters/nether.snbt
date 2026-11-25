@@ -13,6 +13,7 @@
 			dependencies: ["558657879EC52D94"]
 			icon: { id: "minecraft:netherrack" }
 			id: "48ABA1210FB734F6"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -44,7 +45,7 @@
 			dependencies: ["48ABA1210FB734F6"]
 			icon: { id: "feedback:worn_netherite_bits" }
 			id: "4FC8262913B96623"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "59C6AE944E66A8F6"
@@ -53,7 +54,7 @@
 			}
 			]
 			x: 1.5d
-			y: 1.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["521249D2A2E00425" "03C84BB7A2AA55B0"]
@@ -79,6 +80,7 @@
 			dependencies: ["79FDC13FE72AC335"]
 			icon: { id: "feedback:cast_netherite_ingot" }
 			id: "5131B0901ECB69D3"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -111,7 +113,8 @@
 			icon: { id: "feedback:netherite_green_compact" }
 			id: "3CC3F20B7243EAE4"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "0F58AD309B1FB1F7"
@@ -120,7 +123,7 @@
 			}
 			]
 			x: 4.5d
-			y: 1.0d
+			y: 1.1d
 		}
 	]
 }

@@ -12,7 +12,8 @@
 		{
 			dependencies: ["66EF47A785FCFF05"]
 			id: "11B76452AAC87C22"
-			shape: "hexagon"
+			size: 1.80d
+			shape: "octagon"
 			tasks: [
 			{
 				advancement: "feedback:progress/survival/piece_work"
@@ -22,11 +23,12 @@
 			}
 			]
 			x: 0.0d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["11B76452AAC87C22"]
 			id: "4D1678088F6B0EE8"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -37,11 +39,12 @@
 			}
 			]
 			x: 1.5d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["11B76452AAC87C22"]
 			id: "5D981E09BACA3BA9"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -52,11 +55,12 @@
 			}
 			]
 			x: 1.5d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["11B76452AAC87C22"]
 			id: "741BB3D272806B1D"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -67,12 +71,12 @@
 			}
 			]
 			x: 1.5d
-			y: 1.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["11B76452AAC87C22"]
 			id: "64ACD780CE1D0648"
-			shape: "square"
+			shape: "rsquare"
 			tasks: [
 			{
 				id: "31DAF027E6E039CC"
@@ -80,7 +84,7 @@
 			}
 			]
 			x: 1.5d
-			y: 4.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["4D1678088F6B0EE8"]
@@ -95,11 +99,12 @@
 			}
 			]
 			x: 3.0d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["6D73FE070DADDF0B"]
 			id: "6CAB0D61B3E339EC"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -110,14 +115,15 @@
 			}
 			]
 			x: 4.5d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["6D73FE070DADDF0B"]
 			icon: { id: "feedback:trade_tap" }
 			id: "3B598DAAC1C01146"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "64313E5C9CAFA0C8"
@@ -126,13 +132,13 @@
 			}
 			]
 			x: 4.5d
-			y: 4.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["4D1678088F6B0EE8"]
 			icon: { id: "feedback:market_cross" }
 			id: "3DB4F595FC177F18"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "31EBD0067C87BB66"
@@ -141,11 +147,12 @@
 			}
 			]
 			x: 3.0d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["3DB4F595FC177F18"]
 			id: "3C8813C6BB21800B"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -156,13 +163,13 @@
 			}
 			]
 			x: 4.5d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["3C8813C6BB21800B"]
 			icon: { id: "feedback:ledger_board" }
 			id: "08CD5BC477FFA52A"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "25CEC5CF970C9D12"
@@ -171,12 +178,13 @@
 			}
 			]
 			x: 6.0d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["08CD5BC477FFA52A" "6CAB0D61B3E339EC" "5D981E09BACA3BA9"]
 			id: "68B9F3D4A1316E97"
-			shape: "hexagon"
+			size: 1.60d
+			shape: "shield"
 			tasks: [
 			{
 				advancement: "feedback:progress/survival/well_regarded"
@@ -186,13 +194,14 @@
 			}
 			]
 			x: 7.5d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["11B76452AAC87C22"]
 			id: "2573A0D7811B5814"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "176AE7C6C261DA5F"
@@ -206,7 +215,7 @@
 			dependencies: ["11B76452AAC87C22" "5E42A189D61F4A55"]
 			icon: { id: "feedback:dish" }
 			id: "79BDA124A0641476"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "1D8FDDB2C4196FCB"
@@ -215,7 +224,7 @@
 			}
 			]
 			x: 1.5d
-			y: 5.0d
+			y: 5.8d
 		}
 	]
 }

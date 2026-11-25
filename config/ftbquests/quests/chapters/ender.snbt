@@ -12,7 +12,8 @@
 		{
 			icon: { id: "feedback:ender_port" }
 			id: "07D952AE84E61F58"
-			shape: "circle"
+			size: 1.80d
+			shape: "octagon"
 			tasks: [
 			{
 				id: "27461E2702F6B2BD"
@@ -20,13 +21,14 @@
 			}
 			]
 			x: 0.0d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["07D952AE84E61F58" "6EB3711E876C19F1"]
 			icon: { id: "feedback:ender_port" }
 			id: "0B0904C1F29F5299"
-			shape: "hexagon"
+			size: 1.50d
+			shape: "octagon"
 			tasks: [
 			{
 				advancement: "feedback:progress/ender/port"
@@ -36,13 +38,13 @@
 			}
 			]
 			x: 1.5d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["0B0904C1F29F5299"]
 			icon: { id: "minecraft:chorus_fruit" }
 			id: "36D2C6C169B2EAFE"
-			shape: "square"
+			shape: "rsquare"
 			tasks: [
 			{
 				id: "3901EB5389403CB9"
@@ -50,13 +52,13 @@
 			}
 			]
 			x: 3.0d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["36D2C6C169B2EAFE"]
 			icon: { id: "feedback:reboiler" }
 			id: "628D750EE641B7B5"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "233DCF91219359B2"
@@ -70,13 +72,13 @@
 			}
 			]
 			x: 4.5d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["628D750EE641B7B5"]
 			icon: { id: "feedback:electrolyser" }
 			id: "729290842F82D66C"
-			shape: "square"
+			shape: "rsquare"
 			tasks: [
 			{
 				id: "2EAC3D38BE2CF2B0"
@@ -84,13 +86,13 @@
 			}
 			]
 			x: 6.0d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["729290842F82D66C"]
 			icon: { id: "feedback:reactor" }
 			id: "1D14816FE224CAFE"
-			shape: "square"
+			shape: "rsquare"
 			tasks: [
 			{
 				id: "11DA0881933DA7BE"
@@ -98,7 +100,7 @@
 			}
 			]
 			x: 7.5d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["1D14816FE224CAFE"]
@@ -113,13 +115,13 @@
 			}
 			]
 			x: 9.0d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["0B0904C1F29F5299"]
 			icon: { id: "feedback:ender_anchor" }
 			id: "63D584E6C3A70AFF"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "0D0BFB8C169B4A25"
@@ -128,13 +130,13 @@
 			}
 			]
 			x: 3.0d
-			y: 4.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["0B0904C1F29F5299"]
 			icon: { id: "feedback:tuned_eye" }
 			id: "374B91B768A44597"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "45E676CCE720E985"
@@ -143,14 +145,15 @@
 			}
 			]
 			x: 3.0d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["0B0904C1F29F5299"]
 			icon: { id: "feedback:endernet_upgrade" }
 			id: "07BB96B1E237E75F"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "2C1C55D4E0A4F113"
@@ -159,12 +162,13 @@
 			}
 			]
 			x: 3.0d
-			y: 5.0d
+			y: 5.8d
 		}
 		{
 			dependencies: ["1BAA61B1CDF7452E"]
 			icon: { id: "minecraft:end_stone" }
 			id: "2DACEF5CF419D095"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -175,12 +179,13 @@
 			}
 			]
 			x: 10.5d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["2DACEF5CF419D095"]
 			icon: { id: "minecraft:ender_pearl" }
 			id: "1F1E5C095CE1A706"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -191,12 +196,13 @@
 			}
 			]
 			x: 12.0d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["07D952AE84E61F58" "558657879EC52D94"]
 			icon: { id: "feedback:xp_container" }
 			id: "6D1A98D35E19FC80"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -207,12 +213,13 @@
 			}
 			]
 			x: 1.5d
-			y: 1.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["6D1A98D35E19FC80"]
 			icon: { id: "feedback:data_sensor" }
 			id: "7007D12279978168"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -223,12 +230,13 @@
 			}
 			]
 			x: 3.0d
-			y: 1.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["6D1A98D35E19FC80"]
 			icon: { id: "feedback:enchanting_table" }
 			id: "127CF99D498EEF14"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -259,7 +267,7 @@
 			}
 			]
 			x: 4.5d
-			y: 1.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["0F6035C25CF71D6A"]
@@ -274,13 +282,13 @@
 			}
 			]
 			x: 6.0d
-			y: 1.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["0E9B8FE5E6E6E428"]
 			icon: { id: "feedback:sculk_relay" }
 			id: "2115F16DAA24DD11"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "280B7C42539C0F7A"
@@ -289,13 +297,13 @@
 			}
 			]
 			x: 7.5d
-			y: 1.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["0E9B8FE5E6E6E428"]
 			icon: { id: "feedback:catalyst_tap" }
 			id: "3DAF30BF7984C37D"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "0E39E393CA7DEE3B"
@@ -304,7 +312,7 @@
 			}
 			]
 			x: 7.5d
-			y: 2.0d
+			y: 2.3d
 		}
 	]
 }

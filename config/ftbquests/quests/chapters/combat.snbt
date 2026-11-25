@@ -12,7 +12,8 @@
 		{
 			icon: { id: "feedback:gun" }
 			id: "010794AFC2A4C4CE"
-			shape: "hexagon"
+			size: 1.80d
+			shape: "octagon"
 			tasks: [
 			{
 				advancement: "feedback:progress/combat_root"
@@ -22,12 +23,13 @@
 			}
 			]
 			x: 0.0d
-			y: 4.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["010794AFC2A4C4CE"]
 			icon: { id: "feedback:hafted_tool" }
 			id: "7B4C23CED4A90337"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -38,13 +40,14 @@
 			}
 			]
 			x: 1.5d
-			y: 5.0d
+			y: 5.8d
 		}
 		{
 			dependencies: ["010794AFC2A4C4CE" "4A10E1BFC1F0C7BC"]
 			icon: { id: "minecraft:spyglass" }
 			id: "22970A18DAEFCA2E"
-			shape: "hexagon"
+			size: 1.50d
+			shape: "octagon"
 			tasks: [
 			{
 				advancement: "feedback:progress/combat/size_up"
@@ -54,12 +57,13 @@
 			}
 			]
 			x: 1.5d
-			y: 8.0d
+			y: 9.2d
 		}
 		{
 			dependencies: ["22970A18DAEFCA2E"]
 			icon: { id: "minecraft:iron_sword" }
 			id: "270563B159311C6F"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -70,12 +74,13 @@
 			}
 			]
 			x: 3.0d
-			y: 9.0d
+			y: 10.3d
 		}
 		{
 			dependencies: ["22970A18DAEFCA2E"]
 			icon: { id: "minecraft:chainmail_chestplate" }
 			id: "0474158F69CC958A"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -86,12 +91,13 @@
 			}
 			]
 			x: 3.0d
-			y: 10.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["22970A18DAEFCA2E"]
 			icon: { id: "minecraft:bow" }
 			id: "61E193D19E789F30"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -102,12 +108,13 @@
 			}
 			]
 			x: 3.0d
-			y: 11.0d
+			y: 12.6d
 		}
 		{
 			dependencies: ["22970A18DAEFCA2E"]
 			icon: { id: "minecraft:wooden_sword" }
 			id: "0B30ADDA7FE01DA4"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -118,12 +125,13 @@
 			}
 			]
 			x: 3.0d
-			y: 8.0d
+			y: 9.2d
 		}
 		{
 			dependencies: ["0B30ADDA7FE01DA4"]
 			icon: { id: "minecraft:iron_pickaxe" }
 			id: "3F986C8C5899A97A"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -134,12 +142,13 @@
 			}
 			]
 			x: 4.5d
-			y: 8.0d
+			y: 9.2d
 		}
 		{
 			dependencies: ["010794AFC2A4C4CE" "4A10E1BFC1F0C7BC"]
 			icon: { id: "feedback:chestplate" }
 			id: "674CA97ADA4E3234"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -156,6 +165,7 @@
 			dependencies: ["674CA97ADA4E3234"]
 			icon: { id: "feedback:helmet" }
 			id: "2EE07D46B34EB1AF"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -172,6 +182,7 @@
 			dependencies: ["010794AFC2A4C4CE" "1959520F5ADC28E4"]
 			icon: { id: "minecraft:blaze_powder" }
 			id: "41A1CD64EE354712"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -182,12 +193,13 @@
 			}
 			]
 			x: 1.5d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["010794AFC2A4C4CE" "68C871680B024316"]
 			icon: { id: "feedback:gun" }
 			id: "05F0FF3B164E5E8A"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -198,13 +210,14 @@
 			}
 			]
 			x: 1.5d
-			y: 6.0d
+			y: 6.9d
 		}
 		{
 			dependencies: ["010794AFC2A4C4CE" "4A10E1BFC1F0C7BC"]
 			icon: { id: "minecraft:blaze_rod" }
 			id: "5E1C8B0A762D4685"
-			shape: "hexagon"
+			size: 1.50d
+			shape: "octagon"
 			tasks: [
 			{
 				advancement: "feedback:progress/combat/first_cast"
@@ -214,13 +227,14 @@
 			}
 			]
 			x: 1.5d
-			y: 4.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["5E1C8B0A762D4685"]
 			icon: { id: "minecraft:shield" }
 			id: "16B971BDEB1EA601"
-			shape: "square"
+			size: 1.25d
+			shape: "hexagon"
 			tasks: [
 			{
 				advancement: "feedback:progress/combat/cast_anchor"
@@ -230,13 +244,14 @@
 			}
 			]
 			x: 3.0d
-			y: 4.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["5E1C8B0A762D4685"]
 			icon: { id: "minecraft:ender_eye" }
 			id: "62BCFEF2B4988306"
-			shape: "square"
+			size: 1.25d
+			shape: "hexagon"
 			tasks: [
 			{
 				advancement: "feedback:progress/combat/cast_veil"
@@ -246,13 +261,14 @@
 			}
 			]
 			x: 3.0d
-			y: 5.0d
+			y: 5.8d
 		}
 		{
 			dependencies: ["5E1C8B0A762D4685"]
 			icon: { id: "minecraft:iron_axe" }
 			id: "723B8B2957D61257"
-			shape: "square"
+			size: 1.25d
+			shape: "hexagon"
 			tasks: [
 			{
 				advancement: "feedback:progress/combat/cast_brute"
@@ -262,13 +278,14 @@
 			}
 			]
 			x: 3.0d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["5E1C8B0A762D4685"]
 			icon: { id: "minecraft:blaze_powder" }
 			id: "0311209E1B8B1F72"
-			shape: "square"
+			size: 1.25d
+			shape: "hexagon"
 			tasks: [
 			{
 				advancement: "feedback:progress/combat/cast_onslaught"
@@ -278,13 +295,14 @@
 			}
 			]
 			x: 3.0d
-			y: 6.0d
+			y: 6.9d
 		}
 		{
 			dependencies: ["5E1C8B0A762D4685"]
 			icon: { id: "minecraft:spyglass" }
 			id: "23D832ECD1F94909"
-			shape: "square"
+			size: 1.25d
+			shape: "hexagon"
 			tasks: [
 			{
 				advancement: "feedback:progress/combat/cast_observation"
@@ -294,13 +312,14 @@
 			}
 			]
 			x: 3.0d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["5E1C8B0A762D4685"]
 			icon: { id: "minecraft:golden_apple" }
 			id: "38A44D8D5FD41DC8"
-			shape: "square"
+			size: 1.25d
+			shape: "hexagon"
 			tasks: [
 			{
 				advancement: "feedback:progress/combat/cast_proficiency"
@@ -310,13 +329,14 @@
 			}
 			]
 			x: 3.0d
-			y: 7.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["5E1C8B0A762D4685"]
 			icon: { id: "minecraft:fire_charge" }
 			id: "32BFCABBAAABE490"
-			shape: "square"
+			size: 1.25d
+			shape: "hexagon"
 			tasks: [
 			{
 				advancement: "feedback:progress/combat/cast_chaos"
@@ -326,7 +346,7 @@
 			}
 			]
 			x: 3.0d
-			y: 1.0d
+			y: 1.1d
 		}
 	]
 }

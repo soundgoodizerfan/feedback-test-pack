@@ -12,7 +12,8 @@
 		{
 			icon: { id: "feedback:skillet" }
 			id: "0A53E7B0B277E586"
-			shape: "circle"
+			size: 1.80d
+			shape: "octagon"
 			tasks: [
 			{
 				id: "39CE622B5C75CB95"
@@ -20,12 +21,13 @@
 			}
 			]
 			x: 0.0d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["0A53E7B0B277E586" "66073F1666530F34"]
 			icon: { id: "feedback:prep_table" }
 			id: "5E42A189D61F4A55"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -41,13 +43,13 @@
 			}
 			]
 			x: 1.5d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["5E42A189D61F4A55"]
 			icon: { id: "feedback:hafted_tool" }
 			id: "3D753DCD6565FF5B"
-			shape: "square"
+			shape: "rsquare"
 			tasks: [
 			{
 				id: "159FCF6FEC6AACD1"
@@ -55,13 +57,13 @@
 			}
 			]
 			x: 3.0d
-			y: 5.0d
+			y: 5.8d
 		}
 		{
 			dependencies: ["3D753DCD6565FF5B"]
 			icon: { id: "feedback:ceramic_bowl" }
 			id: "618D82E9909540F5"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "7CD3CB7E2A7A86FD"
@@ -75,12 +77,13 @@
 			}
 			]
 			x: 4.5d
-			y: 5.0d
+			y: 5.8d
 		}
 		{
 			dependencies: ["5E42A189D61F4A55"]
 			icon: { id: "feedback:skillet" }
 			id: "165775E24D7C3853"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -96,11 +99,12 @@
 			}
 			]
 			x: 3.0d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["165775E24D7C3853"]
 			id: "31DA700788582C28"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -111,14 +115,15 @@
 			}
 			]
 			x: 4.5d
-			y: 4.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["165775E24D7C3853"]
 			icon: { id: "feedback:spatula" }
 			id: "6766D515656752AF"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "6F40A17F48545221"
@@ -127,12 +132,13 @@
 			}
 			]
 			x: 4.5d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["165775E24D7C3853"]
 			icon: { id: "feedback:stockpot" }
 			id: "29F505259DD46349"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -148,14 +154,15 @@
 			}
 			]
 			x: 4.5d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["29F505259DD46349"]
 			icon: { id: "feedback:salt" }
 			id: "19640ED92FD7FD48"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "0D858499CB6D47AC"
@@ -164,14 +171,15 @@
 			}
 			]
 			x: 6.0d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["29F505259DD46349"]
 			icon: { id: "feedback:spoon" }
 			id: "43E390E6CBD85FD7"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "7A8A4B780403DA5E"
@@ -180,7 +188,7 @@
 			}
 			]
 			x: 6.0d
-			y: 4.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["0A53E7B0B277E586" "66073F1666530F34"]
@@ -195,13 +203,13 @@
 			}
 			]
 			x: 1.5d
-			y: 6.0d
+			y: 6.9d
 		}
 		{
 			dependencies: ["799FECDFA99514BB"]
 			icon: { id: "feedback:tomato" }
 			id: "096DC39F890D86EC"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "448E0BEC5546136C"
@@ -210,7 +218,7 @@
 			}
 			]
 			x: 3.0d
-			y: 6.0d
+			y: 6.9d
 		}
 		{
 			dependencies: ["799FECDFA99514BB" "5E42A189D61F4A55"]
@@ -230,7 +238,7 @@
 			}
 			]
 			x: 3.0d
-			y: 4.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["799FECDFA99514BB" "68C871680B024316"]
@@ -250,14 +258,15 @@
 			}
 			]
 			x: 3.0d
-			y: 7.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["096DC39F890D86EC"]
 			icon: { id: "feedback:fertiliser" }
 			id: "5B32C0F8AADE715C"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "3F79B66BBA5F6E50"
@@ -266,12 +275,13 @@
 			}
 			]
 			x: 4.5d
-			y: 6.0d
+			y: 6.9d
 		}
 		{
 			dependencies: ["0A53E7B0B277E586" "157369236735CE43"]
 			icon: { id: "feedback:drying_rack" }
 			id: "261444A6A443C8B0"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -287,7 +297,7 @@
 			}
 			]
 			x: 1.5d
-			y: 1.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["261444A6A443C8B0"]
@@ -302,7 +312,7 @@
 			}
 			]
 			x: 3.0d
-			y: 1.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["291F355288A55856"]
@@ -317,12 +327,12 @@
 			}
 			]
 			x: 4.5d
-			y: 1.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["1CB4576B1D85EA64"]
 			id: "45EFBFF645CD0C42"
-			shape: "square"
+			shape: "rsquare"
 			tasks: [
 			{
 				id: "7C8F253347DF3847"
@@ -330,11 +340,12 @@
 			}
 			]
 			x: 6.0d
-			y: 1.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["291F355288A55856"]
 			id: "53FCF31BE2083FFE"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{

@@ -12,7 +12,8 @@
 		{
 			icon: { id: "feedback:reactor" }
 			id: "19843CCBBEEC8D9F"
-			shape: "circle"
+			size: 1.80d
+			shape: "octagon"
 			tasks: [
 			{
 				id: "70FBFC9F60484476"
@@ -20,12 +21,13 @@
 			}
 			]
 			x: 0.0d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["19843CCBBEEC8D9F" "6EB3711E876C19F1"]
 			icon: { id: "feedback:salt" }
 			id: "447C18F90C15CC80"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -36,13 +38,13 @@
 			}
 			]
 			x: 1.5d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["19843CCBBEEC8D9F" "6EB3711E876C19F1"]
 			icon: { id: "feedback:pump" }
 			id: "0242EAEEF85A1464"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "413D330E1AF52CFE"
@@ -56,13 +58,13 @@
 			}
 			]
 			x: 1.5d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["0242EAEEF85A1464"]
 			icon: { id: "feedback:treatise_chemical_1" }
 			id: "2516CD7B854AE284"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "10230BD7B723B667"
@@ -71,12 +73,13 @@
 			}
 			]
 			x: 3.0d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["2516CD7B854AE284"]
 			icon: { id: "feedback:pressure_vessel" }
 			id: "3DFF5CDCFF5BDE56"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -87,13 +90,13 @@
 			}
 			]
 			x: 4.5d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["3DFF5CDCFF5BDE56"]
 			icon: { id: "feedback:bellows" }
 			id: "3D1A0ED62BBA014F"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "0EB03C1A1AD368FC"
@@ -107,13 +110,13 @@
 			}
 			]
 			x: 6.0d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["3DFF5CDCFF5BDE56"]
 			icon: { id: "feedback:gas_tank" }
 			id: "30BCCB533161179C"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "074870B4A423B3FF"
@@ -122,13 +125,13 @@
 			}
 			]
 			x: 6.0d
-			y: 1.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["30BCCB533161179C"]
 			icon: { id: "feedback:flare" }
 			id: "42D94BFB11145303"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "3A21E90EBC09CDA2"
@@ -143,7 +146,7 @@
 			dependencies: ["30BCCB533161179C"]
 			icon: { id: "feedback:compressor" }
 			id: "53D735D818749101"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "71815B7911C32F4E"
@@ -157,12 +160,13 @@
 			}
 			]
 			x: 7.5d
-			y: 1.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["3DFF5CDCFF5BDE56"]
 			icon: { id: "feedback:electrolyser" }
 			id: "743A3769BCA84A04"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -173,12 +177,13 @@
 			}
 			]
 			x: 6.0d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["743A3769BCA84A04"]
 			icon: { id: "feedback:reactor" }
 			id: "2F0D4EA98BD3FE00"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -189,13 +194,14 @@
 			}
 			]
 			x: 7.5d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["2F0D4EA98BD3FE00"]
 			icon: { id: "feedback:salt" }
 			id: "77DDFED06211ECE2"
-			shape: "square"
+			size: 1.50d
+			shape: "octagon"
 			tasks: [
 			{
 				id: "610C89179F745D68"
@@ -203,13 +209,13 @@
 			}
 			]
 			x: 9.0d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["77DDFED06211ECE2"]
 			icon: { id: "feedback:pyrite" }
 			id: "272288A25D096D7A"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "51DE19C3860B87AC"
@@ -222,13 +228,13 @@
 			}
 			]
 			x: 10.5d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["77DDFED06211ECE2"]
 			icon: { id: "feedback:reactor" }
 			id: "58D2BB7C92A33393"
-			shape: "square"
+			shape: "rsquare"
 			tasks: [
 			{
 				id: "6473197B4075D764"
@@ -236,7 +242,7 @@
 			}
 			]
 			x: 10.5d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["272288A25D096D7A" "58D2BB7C92A33393"]
@@ -251,13 +257,13 @@
 			}
 			]
 			x: 12.0d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["2516CD7B854AE284"]
 			icon: { id: "feedback:mixer" }
 			id: "18300EE5A546A45B"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "05295BFF6521E548"
@@ -266,12 +272,13 @@
 			}
 			]
 			x: 4.5d
-			y: 4.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["77DDFED06211ECE2"]
 			icon: { id: "feedback:alumina" }
 			id: "43390F7CEE15258A"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -287,12 +294,13 @@
 			}
 			]
 			x: 10.5d
-			y: 1.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["2F0D4EA98BD3FE00"]
 			icon: { id: "feedback:wellhead" }
 			id: "7B3B6E5D6ECA8432"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -309,7 +317,7 @@
 			dependencies: ["7B3B6E5D6ECA8432"]
 			icon: { id: "feedback:survey_meter" }
 			id: "7879AC3D4378E015"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "6BA8EDD5FFD0354C"
@@ -369,7 +377,7 @@
 			dependencies: ["42077C44CFE51F02"]
 			icon: { id: "feedback:reactor" }
 			id: "5DAA24750E10BDF3"
-			shape: "square"
+			shape: "rsquare"
 			tasks: [
 			{
 				id: "046FB624CB7AAA4F"
@@ -383,7 +391,7 @@
 			dependencies: ["5DAA24750E10BDF3"]
 			icon: { id: "feedback:reactor" }
 			id: "75F093FE062CF6EE"
-			shape: "square"
+			shape: "rsquare"
 			tasks: [
 			{
 				id: "7A9F65112FB43741"
@@ -398,7 +406,8 @@
 			icon: { id: "feedback:reactor" }
 			id: "7B5346F28EFB8F55"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "70967386E803BE19"
@@ -406,14 +415,15 @@
 			}
 			]
 			x: 9.0d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["77DDFED06211ECE2"]
 			icon: { id: "feedback:reactor" }
 			id: "44057A14D1D520E9"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "43F1E43F15800DCD"
@@ -421,13 +431,13 @@
 			}
 			]
 			x: 10.5d
-			y: 4.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["53D735D818749101" "2F0D4EA98BD3FE00"]
 			icon: { id: "feedback:cryocooler" }
 			id: "76765F09BC05E3C5"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "080A63E3F25B4DE2"
@@ -436,14 +446,15 @@
 			}
 			]
 			x: 9.0d
-			y: 1.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["18300EE5A546A45B"]
 			icon: { id: "feedback:demolition_charge" }
 			id: "1873DFD1D676D245"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "4729F085E6922340"
@@ -457,14 +468,15 @@
 			}
 			]
 			x: 6.0d
-			y: 4.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["30BCCB533161179C" "743A3769BCA84A04"]
 			icon: { id: "feedback:gas_cell_cloth" }
 			id: "351A81894454C177"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "7B7C12A2274F5AF9"
@@ -473,7 +485,7 @@
 			}
 			]
 			x: 7.5d
-			y: 3.0d
+			y: 3.4d
 		}
 	]
 }

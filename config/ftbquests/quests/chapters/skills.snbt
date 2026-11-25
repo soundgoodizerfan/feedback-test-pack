@@ -12,7 +12,8 @@
 		{
 			icon: { id: "minecraft:book" }
 			id: "68B112D66AEC9F04"
-			shape: "circle"
+			size: 1.80d
+			shape: "octagon"
 			tasks: [
 			{
 				id: "07AD31D5276D45DD"
@@ -20,13 +21,14 @@
 			}
 			]
 			x: 0.0d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["68B112D66AEC9F04"]
 			icon: { id: "minecraft:shield" }
 			id: "2C349A27B29FDEF0"
-			shape: "circle"
+			size: 1.20d
+			shape: "shield"
 			tasks: [
 			{
 				id: "2CDAEEA790C9748A"
@@ -34,13 +36,14 @@
 			}
 			]
 			x: 1.5d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["2C349A27B29FDEF0"]
 			icon: { id: "minecraft:shield" }
 			id: "71C236855B06CB65"
-			shape: "square"
+			size: 1.20d
+			shape: "shield"
 			tasks: [
 			{
 				id: "3F784499A00B644E"
@@ -48,13 +51,14 @@
 			}
 			]
 			x: 3.0d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["71C236855B06CB65" "16B971BDEB1EA601"]
 			icon: { id: "minecraft:shield" }
 			id: "1C01926EBDFE0F46"
-			shape: "hexagon"
+			size: 1.20d
+			shape: "shield"
 			tasks: [
 			{
 				id: "60F5127FB0B1E891"
@@ -62,13 +66,14 @@
 			}
 			]
 			x: 4.5d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["68B112D66AEC9F04"]
 			icon: { id: "minecraft:iron_axe" }
 			id: "2017F0A329638C04"
-			shape: "circle"
+			size: 1.20d
+			shape: "pentagon"
 			tasks: [
 			{
 				id: "304B21A8ECC163FF"
@@ -76,13 +81,14 @@
 			}
 			]
 			x: 1.5d
-			y: 4.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["2017F0A329638C04"]
 			icon: { id: "minecraft:iron_axe" }
 			id: "35919F58D52D0DEC"
-			shape: "square"
+			size: 1.20d
+			shape: "pentagon"
 			tasks: [
 			{
 				id: "58535EE803F8F31E"
@@ -90,13 +96,14 @@
 			}
 			]
 			x: 3.0d
-			y: 4.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["35919F58D52D0DEC" "723B8B2957D61257"]
 			icon: { id: "minecraft:iron_axe" }
 			id: "6923AC8A7841D33B"
-			shape: "hexagon"
+			size: 1.20d
+			shape: "pentagon"
 			tasks: [
 			{
 				id: "71EEB2BDBA762596"
@@ -104,13 +111,14 @@
 			}
 			]
 			x: 4.5d
-			y: 4.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["68B112D66AEC9F04"]
 			icon: { id: "minecraft:fire_charge" }
 			id: "521F4FBCFD71471D"
-			shape: "circle"
+			size: 1.20d
+			shape: "puzzle"
 			tasks: [
 			{
 				id: "56720AD49654B769"
@@ -118,13 +126,14 @@
 			}
 			]
 			x: 1.5d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["521F4FBCFD71471D"]
 			icon: { id: "minecraft:fire_charge" }
 			id: "0E77DA85BBAA3E74"
-			shape: "square"
+			size: 1.20d
+			shape: "puzzle"
 			tasks: [
 			{
 				id: "2C56B379387F7AE8"
@@ -132,13 +141,14 @@
 			}
 			]
 			x: 3.0d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["0E77DA85BBAA3E74" "32BFCABBAAABE490"]
 			icon: { id: "minecraft:fire_charge" }
 			id: "28456B87CBE72CEC"
-			shape: "hexagon"
+			size: 1.20d
+			shape: "puzzle"
 			tasks: [
 			{
 				id: "2632C6E8B924D6FB"
@@ -146,13 +156,14 @@
 			}
 			]
 			x: 4.5d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["68B112D66AEC9F04"]
 			icon: { id: "minecraft:spyglass" }
 			id: "62F7CF7ED138776D"
-			shape: "circle"
+			size: 1.20d
+			shape: "diamond"
 			tasks: [
 			{
 				id: "77FE56BFE3A1BC64"
@@ -160,13 +171,14 @@
 			}
 			]
 			x: 1.5d
-			y: 5.0d
+			y: 5.8d
 		}
 		{
 			dependencies: ["62F7CF7ED138776D"]
 			icon: { id: "minecraft:spyglass" }
 			id: "2E33F9041D89DCFD"
-			shape: "square"
+			size: 1.20d
+			shape: "diamond"
 			tasks: [
 			{
 				id: "1256F6AFB36F4ED8"
@@ -174,13 +186,14 @@
 			}
 			]
 			x: 3.0d
-			y: 5.0d
+			y: 5.8d
 		}
 		{
 			dependencies: ["2E33F9041D89DCFD" "23D832ECD1F94909"]
 			icon: { id: "minecraft:spyglass" }
 			id: "0822F078A4D4E4A2"
-			shape: "hexagon"
+			size: 1.20d
+			shape: "diamond"
 			tasks: [
 			{
 				id: "313AA725340DFF3A"
@@ -188,13 +201,14 @@
 			}
 			]
 			x: 4.5d
-			y: 5.0d
+			y: 5.8d
 		}
 		{
 			dependencies: ["68B112D66AEC9F04"]
 			icon: { id: "minecraft:blaze_powder" }
 			id: "098EE23DA714C964"
-			shape: "circle"
+			size: 1.20d
+			shape: "gear"
 			tasks: [
 			{
 				id: "31695A06A1F6C010"
@@ -202,13 +216,14 @@
 			}
 			]
 			x: 1.5d
-			y: 1.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["098EE23DA714C964"]
 			icon: { id: "minecraft:blaze_powder" }
 			id: "0F5BF236A98E59F0"
-			shape: "square"
+			size: 1.20d
+			shape: "gear"
 			tasks: [
 			{
 				id: "5994A6C0B8150308"
@@ -216,13 +231,14 @@
 			}
 			]
 			x: 3.0d
-			y: 1.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["0F5BF236A98E59F0" "0311209E1B8B1F72"]
 			icon: { id: "minecraft:blaze_powder" }
 			id: "79A867F222520386"
-			shape: "hexagon"
+			size: 1.20d
+			shape: "gear"
 			tasks: [
 			{
 				id: "000681D8CAF7BDB2"
@@ -230,13 +246,14 @@
 			}
 			]
 			x: 4.5d
-			y: 1.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["68B112D66AEC9F04"]
 			icon: { id: "minecraft:golden_apple" }
 			id: "7233379C8E9CF69C"
-			shape: "circle"
+			size: 1.20d
+			shape: "octagon"
 			tasks: [
 			{
 				id: "522118732CDA2260"
@@ -244,13 +261,14 @@
 			}
 			]
 			x: 1.5d
-			y: 6.0d
+			y: 6.9d
 		}
 		{
 			dependencies: ["7233379C8E9CF69C"]
 			icon: { id: "minecraft:golden_apple" }
 			id: "701182B34E61A2B0"
-			shape: "square"
+			size: 1.20d
+			shape: "octagon"
 			tasks: [
 			{
 				id: "3858B61A827AB685"
@@ -258,13 +276,14 @@
 			}
 			]
 			x: 3.0d
-			y: 6.0d
+			y: 6.9d
 		}
 		{
 			dependencies: ["701182B34E61A2B0" "38A44D8D5FD41DC8"]
 			icon: { id: "minecraft:golden_apple" }
 			id: "2C62FA0FBDED5E34"
-			shape: "hexagon"
+			size: 1.20d
+			shape: "octagon"
 			tasks: [
 			{
 				id: "0D4DA9EBBA5C5989"
@@ -272,13 +291,14 @@
 			}
 			]
 			x: 4.5d
-			y: 6.0d
+			y: 6.9d
 		}
 		{
 			dependencies: ["68B112D66AEC9F04"]
 			icon: { id: "minecraft:ender_eye" }
 			id: "4032F6CA1B16E086"
-			shape: "circle"
+			size: 1.20d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "70405B11A6DA2670"
@@ -292,7 +312,8 @@
 			dependencies: ["4032F6CA1B16E086"]
 			icon: { id: "minecraft:ender_eye" }
 			id: "1653174F196CF993"
-			shape: "square"
+			size: 1.20d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "6B183AAA44CA257D"
@@ -306,7 +327,8 @@
 			dependencies: ["1653174F196CF993" "62BCFEF2B4988306"]
 			icon: { id: "minecraft:ender_eye" }
 			id: "00E800C6BB0BD9E6"
-			shape: "hexagon"
+			size: 1.20d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "7B94DCA9A418E136"
@@ -321,7 +343,8 @@
 			icon: { id: "feedback:unlearning_token" }
 			id: "3542565DE58225E0"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "0CA2EA76941C0292"
@@ -330,7 +353,7 @@
 			}
 			]
 			x: 1.5d
-			y: 7.0d
+			y: 8.0d
 		}
 	]
 }

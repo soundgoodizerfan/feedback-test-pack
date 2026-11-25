@@ -12,7 +12,8 @@
 		{
 			icon: { id: "minecraft:flint" }
 			id: "7A18478403772572"
-			shape: "hexagon"
+			size: 1.80d
+			shape: "octagon"
 			tasks: [
 			{
 				advancement: "feedback:progress/root"
@@ -28,7 +29,8 @@
 			dependencies: ["7A18478403772572"]
 			icon: { id: "minecraft:flint" }
 			id: "4A10E1BFC1F0C7BC"
-			shape: "hexagon"
+			size: 1.80d
+			shape: "octagon"
 			tasks: [
 			{
 				advancement: "feedback:progress/age/stone"
@@ -44,7 +46,8 @@
 			dependencies: ["4A10E1BFC1F0C7BC"]
 			icon: { id: "feedback:bronze_ingot" }
 			id: "1959520F5ADC28E4"
-			shape: "hexagon"
+			size: 1.80d
+			shape: "octagon"
 			tasks: [
 			{
 				advancement: "feedback:progress/age/bronze"
@@ -60,7 +63,8 @@
 			dependencies: ["1959520F5ADC28E4"]
 			icon: { id: "minecraft:iron_ingot" }
 			id: "558657879EC52D94"
-			shape: "hexagon"
+			size: 1.80d
+			shape: "octagon"
 			tasks: [
 			{
 				advancement: "feedback:progress/age/iron"
@@ -76,7 +80,8 @@
 			dependencies: ["558657879EC52D94"]
 			icon: { id: "feedback:steel_ingot" }
 			id: "6EB3711E876C19F1"
-			shape: "hexagon"
+			size: 1.80d
+			shape: "octagon"
 			tasks: [
 			{
 				advancement: "feedback:progress/age/steel"
@@ -92,7 +97,8 @@
 			dependencies: ["6EB3711E876C19F1"]
 			icon: { id: "feedback:lathe" }
 			id: "68C871680B024316"
-			shape: "hexagon"
+			size: 1.80d
+			shape: "octagon"
 			tasks: [
 			{
 				advancement: "feedback:progress/age/machine"
@@ -108,7 +114,8 @@
 			dependencies: ["68C871680B024316"]
 			icon: { id: "minecraft:netherite_ingot" }
 			id: "03C84BB7A2AA55B0"
-			shape: "hexagon"
+			size: 1.80d
+			shape: "octagon"
 			tasks: [
 			{
 				advancement: "feedback:progress/age/alloy"

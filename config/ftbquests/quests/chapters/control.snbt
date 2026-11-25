@@ -13,7 +13,8 @@
 			dependencies: ["68C871680B024316"]
 			icon: { id: "feedback:timer" }
 			id: "1A96C4BEDB9F42DA"
-			shape: "hexagon"
+			size: 1.80d
+			shape: "octagon"
 			tasks: [
 			{
 				advancement: "feedback:progress/control/timer"
@@ -23,13 +24,13 @@
 			}
 			]
 			x: 0.0d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["1A96C4BEDB9F42DA"]
 			icon: { id: "feedback:timer" }
 			id: "41CB250A07BD36AF"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "2F8D7818D1E02639"
@@ -38,13 +39,13 @@
 			}
 			]
 			x: 1.5d
-			y: 4.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["1A96C4BEDB9F42DA"]
 			icon: { id: "feedback:bimetallic_strip" }
 			id: "08429468E6B57DD3"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "273D6859FB5C684B"
@@ -53,13 +54,13 @@
 			}
 			]
 			x: 1.5d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["1A96C4BEDB9F42DA"]
 			icon: { id: "feedback:relay" }
 			id: "001F833861288838"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "0870DAAC124C903C"
@@ -68,13 +69,13 @@
 			}
 			]
 			x: 1.5d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["001F833861288838"]
 			icon: { id: "feedback:coherer" }
 			id: "69F062D9A3486F4D"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "2CC475122947DDB1"
@@ -83,14 +84,15 @@
 			}
 			]
 			x: 3.0d
-			y: 4.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["69F062D9A3486F4D"]
 			icon: { id: "feedback:coherer_clapper" }
 			id: "11A62EE014C79BF5"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "48833FAAD2720127"
@@ -99,13 +101,13 @@
 			}
 			]
 			x: 4.5d
-			y: 4.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["69F062D9A3486F4D"]
 			icon: { id: "feedback:whisker" }
 			id: "4E189D5AA01C6BC0"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "4EE44D3F04A7EA0F"
@@ -114,12 +116,13 @@
 			}
 			]
 			x: 4.5d
-			y: 5.0d
+			y: 5.8d
 		}
 		{
 			dependencies: ["1A96C4BEDB9F42DA"]
 			icon: { id: "feedback:controller" }
 			id: "54ECA7CE07A3BA48"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -130,13 +133,13 @@
 			}
 			]
 			x: 1.5d
-			y: 1.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["54ECA7CE07A3BA48"]
 			icon: { id: "feedback:controller" }
 			id: "016DD0AF07D0A28F"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "5C70113AA69356E7"
@@ -145,13 +148,13 @@
 			}
 			]
 			x: 3.0d
-			y: 1.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["016DD0AF07D0A28F"]
 			icon: { id: "feedback:programmer" }
 			id: "72A02123C4D22D57"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "0CB67BDC49A0EB1B"
@@ -165,13 +168,13 @@
 			}
 			]
 			x: 4.5d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["016DD0AF07D0A28F"]
 			icon: { id: "feedback:data_connector" }
 			id: "0A24D5E0742A3FC6"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "302E37148ACAC13F"
@@ -186,6 +189,7 @@
 			dependencies: ["016DD0AF07D0A28F"]
 			icon: { id: "feedback:memory_drum" }
 			id: "47BB1F198AC92DB6"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -196,13 +200,13 @@
 			}
 			]
 			x: 4.5d
-			y: 1.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["47BB1F198AC92DB6"]
 			icon: { id: "feedback:memory_drum" }
 			id: "750A788C860C063C"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "3E49743E3813D967"
@@ -216,13 +220,13 @@
 			}
 			]
 			x: 6.0d
-			y: 1.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["750A788C860C063C"]
 			icon: { id: "feedback:electric_controller" }
 			id: "4D0EA602FA913EBC"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "5F71806269D96EFF"
@@ -231,7 +235,7 @@
 			}
 			]
 			x: 7.5d
-			y: 1.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["001F833861288838"]
@@ -246,13 +250,13 @@
 			}
 			]
 			x: 3.0d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["7DEAA4FFB7092ADA"]
 			icon: { id: "feedback:soldering_iron" }
 			id: "646843916B048173"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "5FA252853B29A497"
@@ -261,14 +265,15 @@
 			}
 			]
 			x: 4.5d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["646843916B048173"]
 			icon: { id: "feedback:reflow_oven" }
 			id: "1D2380ED4BAE83CD"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "39EE6883D391BDF9"
@@ -277,7 +282,7 @@
 			}
 			]
 			x: 6.0d
-			y: 4.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["646843916B048173"]
@@ -292,14 +297,15 @@
 			}
 			]
 			x: 6.0d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["7083ACA00499FF96"]
 			icon: { id: "feedback:component_tester" }
 			id: "6CEB83D33A911A22"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "543C5C0737134E4D"
@@ -308,14 +314,15 @@
 			}
 			]
 			x: 7.5d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["7083ACA00499FF96"]
 			icon: { id: "feedback:galvanometer" }
 			id: "2A6AB12936D97AE4"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "55DE6FDEE78A89CB"
@@ -329,14 +336,15 @@
 			}
 			]
 			x: 7.5d
-			y: 4.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["7083ACA00499FF96" "4D0EA602FA913EBC"]
 			icon: { id: "feedback:current_sensor" }
 			id: "5C0679CA97A25064"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "04614A0A272BF65A"
@@ -345,14 +353,15 @@
 			}
 			]
 			x: 9.0d
-			y: 1.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["7083ACA00499FF96"]
 			icon: { id: "feedback:oscilloscope" }
 			id: "5167E7B516876AA7"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "2FF2ECFEDC73C104"
@@ -366,7 +375,7 @@
 			}
 			]
 			x: 7.5d
-			y: 2.0d
+			y: 2.3d
 		}
 	]
 }

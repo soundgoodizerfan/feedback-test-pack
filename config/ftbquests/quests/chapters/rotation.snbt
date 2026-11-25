@@ -22,11 +22,12 @@
 			}
 			]
 			x: 0.0d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["22582531484754D6"]
 			id: "070E69AEE9364565"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -37,13 +38,13 @@
 			}
 			]
 			x: 1.5d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["22582531484754D6"]
 			icon: { id: "feedback:large_cog" }
 			id: "4FF83B65BCE51C84"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "65B2F3BA4801F118"
@@ -57,14 +58,15 @@
 			}
 			]
 			x: 1.5d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["4FF83B65BCE51C84"]
 			icon: { id: "feedback:belt" }
 			id: "30E9A04098C3398A"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "2D4DB165EE29035F"
@@ -78,13 +80,14 @@
 			}
 			]
 			x: 3.0d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["070E69AEE9364565"]
 			icon: { id: "feedback:treatise_mechanical_1" }
 			id: "30AAC9DE9C6AEC18"
-			shape: "square"
+			size: 1.50d
+			shape: "octagon"
 			tasks: [
 			{
 				id: "39FDA0F0ED2A0E6D"
@@ -93,7 +96,7 @@
 			}
 			]
 			x: 3.0d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["30AAC9DE9C6AEC18"]
@@ -108,11 +111,12 @@
 			}
 			]
 			x: 4.5d
-			y: 4.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["070E69AEE9364565"]
 			id: "0A5408F197C740BF"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -130,7 +134,8 @@
 			icon: { id: "feedback:fish_wheel" }
 			id: "1A9B8632DD0A6A6D"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "4A8B4D857C063594"
@@ -145,7 +150,7 @@
 			dependencies: ["0A5408F197C740BF" "30AAC9DE9C6AEC18"]
 			icon: { id: "feedback:flywheel" }
 			id: "155958BCB0377DF6"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "2546FFE1C3196534"
@@ -154,13 +159,13 @@
 			}
 			]
 			x: 4.5d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["668F7D1EE6B7EC9F"]
 			icon: { id: "feedback:clutch" }
 			id: "69866D4867693C05"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "7E922944BD667A17"
@@ -169,14 +174,15 @@
 			}
 			]
 			x: 6.0d
-			y: 4.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["69866D4867693C05"]
 			icon: { id: "feedback:overspeed_trip" }
 			id: "25CAA63CC6D2ECD3"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "46E4C308E7302C41"
@@ -185,13 +191,13 @@
 			}
 			]
 			x: 7.5d
-			y: 4.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["30AAC9DE9C6AEC18"]
 			icon: { id: "feedback:treatise_mechanical_2" }
 			id: "701AD4797E2034DD"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "40762C4429E86395"
@@ -200,13 +206,13 @@
 			}
 			]
 			x: 4.5d
-			y: 1.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["668F7D1EE6B7EC9F" "6EB3711E876C19F1"]
 			icon: { id: "feedback:gearbox" }
 			id: "41C2D8147187DAF1"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "6DE26E739E80E29D"
@@ -215,14 +221,15 @@
 			}
 			]
 			x: 6.0d
-			y: 6.0d
+			y: 6.9d
 		}
 		{
 			dependencies: ["41C2D8147187DAF1"]
 			icon: { id: "feedback:differential" }
 			id: "4EE541AC01486CE2"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "449BB3BC2674DA4E"
@@ -231,14 +238,15 @@
 			}
 			]
 			x: 7.5d
-			y: 6.0d
+			y: 6.9d
 		}
 		{
 			dependencies: ["69866D4867693C05"]
 			icon: { id: "feedback:freewheel" }
 			id: "7DF81153094E66D8"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "766F7901225C4D4F"
@@ -247,13 +255,13 @@
 			}
 			]
 			x: 7.5d
-			y: 5.0d
+			y: 5.8d
 		}
 		{
 			dependencies: ["30AAC9DE9C6AEC18"]
 			icon: { id: "feedback:treatise_chemical_1" }
 			id: "2AE380C7E24931FD"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "4FF66A5FBCC4C633"
@@ -262,7 +270,7 @@
 			}
 			]
 			x: 4.5d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["2AE380C7E24931FD" "0A5408F197C740BF"]
@@ -277,13 +285,13 @@
 			}
 			]
 			x: 6.0d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["187A2D7058F88557"]
 			icon: { id: "feedback:pressure_gauge" }
 			id: "274A70BF69817C9F"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "647DB0724C38C674"
@@ -292,14 +300,15 @@
 			}
 			]
 			x: 7.5d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["187A2D7058F88557"]
 			icon: { id: "feedback:valve" }
 			id: "6545178999CAF6DB"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "59E5F0DB1FD7CA95"
@@ -308,11 +317,12 @@
 			}
 			]
 			x: 7.5d
-			y: 1.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["187A2D7058F88557" "668F7D1EE6B7EC9F"]
 			id: "575A3F9848B9C704"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -323,13 +333,13 @@
 			}
 			]
 			x: 7.5d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["575A3F9848B9C704"]
 			icon: { id: "feedback:condenser" }
 			id: "7B40851AEADBF414"
-			shape: "square"
+			shape: "circle"
 			tasks: [
 			{
 				id: "4D21A97FF1638FB2"
@@ -338,14 +348,15 @@
 			}
 			]
 			x: 9.0d
-			y: 3.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["575A3F9848B9C704"]
 			icon: { id: "feedback:steam_turbine" }
 			id: "1AFCFE938B80FB31"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "47C6F7B8FF9D9887"
@@ -354,11 +365,12 @@
 			}
 			]
 			x: 9.0d
-			y: 1.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["575A3F9848B9C704"]
 			id: "2BDB553829E5C234"
+			size: 1.25d
 			shape: "hexagon"
 			tasks: [
 			{
@@ -369,14 +381,15 @@
 			}
 			]
 			x: 9.0d
-			y: 2.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["2BDB553829E5C234"]
 			icon: { id: "feedback:gas_turbine" }
 			id: "109B51567D6DD80D"
 			optional: true
-			shape: "square"
+			size: 0.85d
+			shape: "rdiamond"
 			tasks: [
 			{
 				id: "1AACEC2204D3504D"
@@ -385,7 +398,7 @@
 			}
 			]
 			x: 10.5d
-			y: 2.0d
+			y: 2.3d
 		}
 	]
 }
