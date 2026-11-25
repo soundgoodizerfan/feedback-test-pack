@@ -11,6 +11,11 @@ hash = "27b22b995c2d58b3730324b46fd677f46afd2af92b37a8aad46b81f7630fbcae"
 metafile = true
 
 [[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "9412ae80a3b8633c4b8507402610c4d8ad3e27809a27a9a76263d16fa7347b2e"
+metafile = true
+
+[[files]]
 file = "mods/artifacts.pw.toml"
 hash = "416b7f130791397fb2ceb9e89ce3fd0e870f207c8e40b759c069cb58b7544314"
 metafile = true
@@ -117,6 +122,21 @@ metafile = true
 [[files]]
 file = "mods/framedblocks.pw.toml"
 hash = "be4d309355c854d8b20aa36276f134270a5c4c1abe6cac955b41deabf83cecb3"
+metafile = true
+
+[[files]]
+file = "mods/ftb-library-forge.pw.toml"
+hash = "1c653566b0cea97e9282c23458a28b7de879e5fd226f5bb3455502adabfc839d"
+metafile = true
+
+[[files]]
+file = "mods/ftb-quests-forge.pw.toml"
+hash = "4c973a826e4e866c3fb4d1813ebdf649526af21a332a83856ae4a2fd57362283"
+metafile = true
+
+[[files]]
+file = "mods/ftb-teams-forge.pw.toml"
+hash = "d1665d3000a0857df2d4ea5d3b3a6c5e2b0a60b0c83f8c0f30f05b5305b1878f"
 metafile = true
 
 [[files]]
