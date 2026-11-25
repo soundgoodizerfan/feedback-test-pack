@@ -10,7 +10,20 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["66073F1666530F34"]
+			icon: { id: "feedback:skillet" }
+			id: "0A53E7B0B277E586"
+			shape: "circle"
+			tasks: [
+			{
+				id: "39CE622B5C75CB95"
+				type: "checkmark"
+			}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0A53E7B0B277E586" "66073F1666530F34"]
 			icon: { id: "feedback:prep_table" }
 			id: "5E42A189D61F4A55"
 			shape: "hexagon"
@@ -27,7 +40,7 @@
 				type: "item"
 			}
 			]
-			x: 0.0d
+			x: 1.5d
 			y: 3.0d
 		}
 		{
@@ -41,8 +54,8 @@
 				type: "checkmark"
 			}
 			]
-			x: 1.5d
-			y: 0.0d
+			x: 3.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["3D753DCD6565FF5B"]
@@ -61,8 +74,8 @@
 				type: "item"
 			}
 			]
-			x: 3.0d
-			y: 0.0d
+			x: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5E42A189D61F4A55"]
@@ -82,8 +95,8 @@
 				type: "item"
 			}
 			]
-			x: 1.5d
-			y: 2.7d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["165775E24D7C3853"]
@@ -97,8 +110,8 @@
 				type: "advancement"
 			}
 			]
-			x: 3.0d
-			y: 1.2d
+			x: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["165775E24D7C3853"]
@@ -113,8 +126,8 @@
 				type: "item"
 			}
 			]
-			x: 3.0d
-			y: 2.4d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["165775E24D7C3853"]
@@ -134,8 +147,8 @@
 				type: "item"
 			}
 			]
-			x: 3.0d
-			y: 4.2d
+			x: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["29F505259DD46349"]
@@ -150,8 +163,8 @@
 				type: "item"
 			}
 			]
-			x: 4.5d
-			y: 3.6d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["29F505259DD46349"]
@@ -166,11 +179,11 @@
 				type: "item"
 			}
 			]
-			x: 4.5d
-			y: 4.8d
+			x: 6.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["66073F1666530F34"]
+			dependencies: ["0A53E7B0B277E586" "66073F1666530F34"]
 			icon: { id: "feedback:cabbage_seed" }
 			id: "799FECDFA99514BB"
 			shape: "circle"
@@ -181,8 +194,8 @@
 				type: "item"
 			}
 			]
-			x: 0.0d
-			y: 7.8d
+			x: 1.5d
+			y: 6.0d
 		}
 		{
 			dependencies: ["799FECDFA99514BB"]
@@ -196,8 +209,8 @@
 				type: "item"
 			}
 			]
-			x: 1.5d
-			y: 7.2d
+			x: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["799FECDFA99514BB" "5E42A189D61F4A55"]
@@ -216,8 +229,8 @@
 				type: "item"
 			}
 			]
-			x: 1.5d
-			y: 6.0d
+			x: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["799FECDFA99514BB" "68C871680B024316"]
@@ -236,8 +249,8 @@
 				type: "item"
 			}
 			]
-			x: 1.5d
-			y: 8.4d
+			x: 3.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["096DC39F890D86EC"]
@@ -252,11 +265,11 @@
 				type: "item"
 			}
 			]
-			x: 3.0d
-			y: 7.2d
+			x: 4.5d
+			y: 6.0d
 		}
 		{
-			dependencies: ["157369236735CE43"]
+			dependencies: ["0A53E7B0B277E586" "157369236735CE43"]
 			icon: { id: "feedback:drying_rack" }
 			id: "261444A6A443C8B0"
 			shape: "hexagon"
@@ -273,8 +286,8 @@
 				type: "item"
 			}
 			]
-			x: 0.0d
-			y: 10.2d
+			x: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["261444A6A443C8B0"]
@@ -288,8 +301,8 @@
 				type: "item"
 			}
 			]
-			x: 1.5d
-			y: 10.2d
+			x: 3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["291F355288A55856"]
@@ -303,8 +316,8 @@
 				type: "item"
 			}
 			]
-			x: 3.0d
-			y: 9.6d
+			x: 4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1CB4576B1D85EA64"]
@@ -316,8 +329,8 @@
 				type: "checkmark"
 			}
 			]
-			x: 4.5d
-			y: 9.6d
+			x: 6.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["291F355288A55856"]
@@ -331,8 +344,8 @@
 				type: "advancement"
 			}
 			]
-			x: 3.0d
-			y: 10.8d
+			x: 4.5d
+			y: 0.0d
 		}
 	]
 }

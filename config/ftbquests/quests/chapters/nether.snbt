@@ -23,7 +23,7 @@
 			}
 			]
 			x: 0.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["48ABA1210FB734F6"]
@@ -38,7 +38,7 @@
 			}
 			]
 			x: 1.5d
-			y: 0.6d
+			y: 0.0d
 		}
 		{
 			dependencies: ["48ABA1210FB734F6"]
@@ -53,7 +53,7 @@
 			}
 			]
 			x: 1.5d
-			y: 2.4d
+			y: 1.0d
 		}
 		{
 			dependencies: ["521249D2A2E00425" "03C84BB7A2AA55B0"]
@@ -73,7 +73,7 @@
 			}
 			]
 			x: 3.0d
-			y: 0.6d
+			y: 0.0d
 		}
 		{
 			dependencies: ["79FDC13FE72AC335"]
@@ -120,7 +120,7 @@
 			}
 			]
 			x: 4.5d
-			y: 1.2d
+			y: 1.0d
 		}
 	]
 }

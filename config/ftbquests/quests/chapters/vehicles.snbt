@@ -10,7 +10,20 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["558657879EC52D94"]
+			icon: { id: "feedback:lift" }
+			id: "70B03227BAC523B7"
+			shape: "circle"
+			tasks: [
+			{
+				id: "57B74C387B11DA74"
+				type: "checkmark"
+			}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["70B03227BAC523B7" "558657879EC52D94"]
 			icon: { id: "feedback:rotary_bearing" }
 			id: "53F81065C2898257"
 			shape: "circle"
@@ -21,8 +34,8 @@
 				type: "item"
 			}
 			]
-			x: 0.0d
-			y: 3.6d
+			x: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["53F81065C2898257"]
@@ -41,8 +54,8 @@
 				type: "item"
 			}
 			]
-			x: 1.5d
-			y: 3.6d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3DD80F2973F8178B"]
@@ -56,8 +69,8 @@
 				type: "item"
 			}
 			]
-			x: 3.0d
-			y: 0.0d
+			x: 4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3DD80F2973F8178B"]
@@ -76,8 +89,8 @@
 				type: "item"
 			}
 			]
-			x: 3.0d
-			y: 1.2d
+			x: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3DD80F2973F8178B" "68C871680B024316"]
@@ -91,8 +104,8 @@
 				type: "item"
 			}
 			]
-			x: 3.0d
-			y: 2.4d
+			x: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["7C053E54FFEF4495" "14BEAAFB50388969"]
@@ -106,8 +119,8 @@
 				type: "advancement"
 			}
 			]
-			x: 4.5d
-			y: 1.2d
+			x: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["7C053E54FFEF4495"]
@@ -122,8 +135,8 @@
 				type: "item"
 			}
 			]
-			x: 4.5d
-			y: 2.4d
+			x: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3DD80F2973F8178B"]
@@ -138,11 +151,11 @@
 				type: "item"
 			}
 			]
-			x: 3.0d
-			y: 3.6d
+			x: 4.5d
+			y: 6.0d
 		}
 		{
-			dependencies: ["558657879EC52D94"]
+			dependencies: ["70B03227BAC523B7" "558657879EC52D94"]
 			icon: { id: "minecraft:elytra" }
 			id: "08653EB4288F41C0"
 			optional: true
@@ -154,8 +167,8 @@
 				type: "item"
 			}
 			]
-			x: 0.0d
-			y: 8.4d
+			x: 1.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3DD80F2973F8178B"]
@@ -169,8 +182,8 @@
 				type: "item"
 			}
 			]
-			x: 3.0d
-			y: 4.8d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["052D43F29EA638A7"]
@@ -184,8 +197,8 @@
 				type: "item"
 			}
 			]
-			x: 4.5d
-			y: 4.8d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3DD80F2973F8178B"]
@@ -209,8 +222,8 @@
 				type: "item"
 			}
 			]
-			x: 3.0d
-			y: 6.0d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3DD80F2973F8178B" "68C871680B024316"]
@@ -224,8 +237,8 @@
 				type: "advancement"
 			}
 			]
-			x: 3.0d
-			y: 7.2d
+			x: 4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["388B901EFC2DE7E6"]
@@ -239,11 +252,11 @@
 				type: "advancement"
 			}
 			]
-			x: 4.5d
-			y: 7.2d
+			x: 6.0d
+			y: 5.0d
 		}
 		{
-			dependencies: ["03C84BB7A2AA55B0"]
+			dependencies: ["70B03227BAC523B7" "03C84BB7A2AA55B0"]
 			icon: { id: "feedback:telescope" }
 			id: "5B3DF54E8F8E2F79"
 			shape: "circle"
@@ -264,8 +277,8 @@
 				type: "item"
 			}
 			]
-			x: 0.0d
-			y: 9.6d
+			x: 1.5d
+			y: 7.0d
 		}
 		{
 			dependencies: ["5B3DF54E8F8E2F79"]
@@ -279,8 +292,8 @@
 				type: "item"
 			}
 			]
-			x: 1.5d
-			y: 9.6d
+			x: 3.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["278ADDD048D0FED5"]
@@ -294,8 +307,8 @@
 				type: "advancement"
 			}
 			]
-			x: 3.0d
-			y: 9.6d
+			x: 4.5d
+			y: 7.0d
 		}
 	]
 }

@@ -22,7 +22,7 @@
 			}
 			]
 			x: 0.0d
-			y: 10.8d
+			y: 2.0d
 		}
 		{
 			dependencies: ["22582531484754D6"]
@@ -37,7 +37,7 @@
 			}
 			]
 			x: 1.5d
-			y: 8.3d
+			y: 2.0d
 		}
 		{
 			dependencies: ["22582531484754D6"]
@@ -57,7 +57,7 @@
 			}
 			]
 			x: 1.5d
-			y: 13.2d
+			y: 3.0d
 		}
 		{
 			dependencies: ["4FF83B65BCE51C84"]
@@ -78,7 +78,7 @@
 			}
 			]
 			x: 3.0d
-			y: 13.2d
+			y: 3.0d
 		}
 		{
 			dependencies: ["070E69AEE9364565"]
@@ -93,7 +93,7 @@
 			}
 			]
 			x: 3.0d
-			y: 4.6d
+			y: 2.0d
 		}
 		{
 			dependencies: ["30AAC9DE9C6AEC18"]
@@ -108,7 +108,7 @@
 			}
 			]
 			x: 4.5d
-			y: 1.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["070E69AEE9364565"]
@@ -123,7 +123,7 @@
 			}
 			]
 			x: 3.0d
-			y: 12.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0A5408F197C740BF"]
@@ -139,7 +139,7 @@
 			}
 			]
 			x: 4.5d
-			y: 12.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0A5408F197C740BF" "30AAC9DE9C6AEC18"]
@@ -154,7 +154,7 @@
 			}
 			]
 			x: 4.5d
-			y: 3.6d
+			y: 3.0d
 		}
 		{
 			dependencies: ["668F7D1EE6B7EC9F"]
@@ -169,7 +169,7 @@
 			}
 			]
 			x: 6.0d
-			y: 0.6d
+			y: 4.0d
 		}
 		{
 			dependencies: ["69866D4867693C05"]
@@ -185,7 +185,7 @@
 			}
 			]
 			x: 7.5d
-			y: 0.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["30AAC9DE9C6AEC18"]
@@ -200,10 +200,10 @@
 			}
 			]
 			x: 4.5d
-			y: 4.8d
+			y: 1.0d
 		}
 		{
-			dependencies: ["668F7D1EE6B7EC9F" "701AD4797E2034DD" "6EB3711E876C19F1"]
+			dependencies: ["668F7D1EE6B7EC9F" "6EB3711E876C19F1"]
 			icon: { id: "feedback:gearbox" }
 			id: "41C2D8147187DAF1"
 			shape: "square"
@@ -215,7 +215,7 @@
 			}
 			]
 			x: 6.0d
-			y: 2.4d
+			y: 6.0d
 		}
 		{
 			dependencies: ["41C2D8147187DAF1"]
@@ -231,10 +231,10 @@
 			}
 			]
 			x: 7.5d
-			y: 2.4d
+			y: 6.0d
 		}
 		{
-			dependencies: ["69866D4867693C05" "701AD4797E2034DD"]
+			dependencies: ["69866D4867693C05"]
 			icon: { id: "feedback:freewheel" }
 			id: "7DF81153094E66D8"
 			optional: true
@@ -247,7 +247,7 @@
 			}
 			]
 			x: 7.5d
-			y: 1.2d
+			y: 5.0d
 		}
 		{
 			dependencies: ["30AAC9DE9C6AEC18"]
@@ -262,7 +262,7 @@
 			}
 			]
 			x: 4.5d
-			y: 7.8d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2AE380C7E24931FD" "0A5408F197C740BF"]
@@ -277,7 +277,7 @@
 			}
 			]
 			x: 6.0d
-			y: 7.8d
+			y: 2.0d
 		}
 		{
 			dependencies: ["187A2D7058F88557"]
@@ -292,7 +292,7 @@
 			}
 			]
 			x: 7.5d
-			y: 6.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["187A2D7058F88557"]
@@ -308,7 +308,7 @@
 			}
 			]
 			x: 7.5d
-			y: 7.2d
+			y: 1.0d
 		}
 		{
 			dependencies: ["187A2D7058F88557" "668F7D1EE6B7EC9F"]
@@ -323,7 +323,7 @@
 			}
 			]
 			x: 7.5d
-			y: 9.6d
+			y: 2.0d
 		}
 		{
 			dependencies: ["575A3F9848B9C704"]
@@ -338,7 +338,7 @@
 			}
 			]
 			x: 9.0d
-			y: 8.4d
+			y: 3.0d
 		}
 		{
 			dependencies: ["575A3F9848B9C704"]
@@ -354,7 +354,7 @@
 			}
 			]
 			x: 9.0d
-			y: 9.6d
+			y: 1.0d
 		}
 		{
 			dependencies: ["575A3F9848B9C704"]
@@ -369,7 +369,7 @@
 			}
 			]
 			x: 9.0d
-			y: 10.8d
+			y: 2.0d
 		}
 		{
 			dependencies: ["2BDB553829E5C234"]
@@ -385,7 +385,7 @@
 			}
 			]
 			x: 10.5d
-			y: 10.8d
+			y: 2.0d
 		}
 	]
 }

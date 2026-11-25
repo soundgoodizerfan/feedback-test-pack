@@ -10,6 +10,22 @@
 	quest_links: [ ]
 	quests: [
 		{
+			icon: { id: "feedback:gun" }
+			id: "010794AFC2A4C4CE"
+			shape: "hexagon"
+			tasks: [
+			{
+				advancement: "feedback:progress/combat_root"
+				criterion: ""
+				id: "54547A588071586C"
+				type: "advancement"
+			}
+			]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["010794AFC2A4C4CE"]
 			icon: { id: "feedback:hafted_tool" }
 			id: "7B4C23CED4A90337"
 			shape: "hexagon"
@@ -21,11 +37,11 @@
 				type: "advancement"
 			}
 			]
-			x: 0.0d
-			y: 0.0d
+			x: 1.5d
+			y: 5.0d
 		}
 		{
-			dependencies: ["4A10E1BFC1F0C7BC"]
+			dependencies: ["010794AFC2A4C4CE" "4A10E1BFC1F0C7BC"]
 			icon: { id: "minecraft:spyglass" }
 			id: "22970A18DAEFCA2E"
 			shape: "hexagon"
@@ -37,8 +53,8 @@
 				type: "advancement"
 			}
 			]
-			x: 0.0d
-			y: 3.0d
+			x: 1.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["22970A18DAEFCA2E"]
@@ -53,8 +69,8 @@
 				type: "advancement"
 			}
 			]
-			x: 1.5d
-			y: 1.2d
+			x: 3.0d
+			y: 9.0d
 		}
 		{
 			dependencies: ["22970A18DAEFCA2E"]
@@ -69,8 +85,8 @@
 				type: "advancement"
 			}
 			]
-			x: 1.5d
-			y: 2.4d
+			x: 3.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["22970A18DAEFCA2E"]
@@ -85,8 +101,8 @@
 				type: "advancement"
 			}
 			]
-			x: 1.5d
-			y: 3.6d
+			x: 3.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["22970A18DAEFCA2E"]
@@ -101,8 +117,8 @@
 				type: "advancement"
 			}
 			]
-			x: 1.5d
-			y: 4.8d
+			x: 3.0d
+			y: 8.0d
 		}
 		{
 			dependencies: ["0B30ADDA7FE01DA4"]
@@ -117,11 +133,11 @@
 				type: "advancement"
 			}
 			]
-			x: 3.0d
-			y: 4.8d
+			x: 4.5d
+			y: 8.0d
 		}
 		{
-			dependencies: ["4A10E1BFC1F0C7BC"]
+			dependencies: ["010794AFC2A4C4CE" "4A10E1BFC1F0C7BC"]
 			icon: { id: "feedback:chestplate" }
 			id: "674CA97ADA4E3234"
 			shape: "hexagon"
@@ -133,8 +149,8 @@
 				type: "advancement"
 			}
 			]
-			x: 0.0d
-			y: 6.0d
+			x: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["674CA97ADA4E3234"]
@@ -149,11 +165,11 @@
 				type: "advancement"
 			}
 			]
-			x: 1.5d
-			y: 6.0d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
-			dependencies: ["1959520F5ADC28E4"]
+			dependencies: ["010794AFC2A4C4CE" "1959520F5ADC28E4"]
 			icon: { id: "minecraft:blaze_powder" }
 			id: "41A1CD64EE354712"
 			shape: "hexagon"
@@ -165,11 +181,11 @@
 				type: "advancement"
 			}
 			]
-			x: 0.0d
-			y: 7.2d
+			x: 1.5d
+			y: 3.0d
 		}
 		{
-			dependencies: ["68C871680B024316"]
+			dependencies: ["010794AFC2A4C4CE" "68C871680B024316"]
 			icon: { id: "feedback:gun" }
 			id: "05F0FF3B164E5E8A"
 			shape: "hexagon"
@@ -181,11 +197,11 @@
 				type: "advancement"
 			}
 			]
-			x: 0.0d
-			y: 8.4d
+			x: 1.5d
+			y: 6.0d
 		}
 		{
-			dependencies: ["4A10E1BFC1F0C7BC"]
+			dependencies: ["010794AFC2A4C4CE" "4A10E1BFC1F0C7BC"]
 			icon: { id: "minecraft:blaze_rod" }
 			id: "5E1C8B0A762D4685"
 			shape: "hexagon"
@@ -197,8 +213,8 @@
 				type: "advancement"
 			}
 			]
-			x: 0.0d
-			y: 13.2d
+			x: 1.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5E1C8B0A762D4685"]
@@ -213,8 +229,8 @@
 				type: "advancement"
 			}
 			]
-			x: 1.5d
-			y: 9.6d
+			x: 3.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["5E1C8B0A762D4685"]
@@ -229,8 +245,8 @@
 				type: "advancement"
 			}
 			]
-			x: 1.5d
-			y: 10.8d
+			x: 3.0d
+			y: 5.0d
 		}
 		{
 			dependencies: ["5E1C8B0A762D4685"]
@@ -245,8 +261,8 @@
 				type: "advancement"
 			}
 			]
-			x: 1.5d
-			y: 12.0d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5E1C8B0A762D4685"]
@@ -261,8 +277,8 @@
 				type: "advancement"
 			}
 			]
-			x: 1.5d
-			y: 13.2d
+			x: 3.0d
+			y: 6.0d
 		}
 		{
 			dependencies: ["5E1C8B0A762D4685"]
@@ -277,8 +293,8 @@
 				type: "advancement"
 			}
 			]
-			x: 1.5d
-			y: 14.4d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["5E1C8B0A762D4685"]
@@ -293,8 +309,8 @@
 				type: "advancement"
 			}
 			]
-			x: 1.5d
-			y: 15.6d
+			x: 3.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["5E1C8B0A762D4685"]
@@ -309,8 +325,8 @@
 				type: "advancement"
 			}
 			]
-			x: 1.5d
-			y: 16.8d
+			x: 3.0d
+			y: 1.0d
 		}
 	]
 }

@@ -10,6 +10,20 @@
 	quest_links: [ ]
 	quests: [
 		{
+			icon: { id: "feedback:chestplate" }
+			id: "6C6DCC82A2C3A0F0"
+			shape: "circle"
+			tasks: [
+			{
+				id: "65C6DC3131046A1D"
+				type: "checkmark"
+			}
+			]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6C6DCC82A2C3A0F0"]
 			icon: { id: "feedback:engineering_table" }
 			id: "1B8B4D8305F1C1A7"
 			shape: "hexagon"
@@ -20,8 +34,8 @@
 				type: "item"
 			}
 			]
-			x: 0.0d
-			y: 0.0d
+			x: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["1B8B4D8305F1C1A7"]
@@ -35,11 +49,11 @@
 				type: "item"
 			}
 			]
-			x: 1.5d
-			y: 0.0d
+			x: 3.0d
+			y: 3.0d
 		}
 		{
-			dependencies: ["1959520F5ADC28E4"]
+			dependencies: ["6C6DCC82A2C3A0F0" "1959520F5ADC28E4"]
 			icon: { id: "feedback:chestplate" }
 			id: "0B1DA0DC782CF2B8"
 			shape: "hexagon"
@@ -50,8 +64,8 @@
 				type: "item"
 			}
 			]
-			x: 0.0d
-			y: 4.8d
+			x: 1.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["0B1DA0DC782CF2B8"]
@@ -65,8 +79,8 @@
 				type: "item"
 			}
 			]
-			x: 1.5d
-			y: 1.2d
+			x: 3.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0B1DA0DC782CF2B8" "558657879EC52D94"]
@@ -80,8 +94,8 @@
 				type: "item"
 			}
 			]
-			x: 1.5d
-			y: 4.2d
+			x: 3.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["46C278743EDC5F3D"]
@@ -95,8 +109,8 @@
 				type: "item"
 			}
 			]
-			x: 3.0d
-			y: 2.4d
+			x: 4.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["46C278743EDC5F3D" "68C871680B024316"]
@@ -111,8 +125,8 @@
 				type: "item"
 			}
 			]
-			x: 3.0d
-			y: 3.6d
+			x: 4.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["46C278743EDC5F3D"]
@@ -127,8 +141,8 @@
 				type: "item"
 			}
 			]
-			x: 3.0d
-			y: 4.8d
+			x: 4.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["46C278743EDC5F3D"]
@@ -143,11 +157,11 @@
 				type: "item"
 			}
 			]
-			x: 3.0d
-			y: 6.0d
+			x: 4.5d
+			y: 0.0d
 		}
 		{
-			dependencies: ["1959520F5ADC28E4"]
+			dependencies: ["6C6DCC82A2C3A0F0" "1959520F5ADC28E4"]
 			icon: { id: "feedback:backpack" }
 			id: "7DC88691608DD963"
 			shape: "hexagon"
@@ -158,8 +172,8 @@
 				type: "item"
 			}
 			]
-			x: 0.0d
-			y: 12.0d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["0B1DA0DC782CF2B8" "68C871680B024316"]
@@ -173,8 +187,8 @@
 				type: "item"
 			}
 			]
-			x: 1.5d
-			y: 8.4d
+			x: 3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2C4866A70BAB0533" "1B8B4D8305F1C1A7"]
@@ -188,8 +202,8 @@
 				type: "item"
 			}
 			]
-			x: 3.0d
-			y: 8.4d
+			x: 4.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["4D18E2ED429337DB"]
@@ -203,8 +217,8 @@
 				type: "item"
 			}
 			]
-			x: 4.5d
-			y: 7.2d
+			x: 6.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["4D18E2ED429337DB" "68C871680B024316"]
@@ -218,8 +232,8 @@
 				type: "item"
 			}
 			]
-			x: 4.5d
-			y: 9.6d
+			x: 6.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3B15B7A6610DB1B4"]
@@ -233,8 +247,8 @@
 				type: "item"
 			}
 			]
-			x: 6.0d
-			y: 8.4d
+			x: 7.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["3B15B7A6610DB1B4"]
@@ -249,8 +263,8 @@
 				type: "item"
 			}
 			]
-			x: 6.0d
-			y: 9.6d
+			x: 7.5d
+			y: 2.0d
 		}
 		{
 			dependencies: ["3B15B7A6610DB1B4"]
@@ -265,8 +279,8 @@
 				type: "item"
 			}
 			]
-			x: 6.0d
-			y: 10.8d
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["42BB5C06C39AC9A6"]
@@ -280,8 +294,8 @@
 				type: "item"
 			}
 			]
-			x: 7.5d
-			y: 8.4d
+			x: 9.0d
+			y: 1.0d
 		}
 	]
 }
