@@ -41,6 +41,10 @@ file = "config/ftbquests/quests/chapters/heat.snbt"
 hash = "a0e06c5cced1ec67ea86d78bdd5db4a37297be523b8dc13cfb4c9767c3642e1c"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/logistics.snbt"
+hash = "0a9d83bee42bb0d0c1cac06aec9139bc6d095705aa3f06e7056e388014e91005"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/machine_shop.snbt"
 hash = "0632acf3be770dd083f640f0497d72bdb40cb96d4076c41911d700f46341bc39"
 
@@ -90,7 +94,7 @@ hash = "381486b47e7f1202cc15eafb02ba2d5f31e8947e3eefd2d66f8fd14855c8bdbf"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "15a702c33da1a5d8203dfd81a7411c16f4dcf8f923831492ab39c95a57c12e01"
+hash = "c186aba14251dd8615f16b70e723d05fab1476890f9ded10111622c88995c9c2"
 
 [[files]]
 file = "mods/ai-improvements.pw.toml"

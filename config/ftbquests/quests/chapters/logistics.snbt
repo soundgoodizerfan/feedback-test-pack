@@ -1,0 +1,315 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "logistics"
+	group: "30D13E4776495F39"
+	icon: { id: "feedback:warehouse_dock" }
+	id: "6190C0260C31C601"
+	images: [ ]
+	order_index: 20
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["563AB428B0FFAA56"]
+			icon: { id: "feedback:warehouse_dock" }
+			id: "02E0F7272B435A0F"
+			shape: "circle"
+			tasks: [
+			{
+				id: "35409CD5917E13E4"
+				item: { count: 1, id: "feedback:warehouse_dock" }
+				type: "item"
+			}
+			]
+			x: 0.0d
+			y: 6.9d
+		}
+		{
+			dependencies: ["02E0F7272B435A0F"]
+			icon: { id: "feedback:pallet_rack" }
+			id: "10781B34C3C24BC8"
+			shape: "rsquare"
+			tasks: [
+			{
+				id: "0CB0A5C31CFC8DB1"
+				type: "checkmark"
+			}
+			]
+			x: 1.5d
+			y: 6.9d
+		}
+		{
+			dependencies: ["10781B34C3C24BC8"]
+			icon: { id: "feedback:pallet_rack" }
+			id: "1C0067045883D04D"
+			shape: "circle"
+			tasks: [
+			{
+				id: "008331BC7588EB1E"
+				item: { count: 1, id: "feedback:pallet_rack" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 6.9d
+		}
+		{
+			dependencies: ["1C0067045883D04D"]
+			icon: { id: "feedback:warehouse_rail" }
+			id: "42C1BFBB7C4FC482"
+			shape: "circle"
+			tasks: [
+			{
+				id: "4210407FEACBC402"
+				item: { count: 1, id: "feedback:warehouse_rail" }
+				type: "item"
+			}
+			{
+				id: "1E203D507D59ABB2"
+				item: { count: 1, id: "feedback:shuttle_head" }
+				type: "item"
+			}
+			]
+			x: 4.5d
+			y: 6.9d
+		}
+		{
+			dependencies: ["42C1BFBB7C4FC482"]
+			icon: { id: "feedback:warehouse_rail" }
+			id: "1E03BBE1633DD3C6"
+			size: 1.50d
+			shape: "octagon"
+			tasks: [
+			{
+				id: "61BD53341AD30058"
+				type: "checkmark"
+			}
+			]
+			x: 6.0d
+			y: 3.4d
+		}
+		{
+			dependencies: ["1E03BBE1633DD3C6"]
+			icon: { id: "feedback:rack_fitting_hopper" }
+			id: "6FA5F1811246D70E"
+			shape: "circle"
+			tasks: [
+			{
+				id: "63D0D9BDBE95C34E"
+				item: { count: 1, id: "feedback:rack_fitting_hopper" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 2.3d
+		}
+		{
+			dependencies: ["1E03BBE1633DD3C6"]
+			icon: { id: "feedback:rack_fitting_bin" }
+			id: "02AD290CDCFA751B"
+			shape: "circle"
+			tasks: [
+			{
+				id: "23AF2B4162505A2E"
+				item: { count: 1, id: "feedback:rack_fitting_bin" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 1.1d
+		}
+		{
+			dependencies: ["1E03BBE1633DD3C6"]
+			icon: { id: "feedback:rack_fitting_cabinet" }
+			id: "34CCDE9AF11F7811"
+			shape: "circle"
+			tasks: [
+			{
+				id: "17E49CD6FE019A56"
+				item: { count: 1, id: "feedback:rack_fitting_cabinet" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 3.4d
+		}
+		{
+			dependencies: ["34CCDE9AF11F7811" "1CB4576B1D85EA64"]
+			icon: { id: "feedback:rack_fitting_cold_plate" }
+			id: "399EB91A5623D3EF"
+			shape: "circle"
+			tasks: [
+			{
+				id: "56ECA448FC13E4F4"
+				item: { count: 1, id: "feedback:rack_fitting_cold_plate" }
+				type: "item"
+			}
+			]
+			x: 9.0d
+			y: 3.4d
+		}
+		{
+			dependencies: ["1E03BBE1633DD3C6" "41370EDD8F570279"]
+			icon: { id: "feedback:rack_fitting_liner" }
+			id: "16098BC652BF74CF"
+			shape: "circle"
+			tasks: [
+			{
+				id: "795A4E1E35452C25"
+				item: { count: 1, id: "feedback:rack_fitting_liner" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["399EB91A5623D3EF"]
+			icon: { id: "feedback:rack_fitting_cold_plate" }
+			id: "0DE376A751A13FE2"
+			shape: "rsquare"
+			tasks: [
+			{
+				id: "3C98653EBDAC0FE4"
+				type: "checkmark"
+			}
+			]
+			x: 10.5d
+			y: 3.4d
+		}
+		{
+			dependencies: ["42C1BFBB7C4FC482"]
+			icon: { id: "feedback:belt_module_scratch" }
+			id: "3252873A0727ED8B"
+			size: 1.50d
+			shape: "octagon"
+			tasks: [
+			{
+				id: "0E274C774D71819E"
+				type: "checkmark"
+			}
+			]
+			x: 6.0d
+			y: 6.9d
+		}
+		{
+			dependencies: ["3252873A0727ED8B"]
+			icon: { id: "feedback:belt_module_scratch" }
+			id: "1A8C0BF1ADA8AF07"
+			shape: "circle"
+			tasks: [
+			{
+				id: "30F6D151686D54FB"
+				item: { count: 1, id: "feedback:belt_module_scratch" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3252873A0727ED8B"]
+			icon: { id: "feedback:belt_module_drag" }
+			id: "0191229BC9237645"
+			shape: "circle"
+			tasks: [
+			{
+				id: "3155E716FAFB31D6"
+				item: { count: 1, id: "feedback:belt_module_drag" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 5.8d
+		}
+		{
+			dependencies: ["3252873A0727ED8B"]
+			icon: { id: "feedback:belt_module_spark" }
+			id: "4F639FCBD0437179"
+			shape: "circle"
+			tasks: [
+			{
+				id: "2DBF5C4C8076E5BD"
+				item: { count: 1, id: "feedback:belt_module_spark" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 9.2d
+		}
+		{
+			dependencies: ["3252873A0727ED8B"]
+			icon: { id: "feedback:belt_module_thermo" }
+			id: "253C58D34DFE1DE0"
+			shape: "circle"
+			tasks: [
+			{
+				id: "22D1A0E52448B6D6"
+				item: { count: 1, id: "feedback:belt_module_thermo" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 4.6d
+		}
+		{
+			dependencies: ["3252873A0727ED8B"]
+			icon: { id: "feedback:belt_module_drag" }
+			id: "0A5A82A53B0BC6E6"
+			shape: "rsquare"
+			tasks: [
+			{
+				id: "1F70F20034543F96"
+				type: "checkmark"
+			}
+			]
+			x: 7.5d
+			y: 10.3d
+		}
+		{
+			dependencies: ["3252873A0727ED8B"]
+			icon: { id: "feedback:warehouse_dock" }
+			id: "0A9755058F58CF8C"
+			shape: "rsquare"
+			tasks: [
+			{
+				id: "09B05922423BFBEF"
+				type: "checkmark"
+			}
+			]
+			x: 7.5d
+			y: 6.9d
+		}
+		{
+			dependencies: ["0A9755058F58CF8C" "0A24D5E0742A3FC6"]
+			icon: { id: "feedback:data_connector" }
+			id: "161AD7FF69F10E64"
+			shape: "rsquare"
+			tasks: [
+			{
+				id: "04AEDA91DF2A6D8E"
+				type: "checkmark"
+			}
+			]
+			x: 9.0d
+			y: 6.9d
+		}
+		{
+			dependencies: ["161AD7FF69F10E64"]
+			icon: { id: "feedback:catalogue_desk" }
+			id: "25D588153EA2A3C3"
+			optional: true
+			size: 0.85d
+			shape: "rdiamond"
+			tasks: [
+			{
+				id: "3AF0759DCCD951E0"
+				item: { count: 1, id: "feedback:catalogue_desk" }
+				type: "item"
+			}
+			]
+			x: 10.5d
+			y: 6.9d
+		}
+	]
+}

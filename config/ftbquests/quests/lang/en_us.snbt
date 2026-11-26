@@ -27,6 +27,8 @@
 	chapter.4CD66899CAD50361.title: "&#EAA842Nether&r"
 	chapter.579054965C31FBE8.subtitle: "Salt, water, air and the oil under the ground"
 	chapter.579054965C31FBE8.title: "&#EAA842Chemistry&r"
+	chapter.6190C0260C31C601.subtitle: "A shed is not a system."
+	chapter.6190C0260C31C601.title: "&#EAA842Logistics&r"
 	chapter.64325D1FE0D3927F.subtitle: "Cooking, growing and keeping"
 	chapter.64325D1FE0D3927F.title: "&#52B788Food&r"
 	chapter.68D207779E17E0CD.subtitle: "Villages, commissions and markets"
@@ -59,12 +61,18 @@
 	quest.011C74745C519E2B.title: "Criticality"
 	quest.016DD0AF07D0A28F.quest_desc: ["hold a &6&lcontroller&r. it is on or off only, with a limited number of cards and variables, so plan what it should decide. it is decisive, not deep."]
 	quest.016DD0AF07D0A28F.title: "Get a Controller"
+	quest.0191229BC9237645.quest_desc: ["the drag reader records grip: how hard the goods resist being pulled across a surface."]
+	quest.0191229BC9237645.title: "Friction"
 	quest.0242EAEEF85A1464.quest_desc: ["chemistry moves fluids, and pipes never pull. something has to push: a &6&lpump&r on a turning shaft, a compressor, a tray. make a pump and a &6&lvalve&r so you can start and stop a flow. a plan that relies on gravity and optimism is not a plan."]
 	quest.0242EAEEF85A1464.title: "Plumbing"
+	quest.02AD290CDCFA751B.quest_desc: ["a parts bin takes up to eight kinds of small pieces, none weighing over 0.2 Mu each. screws and nails by the handful, sorted for you."]
+	quest.02AD290CDCFA751B.title: "Tiny Pieces"
 	quest.02D3D53D1A382F6D.quest_desc: ["eight bricks in a ring. feed it fuel and it radiates heat upward. &c&owood fires are too cool for any metalwork; coal and charcoal burn hotter, and a blaze rod hotter again.&r"]
 	quest.02D3D53D1A382F6D.title: "Firebox"
 	quest.02D73E38016F635C.quest_desc: ["some rocks give off more than heat, and are not shy about it. find a way to hear it." "" "&c&oradiation is counted in ru.&r below a small threshold it does nothing; above it a dose builds, and sickness comes in three steps: hunger, then weakness and mining fatigue, then wither. it escalates politely, then not."]
 	quest.02D73E38016F635C.title: "Something Is Ticking"
+	quest.02E0F7272B435A0F.quest_desc: ["a heap of chests is storage in the way a heap of laundry is a wardrobe. a &6&lwarehouse dock&r is the end of an aisle: goods go in at any side by belt or hopper, retrieved goods come out the front, and its screen lists everything on the racks. it needs &d&o&nmechanical treatise i&r." "" "right-click it, click the title and name it. you will want to tell your docks apart."]
+	quest.02E0F7272B435A0F.title: "The Dock"
 	quest.0311209E1B8B1F72.quest_desc: ["use a technique from the onslaught tree. keep the rhythm, and try not to stop and admire it."]
 	quest.0311209E1B8B1F72.title: "Relentless"
 	quest.0342E33230F35140.quest_desc: ["a &6&lwinch&r draws a grapple line in, so a vehicle can climb or be hauled. it is the polite way to get out of a ditch."]
@@ -126,6 +134,10 @@
 	quest.0A53E7B0B277E586.title: "Food"
 	quest.0A5408F197C740BF.quest_desc: ["a crank needs a person. a river does not complain about overtime." "" "shape a wheel rim and place the water wheel where water actually flows past its faces. still water does nothing, however hopeful you are. it is heavy, slow to spin up and slow to stop, but it is the first source that can actually run machines."]
 	quest.0A5408F197C740BF.title: "Unattended"
+	quest.0A5A82A53B0BC6E6.quest_desc: ["use a reader module on a rack and it steps to the next band of that property, so the rack takes only goods recorded in that band. sneak and use it to clear. it needs no power for this, and goods with no record are refused." "" "a filtered rack that does not accept the goods is passed over even if it holds the same stack."]
+	quest.0A5A82A53B0BC6E6.title: "Filtered Racks"
+	quest.0A9755058F58CF8C.quest_desc: ["right-click the dock, pick a line, set an amount and press fetch. the filter sheet narrows the stock by what the heads recorded, and several bands in one row match any of them. goods stored without a head for a property are not listed when you filter on it."]
+	quest.0A9755058F58CF8C.title: "Ask by Name"
 	quest.0B0904C1F29F5299.quest_desc: ["the end is out of reach by hand. send something there anyway, like a very ambitious parcel. an ender port pair is made from one pearl and two plates, and moves goods when its tank holds liquid teleportant."]
 	quest.0B0904C1F29F5299.title: "Mail Call"
 	quest.0B1DA0DC782CF2B8.quest_desc: ["shape a &6&lhelmet&r, chestplate, leggings or boots from plate at a bench. the &6&lplate is the piece&r: it decides the armor. wear it and see, then admire yourself." "" "armor you built reduces blows; see the head to toe quest in the combat chapter."]
@@ -140,6 +152,8 @@
 	quest.0BA2ACCC7D1E0BA0.title: "Reactor Core"
 	quest.0D44C57A49029473.quest_desc: ["iron wants a hotter fire that also strips the oxygen from the ore. push more air, hold more heat, line a chamber." "" "notice that no vessel turns iron ore straight into an ingot. shortcuts were not invited."]
 	quest.0D44C57A49029473.title: "Iron Needs Air"
+	quest.0DE376A751A13FE2.quest_desc: ["shelves are not stasis. hot cargo cools toward room temperature and food rots, and an item is brought up to date when it is retrieved or when the stock is read about every ten seconds. set something hot on a shelf and look again later."]
+	quest.0DE376A751A13FE2.title: "Goods Over Time"
 	quest.0E6662C6387F4D51.quest_desc: ["a pickaxe whose head is shaped as the prospector variant. it still digs like a pickaxe. right click a block: glints in each borne metal's colour, gray dust if there is none. right click in the air pings ore. a finer point gives more glints and wears faster, because everything good is fragile."]
 	quest.0E6662C6387F4D51.title: "Prospector's Pick"
 	quest.0E77DA85BBAA3E74.quest_desc: ["open the chaos tree and learn a node. rend is the root. later nodes need their prerequisites first; even chaos has paperwork."]
@@ -166,6 +180,8 @@
 	quest.0FF745C3B7D24C21.title: "Soul Quench"
 	quest.1009C75C5968D50D.quest_desc: ["a shaft only carries work as far as the gears go, and gears have commitment issues. turn rotation into something that travels." "" "a &6&ldynamo&rtor is built from a frame, a winding, a core and a housing, and needs &d&o&nmechanical treatise i&r. sneak-right-click it with an empty hand to switch between generator and motor."]
 	quest.1009C75C5968D50D.title: "Dynamo"
+	quest.10781B34C3C24BC8.quest_desc: ["a rack has no item recipe of its own: draw it at the blueprint table, with a frame of rod stock and shelves of plate stock, and assemble it at the engineering table. the weaker of the two metals sets how much a bay bears, so a pretty frame on tin shelves is a tin rack." "" "it has eight bays. &c&oa load hotter than the shelf stands wears it, and a frame that burns makes a rack that burns.&r"]
+	quest.10781B34C3C24BC8.title: "Pallet Rack"
 	quest.109B51567D6DD80D.quest_desc: ["&c&oa gas turbine burns fuel at a steady rate for a lot of power, but it cannot light itself.&r another source has to be turning the line first, so someone has to go first. it is not you, but something you built."]
 	quest.109B51567D6DD80D.title: "Gas Turbine"
 	quest.10A4E51862D9F0AD.quest_desc: ["a fire has a temperature, and a number beats a guess. make a &6&lthermometer&r from glass, copper foil and a brass plate." "" "carry it in your inventory and hot items show their heat in tu. suddenly everything has opinions in numbers."]
@@ -192,6 +208,10 @@
 	quest.157369236735CE43.title: "Fire at Dusk"
 	quest.1594E709C46D0364.quest_desc: ["a &6&ltreatise binder&r in your inventory, or a &6&ltreatise shelf&r touching the table, counts as holding what is inside. &d&o&ntreatises&r stack to sixteen, so your pockets can stop looking like a library fire."]
 	quest.1594E709C46D0364.title: "A Place for Your Books"
+	quest.16098BC652BF74CF.quest_desc: ["&c&oradiation is stopped by dense material, which is why a lead chest works and a wooden one does not.&r a &6&lsealed liner&r puts lead around a bay, so radioactive goods give off only what lead lets out. a bare bay radiates in full, onto everyone in the aisle." "" "why lead and not iron is a question the geiger counter will answer."]
+	quest.16098BC652BF74CF.title: "Sealed Liner"
+	quest.161AD7FF69F10E64.quest_desc: ["link the dock with a data connector to a controller. a sensor card on channels 1 to 4 reads the count of the goods in that watch slot, and an actuator pulse on the same channel queues one stack of it. channel 0 holds retrievals off while storing carries on." "" "holding a channel on asks once. it has to turn off and on again to ask again. a stock level that orders its own restock: that is a thermostat for your pantry."]
+	quest.161AD7FF69F10E64.title: "The Dock Is a Node"
 	quest.1653174F196CF993.quest_desc: ["open the veil tree and learn a node. shadow step is the root. later nodes need their prerequisites first; nobody sneaks past those."]
 	quest.1653174F196CF993.quest_subtitle: "Learn your first node."
 	quest.1653174F196CF993.title: "Veil: First Node"
@@ -227,6 +247,8 @@
 	quest.19640ED92FD7FD48.title: "Salt"
 	quest.19843CCBBEEC8D9F.quest_desc: ["Salt, water, air and the oil under the ground"]
 	quest.19843CCBBEEC8D9F.title: "Chemistry"
+	quest.1A8C0BF1ADA8AF07.quest_desc: ["the scratch reader drags a point across the goods and records how hard they are. what scratches what is a very old test."]
+	quest.1A8C0BF1ADA8AF07.title: "Hardness"
 	quest.1A96C4BEDB9F42DA.quest_desc: ["machines run until told to stop, and the output suffers. make one stop on its own, like a grown-up." "" "a timer, wound by hand and set by sneak-right-click, switches whatever it touches. it needs &d&o&nmechanical treatise i&r."]
 	quest.1A96C4BEDB9F42DA.title: "Stops Itself"
 	quest.1A9B8632DD0A6A6D.quest_desc: ["put a creel above a water wheel and it catches fish as it turns, at the cost of some of the power. dinner is not free, but it is cheap."]
@@ -243,6 +265,8 @@
 	quest.1BAA61B1CDF7452E.title: "Synthetic Pearl"
 	quest.1BADC7C2557DDAA0.quest_desc: ["melt copper and pour it into a mold to get an ingot. a mold takes the full amount or nothing, so no half measures. an ingot can be knocked out once it has set."]
 	quest.1BADC7C2557DDAA0.title: "Copper Ingot"
+	quest.1C0067045883D04D.quest_desc: ["get a &6&lpallet rack&r. read its tooltip for bay strength and the heat its shelves stand. a rack with stock in it cannot be taken apart, so empty it first."]
+	quest.1C0067045883D04D.title: "A Rack to Fill"
 	quest.1C01926EBDFE0F46.quest_desc: ["keep going until you have spent a good handful of points in the anchor tree. some branches are exclusive: choosing one closes its sibling, so read before you learn. the sibling will remember this."]
 	quest.1C01926EBDFE0F46.quest_subtitle: "Spend a fair number of points."
 	quest.1C01926EBDFE0F46.title: "Anchor: Spend Points"
@@ -258,6 +282,8 @@
 	quest.1D2380ED4BAE83CD.title: "Reflow Oven"
 	quest.1DACE8815CC35CD7.quest_desc: ["&6&lweapons treatise i: blades and heads&r. opens maul, spear and cleaver, plus the knuckleblaster and whiplash. the names alone should tell you how this ends for somebody." "" "ways to get it: write it from a specimen, research it at the research table for 40 xp, find it in chests, or buy it from a villager at a high trade level. weaponsmiths sell all three weapons volumes."]
 	quest.1DACE8815CC35CD7.title: "Weapons Treatise I"
+	quest.1E03BBE1633DD3C6.quest_desc: ["an unfitted bay holds one kind of stack up to a mass limit, scaled by the rack's strength. pile heavy things on one and see the limit before the shelf does." "" "one trip carries up to 256 Mu and each level climbed counts as two blocks of travel, so near bays and a fast shaft are quicker."]
+	quest.1E03BBE1633DD3C6.title: "Plain Bays"
 	quest.1EF27A5FEF740A49.quest_desc: ["a &6&ldrill press&r bores plate and pipe. nothing is drilled until you push, or a linkage in front feeds it. fast feed risks binding, so patience pays here."]
 	quest.1EF27A5FEF740A49.title: "Drill Press"
 	quest.1F1E5C095CE1A706.quest_desc: ["nothing grows in the void, but something lives there. dark and sealed works anywhere, so the void is just a very committed basement."]
@@ -290,6 +316,8 @@
 	quest.24D1B8114133AE84.title: "Weapons Treatise II"
 	quest.2516CD7B854AE284.quest_desc: ["pressure vessels, boilers, gas tanks, the mixer, the vacuum pump and the flare stack all need &6&lchemical treatise i: pressure vessels&r. clerics sell it; you can also write or research one. see &d&o&nthe treatises&r chapter for all five ways to get a volume. yes, there is homework."]
 	quest.2516CD7B854AE284.title: "Chemical Treatise I"
+	quest.253C58D34DFE1DE0.quest_desc: ["the heat reader records how hot the goods were when they arrived. since goods cool on the shelf, remember it is a reading from the door."]
+	quest.253C58D34DFE1DE0.title: "Temperature"
 	quest.25610486151EC877.quest_desc: ["&6&lrobotics treatise ii: robots&r. opens robots, robot arm, beacon and dock, radio mast, tether reel and the auto engineer. congratulations, you are now somebody's employer." "" "ways to get it: write it from a specimen, research it at the research table for 40 xp with robotics i held and mechanical ii and electrical iii held, find it in chests, or buy it from a villager at a high trade level."]
 	quest.25610486151EC877.title: "Robotics Treatise II"
 	quest.2573A0D7811B5814.quest_desc: ["three villagers of one profession with job sites close together form a &6&lguild&r. it posts a bigger daily order. notice when one forms. they do not send invitations."]
@@ -298,6 +326,8 @@
 	quest.258E356F7448CD82.title: "Cast Iron"
 	quest.25CAA63CC6D2ECD3.quest_desc: ["&c&oput an overspeed trip over a clutch and it opens the line when it runs too fast.&r sneak-right-click to change the spring. think of it as a fuse with a flair for drama." "" "notice that fast sources like turbines will trip the default setting, so expect some tripping early on."]
 	quest.25CAA63CC6D2ECD3.title: "Fuse for Rotation"
+	quest.25D588153EA2A3C3.quest_desc: ["link several docks to a catalogue desk with the data connector and it lists and orders the stock of all of them at once. each order takes a line of its own in the dock's queue."]
+	quest.25D588153EA2A3C3.title: "Catalog Desk"
 	quest.261444A6A443C8B0.quest_desc: ["water is what spoils food. take enough of it away and the food outlasts the season." "" "hang food on a &6&ldrying rack&r under a roof. rain stops the drying, and raw food dried is still raw inside. jerky does not fix everything."]
 	quest.261444A6A443C8B0.title: "Keeps"
 	quest.265735852860E161.quest_desc: ["a &6&lslider joint&r gives a mount some give so a vehicle does not rattle itself apart. &c&oshock absorption, but for builds with feelings.&r"]
@@ -384,12 +414,16 @@
 	quest.30EF2F72EE3A2D0C.title: "Materials Treatise I"
 	quest.31DA700788582C28.quest_desc: ["raw is no good and black is worse. take it off at the moment between." "" "raw food can carry something live. cooked through is safe, kept on it dries out, and hotter still it chars. the window is narrow and it is on a timer."]
 	quest.31DA700788582C28.title: "Just Right"
+	quest.3252873A0727ED8B.quest_desc: ["modules fitted to the dock, one per face, read goods on their way in and record the result with the goods. that record stays with them in their bay until a later delivery overwrites it. heads have the weaknesses they have on a belt and misread near a band edge, and a second head on the same property lowers the chance of a mistake." "" "some heads need an LV wire against the dock. optical readers and screens foul and want wiping."]
+	quest.3252873A0727ED8B.title: "Reader Heads"
 	quest.32BFCABBAAABE490.quest_desc: ["use a technique from the chaos tree. leave them with what you did, plus a little something to talk about."]
 	quest.32BFCABBAAABE490.title: "Leave a Mark"
 	quest.334FD6300216DB92.quest_desc: ["a &6&lshield&r is six faces and a rim. a small face makes a buckler that parries; a large rectangular one makes a tower shield; a kite-shaped face turns arrows and bolts back. these are builds, not separate items, so the shield shop is you."]
 	quest.334FD6300216DB92.title: "Guard Up"
 	quest.33A0B7C4227EE7B4.quest_desc: ["set against a crucible side; open ones double the heat loss. needs &d&o&nmechanical treatise i&r. think of it as a window you can leave open on purpose."]
 	quest.33A0B7C4227EE7B4.title: "Damper"
+	quest.34CCDE9AF11F7811.quest_desc: ["a pallet bay stacks things, and stacking forgets. a cabinet holds up to 16 single pieces of any item and each keeps its own wear and charge. a worn tool goes in worn and comes out worn."]
+	quest.34CCDE9AF11F7811.title: "Keeping State"
 	quest.351A81894454C177.quest_desc: ["&c&ohydrogen lifts but burns.&r helium does not. build a gas cell and fill it, and choose with the confidence of someone who read the last two entries."]
 	quest.351A81894454C177.title: "Lighter than Air"
 	quest.3542565DE58225E0.quest_desc: ["paper, an ink sac and an iron nugget make an &6&lunlearning token&r. use it to respec a tree you regret. every build has one of those."]
@@ -417,6 +451,8 @@
 	quest.39346E556F3C760A.title: "Taking Hold"
 	quest.399833097802EC90.quest_desc: ["the weapon of the time &6&lbefore real guns&r: a smoothbore barrel, a receiver, a trigger, a grip and a lock. it needs no blueprint, and roughly one pull in eight only flashes in the pan. consider that one in eight a character trait." "" "&c&opowder burns.&r expect it to bite back."]
 	quest.399833097802EC90.title: "Before Real Guns"
+	quest.399EB91A5623D3EF.quest_desc: ["food rots by the clock and a rack keeps the clock running. a &6&lcold plate fitting&r only conducts: copper carries heat away, but it needs somewhere to put it, which is a running refrigeration unit touching or cooling the rack." "" "with no running unit the bay spoils at the room's rate and looks fine until opened. a &6&lcold plate&r with no pump is a decorative copper shelf."]
+	quest.399EB91A5623D3EF.title: "Cold Plate"
 	quest.39AC4729F0735B1F.quest_desc: ["a pair of &6&ltongs&r lets you lift hot work and hot pans without a bare hand on them. they are a pair of long fingers that do not mind."]
 	quest.39AC4729F0735B1F.title: "Tongs"
 	quest.3A1297392ACAD267.quest_desc: ["leather, planks and a shaft, set against the firebox and driven by a &6&lcrank linkage&r. air raises a fire's heat but does not make the fuel last longer. it runs whenever the shaft turns, whether you are watching or not."]
@@ -492,6 +528,8 @@
 	quest.42AFB04516F010FE.title: "Grapple"
 	quest.42BB5C06C39AC9A6.quest_desc: ["a mechanical arm. a companion piece for robots and a part of the auto engineer. it has no hands, but it has a lot of reach."]
 	quest.42BB5C06C39AC9A6.title: "Robot Arm"
+	quest.42C1BFBB7C4FC482.quest_desc: ["a carriage runs on &6&lwarehouse rail&r in a straight line behind the dock, up to 64 long, with racks stood against either side. the &6&lshuttle head&r drives it, and it must face away from the dock." "" "turn the head with a shaft. the carriage's speed follows the shaft's speed in either direction, and a still shaft parks it. a heavy load loads the shaft harder the faster it turns, so a weak source slows under it."]
+	quest.42C1BFBB7C4FC482.title: "Rail and Shuttle"
 	quest.42D94BFB11145303.quest_desc: ["gas you cannot use has to go somewhere, and that somewhere is a tall chimney with opinions. &c&oa flare stack burns it off.&r &c&owarning: burning hydrogen and fuel vapors is still fire, so do not stand close and admire it.&r"]
 	quest.42D94BFB11145303.title: "A Safe Vent"
 	quest.42EB53090F7D4157.quest_desc: ["a glowstone &6&llamp&r turns current into light. &c&onotice that too little current dims it and too much burns it out at once, so it has exactly two moods.&r it needs no &d&o&ntreatise&r."]
@@ -562,6 +600,8 @@
 	quest.4EE541AC01486CE2.title: "Differential"
 	quest.4F1E41836AC8629A.quest_desc: ["stand within reach of a hearth that is lit and holding heat." "" "the hearth keeps an anvil's stock warm, and keeps you warm too. it is a small domestic miracle."]
 	quest.4F1E41836AC8629A.title: "Warm Room"
+	quest.4F639FCBD0437179.quest_desc: ["the spark reader records the &6&lkind&r of the goods, one more band to sort on."]
+	quest.4F639FCBD0437179.title: "Kind"
 	quest.4F94A73D1AFCAA05.quest_desc: ["a &6&lgrinding wheel&r shapes the hardest stock, and its grit is consumed on every cut. work heats as it is ground, so it is a hungry and warm little machine."]
 	quest.4F94A73D1AFCAA05.title: "Grinding Wheel"
 	quest.4FC8262913B96623.quest_desc: ["bastion rubble and piglins killed by a player may drop bits. bastion chests may hold rubble. the piglins did not volunteer."]
@@ -754,6 +794,8 @@
 	quest.6EEACE8D4A2185F6.title: "Experience Treatise III"
 	quest.6F38AC1A6BB646C4.quest_desc: ["build a &6&lgeiger counter&r. it reads the rate before armor, and rates under a faint threshold are unreadable, so silence is not a promise."]
 	quest.6F38AC1A6BB646C4.title: "Geiger Counter"
+	quest.6FA5F1811246D70E.quest_desc: ["a &6&lbulk hopper fitting&r lets a bay hold one loose stuff by weight alone: grain, dust, crushed ore, swarf. no count limit, only mass. an item with a state of its own, like heat or wear, will not pour into it."]
+	quest.6FA5F1811246D70E.title: "Loose Goods"
 	quest.7007D12279978168.quest_desc: ["the deep dark answers to vibration. set something to hear it, and keep what it heard. eavesdropping, but on a cave."]
 	quest.7007D12279978168.title: "Listening"
 	quest.701182B34E61A2B0.quest_desc: ["open the proficiency tree and learn a node. field dressing is the root. later nodes need their prerequisites first, in the sensible order, like a good first aid kit."]
