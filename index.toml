@@ -357,6 +357,11 @@ hash = "93284ca7f2f23f0bb76d42b797cabf2aea1914ee9825bec82bf6ffe4c60dda0d"
 metafile = true
 
 [[files]]
+file = "mods/quickstack-craft.pw.toml"
+hash = "00864e08d12fd619ea162f3cd1a15639c3a811541f13251dc62842277952ad43"
+metafile = true
+
+[[files]]
 file = "mods/regions-unexplored.pw.toml"
 hash = "3dcbee513d6df6f3feeca4749a60f0b425fe6b729af700eab5d8dfd50d5c7816"
 metafile = true
