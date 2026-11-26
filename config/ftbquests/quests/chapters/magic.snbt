@@ -47,7 +47,8 @@
 			dependencies: ["7DDD38791AA20037"]
 			icon: { id: "feedback:potion" }
 			id: "6AA47E0C6C42F0AF"
-			shape: "circle"
+			size: 1.50d
+			shape: "octagon"
 			tasks: [
 			{
 				id: "0EAACE933E0CF646"
@@ -205,6 +206,21 @@
 			y: 3.4d
 		}
 		{
+			dependencies: ["5C130D124152051E"]
+			icon: { id: "feedback:crystal_bank" }
+			id: "6C59433EECF6DB4E"
+			shape: "circle"
+			tasks: [
+			{
+				id: "4B9387A58808F947"
+				item: { count: 1, id: "feedback:crystal_bank" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 3.4d
+		}
+		{
 			dependencies: ["3C2289E89E9544E2"]
 			icon: { id: "feedback:enchanting_table" }
 			id: "4A9F5BB8C3BA0D7E"
@@ -247,7 +263,7 @@
 			}
 			]
 			x: 7.5d
-			y: 3.4d
+			y: 4.6d
 		}
 		{
 			dependencies: ["380B5FD56F79044C" "558657879EC52D94"]
@@ -321,6 +337,22 @@
 			]
 			x: 3.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["6AA47E0C6C42F0AF"]
+			icon: { id: "feedback:brewing_stand" }
+			id: "78DDBFB84F6C8568"
+			optional: true
+			size: 0.85d
+			shape: "rdiamond"
+			tasks: [
+			{
+				id: "50A196984D9D6CEC"
+				type: "checkmark"
+			}
+			]
+			x: 4.5d
+			y: 9.2d
 		}
 	]
 }

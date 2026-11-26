@@ -200,7 +200,7 @@
 			}
 			]
 			x: 7.5d
-			y: 4.6d
+			y: 2.3d
 		}
 		{
 			dependencies: ["2D3F71D5384F4425" "13B4384940F95F8F"]
@@ -217,7 +217,7 @@
 			}
 			]
 			x: 7.5d
-			y: 2.3d
+			y: 5.8d
 		}
 		{
 			dependencies: ["13B4384940F95F8F"]
@@ -247,7 +247,7 @@
 			}
 			]
 			x: 7.5d
-			y: 5.8d
+			y: 1.1d
 		}
 		{
 			dependencies: ["13B4384940F95F8F"]
@@ -262,7 +262,7 @@
 			}
 			]
 			x: 7.5d
-			y: 1.1d
+			y: 6.9d
 		}
 		{
 			dependencies: ["13B4384940F95F8F"]
@@ -277,7 +277,7 @@
 			}
 			]
 			x: 7.5d
-			y: 6.9d
+			y: 4.6d
 		}
 		{
 			dependencies: ["13B4384940F95F8F"]
@@ -308,6 +308,21 @@
 			]
 			x: 9.0d
 			y: 3.4d
+		}
+		{
+			dependencies: ["42EB53090F7D4157"]
+			icon: { id: "feedback:laser" }
+			id: "2A506440198D8ACC"
+			shape: "circle"
+			tasks: [
+			{
+				id: "788309735352384A"
+				item: { count: 1, id: "feedback:laser" }
+				type: "item"
+			}
+			]
+			x: 9.0d
+			y: 4.6d
 		}
 		{
 			dependencies: ["637ACEE50B401F84"]

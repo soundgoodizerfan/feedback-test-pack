@@ -286,6 +286,21 @@
 		}
 		{
 			dependencies: ["0E9B8FE5E6E6E428"]
+			icon: { id: "feedback:sculk_grower" }
+			id: "501EBB7F716B3666"
+			shape: "circle"
+			tasks: [
+			{
+				id: "1CD1674DF8045A4C"
+				item: { count: 1, id: "feedback:sculk_grower" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 1.1d
+		}
+		{
+			dependencies: ["0E9B8FE5E6E6E428"]
 			icon: { id: "feedback:sculk_relay" }
 			id: "2115F16DAA24DD11"
 			shape: "circle"
@@ -297,7 +312,7 @@
 			}
 			]
 			x: 7.5d
-			y: 1.1d
+			y: 2.3d
 		}
 		{
 			dependencies: ["0E9B8FE5E6E6E428"]
@@ -312,7 +327,7 @@
 			}
 			]
 			x: 7.5d
-			y: 2.3d
+			y: 0.0d
 		}
 	]
 }

@@ -310,5 +310,22 @@
 			x: 12.0d
 			y: 1.1d
 		}
+		{
+			dependencies: ["30A38593274786FF" "5FAAA83895291728"]
+			icon: { id: "feedback:plutonium_fuel_rod" }
+			id: "7523352D731BEC90"
+			optional: true
+			size: 0.85d
+			shape: "rdiamond"
+			tasks: [
+			{
+				id: "5A0CB0D348F068CB"
+				item: { count: 1, id: "feedback:plutonium_fuel_rod" }
+				type: "item"
+			}
+			]
+			x: 13.5d
+			y: 1.1d
+		}
 	]
 }

@@ -356,6 +356,23 @@
 			y: 1.1d
 		}
 		{
+			dependencies: ["4D0EA602FA913EBC"]
+			icon: { id: "feedback:membrane_sensor" }
+			id: "0A335D31CFDA6F10"
+			optional: true
+			size: 0.85d
+			shape: "rdiamond"
+			tasks: [
+			{
+				id: "1712FB788B753E96"
+				item: { count: 1, id: "feedback:membrane_sensor" }
+				type: "item"
+			}
+			]
+			x: 9.0d
+			y: 2.3d
+		}
+		{
 			dependencies: ["7083ACA00499FF96"]
 			icon: { id: "feedback:oscilloscope" }
 			id: "5167E7B516876AA7"

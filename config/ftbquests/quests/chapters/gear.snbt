@@ -229,7 +229,8 @@
 			dependencies: ["4D18E2ED429337DB" "68C871680B024316"]
 			icon: { id: "feedback:robot" }
 			id: "3B15B7A6610DB1B4"
-			shape: "circle"
+			size: 1.50d
+			shape: "octagon"
 			tasks: [
 			{
 				id: "2F69787C747D73AF"
@@ -288,6 +289,23 @@
 			]
 			x: 7.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["3B15B7A6610DB1B4"]
+			icon: { id: "feedback:robot_board" }
+			id: "50CDE297CFB5626D"
+			optional: true
+			size: 0.85d
+			shape: "rdiamond"
+			tasks: [
+			{
+				id: "7374DABDB19A1A56"
+				item: { count: 1, id: "feedback:robot_board" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 3.4d
 		}
 		{
 			dependencies: ["42BB5C06C39AC9A6"]
