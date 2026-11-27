@@ -314,7 +314,7 @@
 			}
 			]
 			x: 7.5d
-			y: 3.4d
+			y: 4.6d
 		}
 		{
 			dependencies: ["7083ACA00499FF96"]
@@ -336,7 +336,24 @@
 			}
 			]
 			x: 7.5d
-			y: 4.6d
+			y: 3.4d
+		}
+		{
+			dependencies: ["2A6AB12936D97AE4"]
+			icon: { id: "feedback:interferometer" }
+			id: "1743CB8B004AD83B"
+			optional: true
+			size: 0.85d
+			shape: "rdiamond"
+			tasks: [
+			{
+				id: "1B1911CC042F6B13"
+				item: { count: 1, id: "feedback:interferometer" }
+				type: "item"
+			}
+			]
+			x: 9.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["7083ACA00499FF96" "4D0EA602FA913EBC"]

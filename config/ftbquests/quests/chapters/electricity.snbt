@@ -310,7 +310,7 @@
 			y: 3.4d
 		}
 		{
-			dependencies: ["42EB53090F7D4157"]
+			dependencies: ["42EB53090F7D4157" "59D827D95FDDAF55"]
 			icon: { id: "feedback:laser" }
 			id: "2A506440198D8ACC"
 			shape: "circle"
@@ -373,6 +373,23 @@
 			}
 			]
 			x: 4.5d
+			y: 5.8d
+		}
+		{
+			dependencies: ["06419F0120483C04"]
+			icon: { id: "feedback:treatise_electrical_4" }
+			id: "59D827D95FDDAF55"
+			optional: true
+			size: 0.85d
+			shape: "rdiamond"
+			tasks: [
+			{
+				id: "056063EEC6577099"
+				item: { count: 1, id: "feedback:treatise_electrical_4" }
+				type: "item"
+			}
+			]
+			x: 6.0d
 			y: 5.8d
 		}
 	]

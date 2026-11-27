@@ -450,13 +450,13 @@
 		}
 		{
 			dependencies: ["3A1297392ACAD267"]
-			icon: { id: "feedback:cast_iron" }
+			icon: { id: "minecraft:iron_ingot" }
 			id: "258E356F7448CD82"
 			shape: "circle"
 			tasks: [
 			{
 				id: "3428BC2FA5F0DF37"
-				item: { count: 1, id: "feedback:cast_iron" }
+				item: { count: 1, id: "minecraft:iron_ingot" }
 				type: "item"
 			}
 			]
@@ -480,13 +480,13 @@
 		}
 		{
 			dependencies: ["24CB2C17D139EC9E" "7534CF0E7D49FB41"]
-			icon: { id: "minecraft:iron_ingot" }
+			icon: { id: "feedback:wrought_iron_ingot" }
 			id: "71F23EC0CC6438C8"
 			shape: "circle"
 			tasks: [
 			{
 				id: "329C1B01D3817D31"
-				item: { count: 1, id: "minecraft:iron_ingot" }
+				item: { count: 1, id: "feedback:wrought_iron_ingot" }
 				type: "item"
 			}
 			{
@@ -562,7 +562,7 @@
 			}
 			]
 			x: 15.0d
-			y: 2.3d
+			y: 4.6d
 		}
 		{
 			dependencies: ["43DA2EA1811B681A"]
@@ -663,7 +663,7 @@
 			}
 			]
 			x: 15.0d
-			y: 4.6d
+			y: 2.3d
 		}
 		{
 			dependencies: ["75C360542D507892"]
@@ -680,7 +680,24 @@
 			}
 			]
 			x: 16.5d
-			y: 4.6d
+			y: 2.3d
+		}
+		{
+			dependencies: ["587ADD74E5A9E31D"]
+			icon: { id: "feedback:star_burner" }
+			id: "7DC03331E52B416A"
+			optional: true
+			size: 0.85d
+			shape: "rdiamond"
+			tasks: [
+			{
+				id: "6128D0AA87609619"
+				item: { count: 1, id: "feedback:star_burner" }
+				type: "item"
+			}
+			]
+			x: 18.0d
+			y: 2.3d
 		}
 	]
 }

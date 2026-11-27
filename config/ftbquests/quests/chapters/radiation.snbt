@@ -241,7 +241,7 @@
 			}
 			]
 			x: 10.5d
-			y: 2.3d
+			y: 0.0d
 		}
 		{
 			dependencies: ["011C74745C519E2B"]
@@ -256,7 +256,7 @@
 			}
 			]
 			x: 10.5d
-			y: 0.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["011C74745C519E2B"]
@@ -325,6 +325,57 @@
 			}
 			]
 			x: 13.5d
+			y: 1.1d
+		}
+		{
+			dependencies: ["0BA2ACCC7D1E0BA0" "7DC03331E52B416A"]
+			icon: { id: "feedback:fusion_chamber" }
+			id: "71BA803B623A9AA9"
+			optional: true
+			size: 0.85d
+			shape: "rdiamond"
+			tasks: [
+			{
+				id: "3572D51510ADAE00"
+				item: { count: 1, id: "feedback:fusion_chamber" }
+				type: "item"
+			}
+			]
+			x: 9.0d
+			y: 2.3d
+		}
+		{
+			dependencies: ["6408CCDFD43EBA76"]
+			icon: { id: "feedback:coolant_port" }
+			id: "45F21D3701CEC41D"
+			optional: true
+			size: 0.85d
+			shape: "rdiamond"
+			tasks: [
+			{
+				id: "201B35C4D8B19F38"
+				item: { count: 1, id: "feedback:coolant_port" }
+				type: "item"
+			}
+			]
+			x: 12.0d
+			y: 2.3d
+		}
+		{
+			dependencies: ["7523352D731BEC90"]
+			icon: { id: "feedback:fission_device" }
+			id: "1A0817C476DAC712"
+			optional: true
+			size: 0.85d
+			shape: "rdiamond"
+			tasks: [
+			{
+				id: "57BDFA592A6A228B"
+				item: { count: 1, id: "feedback:fission_device" }
+				type: "item"
+			}
+			]
+			x: 15.0d
 			y: 1.1d
 		}
 	]

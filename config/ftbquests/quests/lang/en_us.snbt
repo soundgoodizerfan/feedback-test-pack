@@ -119,6 +119,8 @@
 	quest.08653EB4288F41C0.title: "Elytra"
 	quest.08CD5BC477FFA52A.quest_desc: ["the village's notice board: open orders, contracts and notices about standing and raids. read the small print, there is a lot of it."]
 	quest.08CD5BC477FFA52A.title: "Ledger Board"
+	quest.0911B5BD34011BE8.quest_desc: ["thaumaturge-dependent: without that mod it is only a coil. fine wire of copper, silver or gold wound on a steel core, made at the engineering table. with thaumaturge a recharge pedestal fills it with primal vis from the aura; the finer the conductor, the more it holds. needs &d&o&nelectrical treatise ii&r."]
+	quest.0911B5BD34011BE8.title: "Vis Coil (Thaumaturge)"
 	quest.096CDFF9C8FDAAF5.quest_desc: ["a &6&lsawblade&r in the tool slot of an engineering table cuts a plain block into &6&lmote&rs, the pieces of finespace. motes let you build at a fraction of block size. go on, think small."]
 	quest.096CDFF9C8FDAAF5.title: "Cut It Finer"
 	quest.096DC39F890D86EC.quest_desc: ["grow a crop to harvest. wheat and the mod's crops all follow the climate of the place they stand. location, location, location."]
@@ -130,7 +132,7 @@
 	quest.0990178BB899BA6D.title: "Chemical Treatise I"
 	quest.09CFDA00A8BCFDE1.quest_desc: ["a brick pan on top of a fire. &c&onotice how close to the flame it settles, and that a hot pan burns a bare hand.&r cosy, but rude to touch."]
 	quest.09CFDA00A8BCFDE1.title: "Hearth"
-	quest.0A24D5E0742A3FC6.quest_desc: ["a &6&ldata connector&r links a sensor or node to a controller. right-click the node, then the controller. long links need fine wire along the way, because distance is never free."]
+	quest.0A24D5E0742A3FC6.quest_desc: ["a &6&ldata connector&r links a sensor or node to a controller. right-click the node, then the controller. long links need fine wire along the way, because distance is never free." "" "notice that a superconducting line goes dark if too many links crowd one end, and that the cold of a dimension raises that limit: about two and a half times on the frozen moon."]
 	quest.0A24D5E0742A3FC6.title: "Link It Up"
 	quest.0A335D31CFDA6F10.quest_desc: ["a &6&lmembrane sensor&r is a film of phantom membrane in a block. link it to a controller and it reads how sleepless the most tired player nearby is, rising to full at about an hour without sleep, plus whether anyone is in reach at all. it needs no power and only measures. &c&otwo more channels read the strongest loose toxic gas cloud nearby, and what kind it is: half for a cloud that hangs, full for a heavy one that has settled.&r"]
 	quest.0A335D31CFDA6F10.title: "A Nose for Sleeplessness"
@@ -184,13 +186,15 @@
 	quest.0FF745C3B7D24C21.title: "Soul Quench"
 	quest.1009C75C5968D50D.quest_desc: ["a shaft only carries work as far as the gears go, and gears have commitment issues. turn rotation into something that travels." "" "a &6&ldynamo&rtor is built from a frame, a winding, a core and a housing, and needs &d&o&nmechanical treatise i&r. sneak-right-click it with an empty hand to switch between generator and motor."]
 	quest.1009C75C5968D50D.title: "Dynamo"
+	quest.10732AAC89614078.quest_desc: ["&c&oa landing hurts everyone aboard like a fall of the speed change.&r a very hard one also shatters brittle blocks aboard, glass and panes first, anywhere on the craft rather than only where it touched. glass is lovely until it meets the ground."]
+	quest.10732AAC89614078.title: "Hard Landing"
 	quest.10781B34C3C24BC8.quest_desc: ["a rack has no item recipe of its own: draw it at the blueprint table, with a frame of rod stock and shelves of plate stock, and assemble it at the engineering table. the weaker of the two metals sets how much a bay bears, so a pretty frame on tin shelves is a tin rack." "" "it has eight bays. &c&oa load hotter than the shelf stands wears it, and a frame that burns makes a rack that burns.&r"]
 	quest.10781B34C3C24BC8.title: "Pallet Rack"
 	quest.109B51567D6DD80D.quest_desc: ["&c&oa gas turbine burns fuel at a steady rate for a lot of power, but it cannot light itself.&r another source has to be turning the line first, so someone has to go first. it is not you, but something you built."]
 	quest.109B51567D6DD80D.title: "Gas Turbine"
 	quest.10A4E51862D9F0AD.quest_desc: ["a fire has a temperature, and a number beats a guess. make a &6&lthermometer&r from glass, copper foil and a brass plate." "" "carry it in your inventory and hot items show their heat in tu. suddenly everything has opinions in numbers."]
 	quest.10A4E51862D9F0AD.title: "A Fire You Can Read"
-	quest.1175FDCBC833D14D.quest_desc: ["cast iron and an oxidizer give a clean bloom. needs &d&o&nmaterials treatise ii&r. read first, stir later."]
+	quest.1175FDCBC833D14D.quest_desc: ["an iron ingot (cast iron) and an oxidizer give a clean bloom, which hammers out as wrought iron. needs &d&o&nmaterials treatise ii&r. read first, stir later."]
 	quest.1175FDCBC833D14D.title: "Puddling Furnace"
 	quest.11A62EE014C79BF5.quest_desc: ["a &6&lcoherer clapper&r taps a coherer open again after each spark, so you no longer have to. wire it in and notice what changes."]
 	quest.11A62EE014C79BF5.title: "Make a Spark on Purpose"
@@ -227,6 +231,8 @@
 	quest.16B971BDEB1EA601.title: "Hold the Line"
 	quest.16F50C5464E88E5B.quest_desc: ["touch a live conductor, and walk away from it. preferably upright." "" "&c&oa powered cable shocks anyone who grabs it bare.&r insulation and rated gloves are what stand between you and the current, so consider them friends."]
 	quest.16F50C5464E88E5B.title: "Live Wire"
+	quest.1743CB8B004AD83B.quest_desc: ["an &6&linterferometer&r counts light fringes to read a length a hundred times finer than calipers. carry it and every length figure a part shows prints to the finer step. it reads nothing else, is hand-held and needs no battery. made at the engineering table, and it needs &d&o&nelectrical treatise iv&r: lasers."]
+	quest.1743CB8B004AD83B.title: "Count the Fringes"
 	quest.18300EE5A546A45B.quest_desc: ["a drum on a vertical shaft blends powders and molten metals, and washes ore. needs &d&o&nchemical treatise i&r. it is a very serious washing machine."]
 	quest.18300EE5A546A45B.title: "The Mixer"
 	quest.18718D11B426AAC1.quest_desc: ["set bricks under a crucible and it catches the pour: four molds at once, or an open pool that sets to a block. notice that it does not know whether the last pour has set. it is optimistic like that."]
@@ -251,6 +257,8 @@
 	quest.19640ED92FD7FD48.title: "Salt"
 	quest.19843CCBBEEC8D9F.quest_desc: ["Salt, water, air and the oil under the ground"]
 	quest.19843CCBBEEC8D9F.title: "Chemistry"
+	quest.1A0817C476DAC712.quest_desc: ["a plutonium core inside a shell of TNT, set off by a redstone signal: a very large blast that leaves radioactive slag. needs the nuclear school at the engineering table." "" "this works only where the server allows it. the nuclearArms switch in feedback-nuclear.toml is off by default, and while it is off &6&lthe device&r sits inert and says so. nothing else is affected, and the book never asks for it."]
+	quest.1A0817C476DAC712.title: "The Device"
 	quest.1A8C0BF1ADA8AF07.quest_desc: ["the scratch reader drags a point across the goods and records how hard they are. what scratches what is a very old test."]
 	quest.1A8C0BF1ADA8AF07.title: "Hardness"
 	quest.1A96C4BEDB9F42DA.quest_desc: ["machines run until told to stop, and the output suffers. make one stop on its own, like a grown-up." "" "a timer, wound by hand and set by sneak-right-click, switches whatever it touches. it needs &d&o&nmechanical treatise i&r."]
@@ -314,7 +322,7 @@
 	quest.22970A18DAEFCA2E.title: "Size Up"
 	quest.23D832ECD1F94909.quest_desc: ["use a technique from the observation tree. read first, then act, like a person with a plan."]
 	quest.23D832ECD1F94909.title: "Eyes Open"
-	quest.24CB2C17D139EC9E.quest_desc: ["hold iron ore with charcoal in a vessel in the right band and it clots into a bloom full of slag. too hot and it takes carbon and turns to cast iron, which is the wrong kind of overachieving."]
+	quest.24CB2C17D139EC9E.quest_desc: ["hold iron ore with charcoal in a vessel in the right band and it clots into a bloom full of slag. too hot and it takes carbon and turns to cast iron (the plain iron ingot), which is the wrong kind of overachieving."]
 	quest.24CB2C17D139EC9E.title: "Iron Bloom"
 	quest.24D1B8114133AE84.quest_desc: ["&6&lweapons treatise ii: firearms&r. opens guns, launchers, crossbows and fluid casters, plus magazines, the ammo belt and the reloading press. things get louder from here." "" "ways to get it: write it from a specimen, research it at the research table for 40 xp with weapons i held, find it in chests, or buy it from a villager at a high trade level. weaponsmiths sell all three weapons volumes."]
 	quest.24D1B8114133AE84.title: "Weapons Treatise II"
@@ -326,7 +334,7 @@
 	quest.25610486151EC877.title: "Robotics Treatise II"
 	quest.2573A0D7811B5814.quest_desc: ["three villagers of one profession with job sites close together form a &6&lguild&r. it posts a bigger daily order. notice when one forms. they do not send invitations."]
 	quest.2573A0D7811B5814.title: "Guild"
-	quest.258E356F7448CD82.quest_desc: ["melt iron ore with no charcoal and it comes out &6&lcast iron&r: hard and brittle. a hand hammer can never shape it, so do not even try to be the hero."]
+	quest.258E356F7448CD82.quest_desc: ["smelt iron ore with charcoal in a hot, blown fire and the plain &6&liron ingot&r is &6&lcast iron&r: hard and brittle. a hand hammer can never shape it, so do not even try to be the hero. it is the ingot you already know by its vanilla name."]
 	quest.258E356F7448CD82.title: "Cast Iron"
 	quest.25CAA63CC6D2ECD3.quest_desc: ["&c&oput an overspeed trip over a clutch and it opens the line when it runs too fast.&r sneak-right-click to change the spring. think of it as a fuse with a flair for drama." "" "notice that fast sources like turbines will trip the default setting, so expect some tripping early on."]
 	quest.25CAA63CC6D2ECD3.title: "Fuse for Rotation"
@@ -355,7 +363,7 @@
 	quest.28456B87CBE72CEC.title: "Chaos: Spend Points"
 	quest.291F355288A55856.quest_desc: ["a chest that keeps food cold for as long as it has ice. without ice it is just a chest, and a smug one."]
 	quest.291F355288A55856.title: "Ice Box"
-	quest.2949F54C63C68B4B.quest_desc: ["&6&lweapons treatise iii: electric guns&r. opens electric guns. the same idea as before, but with lightning and worse manners." "" "ways to get it: write it from a specimen, research it at the research table for 40 xp with weapons ii held, find it in chests, or buy it from a villager at a high trade level. weaponsmiths sell all three weapons volumes."]
+	quest.2949F54C63C68B4B.quest_desc: ["&6&lweapons treatise iii: electric guns&r. opens electric guns, and needs electrical iv to be researched. the same idea as before, but with lightning and worse manners." "" "ways to get it: write it from a specimen, research it at the research table for 40 xp with weapons ii held, find it in chests, or buy it from a villager at a high trade level. weaponsmiths sell all three weapons volumes."]
 	quest.2949F54C63C68B4B.title: "Weapons Treatise III"
 	quest.2984609CA157C059.quest_desc: ["&c&oa leyden jar holds charge and releases it as a burst.&r charge leaks away on its own, so use it soon, before it loses interest." "" "   &c&owarning: a jar rated mv or above shocks you while charged, and a jar fed a band above its rating cracks and shocks everything nearby.&r"]
 	quest.2984609CA157C059.title: "Store the Charge"
@@ -363,7 +371,7 @@
 	quest.29F505259DD46349.title: "Slow Simmer"
 	quest.2A33FE8D79515479.quest_desc: ["there is no iron sword, only a blade of one metal on a grip of another. shape a head at the smithing table, a handle at the woodworking table (or a stone head at the stonecutter), add a binding, and put them together in the crafting grid." "" "pick the pieces for what they are made of: hardness, mass and balance decide what the tool does. yes, there is homework."]
 	quest.2A33FE8D79515479.title: "A Head on a Handle"
-	quest.2A506440198D8ACC.quest_desc: ["a &6&llaser&r seats a crystal that lases, such as ruby, and wants an mv line. &c&oswitched on, by a controller switch card or redstone, it fires a beam that cuts blocks by hardness and burns whatever lives in it.&r switched off, it only measures the distance ahead." "" "notice that the crystal heats while it fires and cracks if you push it, so hard cuts are done in pulses. made at the engineering table, and it needs electrical school 3."]
+	quest.2A506440198D8ACC.quest_desc: ["a &6&llaser&r seats a crystal that lases, such as ruby or emerald, and wants an mv line. &c&oswitched on, by a controller switch card or redstone, it fires a beam that cuts blocks by hardness and burns whatever lives in it.&r switched off, it only measures the distance ahead." "" "a firing laser also marks made parts lying in its beam, stamping their axes exact." "" "notice that the crystal heats while it fires and cracks if you push it, so hard cuts are done in pulses. made at the engineering table, and it needs &d&o&nelectrical treatise iv&r: lasers."]
 	quest.2A506440198D8ACC.title: "Light, Pumped"
 	quest.2A6AB12936D97AE4.quest_desc: ["an &6&lelectroscope&r tells you the band of a line and a &6&lgalvanometer&r its current. neither is required, but guessing on a live line is how you get hurt." "" "&c&owarning: touching either to a bare live wire shocks you.&r the tool is not a magic wand."]
 	quest.2A6AB12936D97AE4.title: "Meter Everything"
@@ -384,7 +392,7 @@
 	quest.2C349A27B29FDEF0.title: "Anchor: Earn Points"
 	quest.2C4866A70BAB0533.quest_desc: ["exosuit upgrades are modules built from casing, wiring and attachments: optic, filter, thermal, plating, actuator, spring, tread, thruster, coil, dispenser. needs &d&o&nrobotics treatise i&r: &6&lsuit module&rs. it reads like a shopping list for a very odd shopper."]
 	quest.2C4866A70BAB0533.title: "Suit Module"
-	quest.2C5DAA4A49E4E758.quest_desc: ["hold a sharp telescope on a planet on a clear night and see it as a disc. a small disc, but a real one." "" "keep the planet in the middle of the view. planets come back on their own schedule, so be patient. they are not on your clock."]
+	quest.2C5DAA4A49E4E758.quest_desc: ["hold a sharp telescope on a planet on a clear night and see it as a disc. a small disc, but a real one." "" "keep the planet in the middle of the view. planets come back on their own schedule, so be patient. they are not on your clock." "" "the sky notebook keeps a line for each planet you have sighted, saying when its next transfer window opens, or that it is open now. it is only a note; nothing depends on it."]
 	quest.2C5DAA4A49E4E758.title: "A Light That Wanders"
 	quest.2C62FA0FBDED5E34.quest_desc: ["keep going until you have spent a good handful of points in the proficiency tree. some branches are exclusive: choosing one closes its sibling, so read before you learn. sensible people tend to anyway."]
 	quest.2C62FA0FBDED5E34.quest_subtitle: "Spend a fair number of points."
@@ -402,7 +410,7 @@
 	quest.2E49B0EFB9F57DDC.title: "Auto Engineer"
 	quest.2EE07D46B34EB1AF.quest_desc: ["take a blow wearing a full outfit of armor you built: helmet, chestplate, leggings and boots. yes, all four. the boots count, even though nobody ever aims at the boots."]
 	quest.2EE07D46B34EB1AF.title: "Head to Toe"
-	quest.2F0D4EA98BD3FE00.quest_desc: ["metals will not dissolve in water. a reactor and an acid might. the reactor is a &d&o&nnuclear treatise i&r item despite being chemical, which is just how the filing system works here. it knows no recipes: heat it, feed it, and read the reaction table." "" "&c&owarning: it bursts at high pressure, and too much heat makes worse products, not better.&r more is not always more."]
+	quest.2F0D4EA98BD3FE00.quest_desc: ["metals will not dissolve in water. a reactor and an acid might. the reactor is a &d&o&nnuclear treatise i&r item despite being chemical, which is just how the filing system works here. it knows no recipes: heat it, feed it, and read the reaction table." "" "&c&owarning: it bursts at high pressure, and too much heat makes worse products, not better.&r more is not always more. &c&oacids and bases also eat the steel shell over time, which lowers the pressure it bursts at.&r"]
 	quest.2F0D4EA98BD3FE00.title: "Something to React In"
 	quest.2FFEE5651FBA9F68.quest_desc: ["hammer a copper ingot into a plate. let go in time; the next stage is foil, and foil is where plates go to be disappointing."]
 	quest.2FFEE5651FBA9F68.title: "Copper Plate"
@@ -453,6 +461,8 @@
 	quest.38BC80D81A1F050B.title: "Draw and Loose"
 	quest.38ED576FA330BEB4.quest_desc: ["&6&lcable&r carries current and does not care who touches it. it has no favourites. treat any powered line as bare until you know otherwise."]
 	quest.38ED576FA330BEB4.title: "A Live Line"
+	quest.38F03780719801A2.quest_desc: ["a steel rod with a rag at its tip. a round too weak to leave the muzzle stays in the bore, and a stopped barrel does not forgive the next shot. hold the rod in one hand and the gun in the other to push it out. the hand is busy for a few seconds."]
+	quest.38F03780719801A2.title: "Cleaning Rod"
 	quest.39346E556F3C760A.quest_desc: ["fix a grapple line on something and let it bite." "" "a line is only as good as what it is fixed to. choose your anchor like you choose your friends."]
 	quest.39346E556F3C760A.title: "Taking Hold"
 	quest.399833097802EC90.quest_desc: ["the weapon of the time &6&lbefore real guns&r: a smoothbore barrel, a receiver, a trigger, a grip and a lock. it needs no blueprint, and roughly one pull in eight only flashes in the pan. consider that one in eight a character trait." "" "&c&opowder burns.&r expect it to bite back."]
@@ -556,9 +566,11 @@
 	quest.447C18F90C15CC80.title: "Salt and Water"
 	quest.45EFBFF645CD0C42.quest_desc: ["wall in a space with full blocks and put a unit inside it. everything in the room settles at its temperature. notice where the walls leak, because the cold certainly will."]
 	quest.45EFBFF645CD0C42.title: "Cold Room"
+	quest.45F21D3701CEC41D.quest_desc: ["sodium melts below the boiling point of water and carries heat without boiling. electrolysing hot lye in an electrolyser leaves molten sodium at the cathode, and a &6&lcoolant port&r accepts it as a liquid-metal coolant: it enters cold, the core heats it, and it leaves hot." "" "warning: notice that sodium and water do not mix. sodium meeting water in the same port blasts it."]
+	quest.45F21D3701CEC41D.title: "A Metal That Flows"
 	quest.46C278743EDC5F3D.quest_desc: ["plates of one metal plus leather, shapeless, make a &6&lbracer&r for the curios &6&lbracer&r slot. it widens your parry window a little. combat gear appears once you have wrought iron plate. a small upgrade with a big forearm energy."]
 	quest.46C278743EDC5F3D.title: "Bracer"
-	quest.46E77CCA4D946039.quest_desc: ["the gap is not empty. asteroids of tuff hold iron, pentlandite, sperrylite, osmiridium and the odd rare beryl, and rare derelict iron wrecks drift by with a chest still aboard. look around you."]
+	quest.46E77CCA4D946039.quest_desc: ["the gap is not empty. asteroids of tuff hold iron, pentlandite, sperrylite, osmiridium and the odd rare beryl, and rare derelict iron wrecks drift by with a chest still aboard. a craft that overshoots every destination does not coast on for ever: far out the gap drags at it until it drifts to rest, intact, and another craft can fly out and recover it. look around you."]
 	quest.46E77CCA4D946039.title: "Salvage"
 	quest.4738E0EFDF12225E.quest_desc: ["a hammer from cobblestone and sticks. hold it in one hand and a workpiece in the other, and hold right-click to swing." "" "a blow weaker than a metal's hardness does nothing, and swinging past a plate turns it to foil, then scrap. enthusiasm is not a plan."]
 	quest.4738E0EFDF12225E.title: "A Hand Hammer"
@@ -657,12 +669,16 @@
 	quest.575A3F9848B9C704.title: "Fire on a Shaft"
 	quest.57F7848FDFE7469F.quest_desc: ["&6&lmechanical treatise ii: transmission&r. opens transmissions, gearboxes, differentials, the pivot mast, controllers and the derrick base. for when one spinning thing is not enough and you want it to be somebody else's problem too." "" "ways to get it: write it from a specimen, research it at the research table for 40 xp with mechanical i held, find it in chests, or buy it from a villager at a high trade level."]
 	quest.57F7848FDFE7469F.title: "Mechanical Treatise II"
+	quest.586013F0FB0F4FE5.quest_desc: ["strip the carbon and the oxygen and what is left is &6&lpure iron&r, softer and cleaner than the cast &6&liron ingot&r you smelt. hydrogen does it two ways: over hot iron ore, or over a cast iron ingot. notice the temperature windows. there is also a wet route: dissolve cast iron in sulfuric acid, then pull the iron back out with current." "" "warning: the wet route makes hydrogen, and acid does not care about your sleeves."]
+	quest.586013F0FB0F4FE5.title: "Pure Iron"
 	quest.587ADD74E5A9E31D.quest_desc: ["some fires need no fuel and have no gap. &c&oset a vessel where one burns.&r lava holds a vessel just under a fixed &b1200 tu&r, too cool for steel." "" "&c&owarning: lava burns.&r you will regret finding that out the hard way."]
 	quest.587ADD74E5A9E31D.title: "Fire That Does Not Go Out"
 	quest.58D2BB7C92A33393.quest_desc: ["nitrogen can be pulled from air over a charcoal sieve bed, and combined with hydrogen over a bed of iron. notice the temperature windows. they are picky, and they will not be talked round."]
 	quest.58D2BB7C92A33393.title: "Ammonia"
 	quest.5921987543C125B2.quest_desc: ["a &6&lgas centrifuge&r splits uranium into enriched and depleted fractions. notice that the rotor can tear itself apart if spun too fast. patience is cheaper than a new rotor."]
 	quest.5921987543C125B2.title: "Enrichment"
+	quest.59D827D95FDDAF55.quest_desc: ["&d&o&nelectrical treatise iv&r covers making light keep step with itself: a flash into a clear crystal, two mirrors, a narrow beam. it opens the laser, and &d&o&nweapons treatise iii&r in turn wants it."]
+	quest.59D827D95FDDAF55.title: "Treatise: Lasers"
 	quest.5B32C0F8AADE715C.quest_desc: ["a powder that pushes a growing crop on like bone meal. notice that it scorches one that is already grown: harvest first. it comes from the chemistry side, and it has opinions about timing."]
 	quest.5B32C0F8AADE715C.title: "Fertiliser"
 	quest.5B3DF54E8F8E2F79.quest_desc: ["a telescope is an &6&lobjective lens&r, an &6&leyepiece lens&r and a &6&ltelescope tube&r. the tube length matters, since it follows the focal lengths. measure twice, grumble once."]
@@ -730,11 +746,11 @@
 	quest.64ACD780CE1D0648.title: "Designations"
 	quest.6508144C4BE3DC6D.quest_desc: ["potions can be poured into a stockpot or onto a dish. fine palate and assay reveal what has been &6&llaced&r. trust, but verify, then trust a bit less."]
 	quest.6508144C4BE3DC6D.title: "Laced"
-	quest.653C83AE36A9E247.quest_desc: ["seat a round at the press: set the bore, add the case, charge and bullet, and press. it also makes shot shells, launcher shells and rockets. &d&o&nweapons treatise ii&r: firearms. a satisfying hobby for people who like small, loud things."]
+	quest.653C83AE36A9E247.quest_desc: ["seat a round at the press: set the bore, add the case, charge and bullet, and press. it also makes shot shells, launcher shells and rockets. &d&o&nweapons treatise ii&r: firearms. a satisfying hobby for people who like small, loud things. a very light load may not leave the muzzle: the round lodges in the bore, and the next shot into it is a hazard."]
 	quest.653C83AE36A9E247.title: "Reloading Press"
 	quest.6545178999CAF6DB.quest_desc: ["   &c&oa valve between boiler and engine gives you control, and also lets you trap a pressure that will hurt you.&r &c&oshutting steam off on a hot fire is how boilers burst, so this one comes with a handle and a warning.&r"]
 	quest.6545178999CAF6DB.title: "Valve"
-	quest.65604B388F658610.quest_desc: ["a pulse barrel and a seat that stores a charge, powered from a battery. &c&ono powder burns, but heat does build; heat governors cut off before it hurts.&r needs &d&o&nweapons treatise iii&r: &6&lelectric gun&rs." "" "&c&oshock is a real hazard.&r you will regret ignoring it."]
+	quest.65604B388F658610.quest_desc: ["a pulse barrel and a seat that stores a charge, powered from a battery. &c&ono powder burns, but heat does build; heat governors cut off before it hurts.&r needs &d&o&nweapons treatise iii&r: &6&lelectric gun&rs, which itself needs &d&o&nelectrical treatise iv&r." "" "&c&oshock is a real hazard.&r you will regret ignoring it."]
 	quest.65604B388F658610.title: "Electric Gun"
 	quest.656F1A18EA70BC7B.quest_desc: ["&6&lelectrical treatise ii: coils and magnets&r. opens heating coils, linear motors, electromagnets, relays, rectifiers and the data sensor. the magnets are mostly fine. mostly." "" "ways to get it: write it from a specimen, research it at the research table for 40 xp with electrical i held, find it in chests, or buy it from a villager at a high trade level."]
 	quest.656F1A18EA70BC7B.title: "Electrical Treatise II"
@@ -829,6 +845,8 @@
 	quest.70B03227BAC523B7.title: "Vehicles and Flight"
 	quest.70D479159B7F9337.quest_desc: ["an engine on a stand goes nowhere. sit on something that does." "" "the seat drives nothing alone. it needs a controller to carry what you do to the machine, since a chair has opinions but no influence."]
 	quest.70D479159B7F9337.title: "Driver's Seat"
+	quest.71BA803B623A9AA9.quest_desc: ["a &6&lfusion chamber&r holds a plasma loop. hydrogen goes in and helium comes out of the same port. &c&oa heat source above ignition beside it, such as a star burner, lights it while its magnet field is powered from an extra high voltage line.&r lit, it heats the block it faces and leaves no waste but helium. needs the nuclear school at the engineering table." "" "warning: notice what the magnets are doing before the plasma is lit. &c&olosing the field while lit wears the wall until it bursts.&r"]
+	quest.71BA803B623A9AA9.title: "A Held Star"
 	quest.71C236855B06CB65.quest_desc: ["open the anchor tree and learn a node. wider window is the root: it lengthens your parry window. later nodes need their prerequisites first, so no skipping to the fun part."]
 	quest.71C236855B06CB65.quest_subtitle: "Learn your first node."
 	quest.71C236855B06CB65.title: "Anchor: First Node"
@@ -889,7 +907,7 @@
 	quest.788E1A7BF5A5DCE5.title: "Scram Trip"
 	quest.78DDBFB84F6C8568.quest_desc: ["each essentia crystal is a brewing stand ingredient too. on the alchemy map it walks toward the node of its own effect."]
 	quest.78DDBFB84F6C8568.title: "Crystals in the Pot (Thaumaturge)"
-	quest.793388EC7C1F0A58.quest_desc: ["the frozen moon has &6&lnitrogen ice&r in its ground. warm it to about minus &b205 tu&r and it melts into nitrogen. the crystal world is rich in amethyst geodes."]
+	quest.793388EC7C1F0A58.quest_desc: ["the frozen moon has &6&lnitrogen ice&r in its ground. warm it to about minus &b205 tu&r and it melts into nitrogen. the crystal world is rich in amethyst geodes." "" "on the acid-cloud world the rain eats exposed hull blocks of metals that do not resist it, such as steel, iron and tin, over minutes. stainless steel, titanium and the noble metals shrug it off. a hull is only as good as its cheapest block."]
 	quest.793388EC7C1F0A58.title: "Planet Prizes"
 	quest.79419957CE54EF03.quest_desc: ["&c&ochemical treatise iii: explosives.&r opens the demolition charge. it is the short chapter, and the loudest one." "" "ways to get it: write it from a specimen, research it at the research table for 40 xp with chemical ii held, find it in chests, or buy it from a villager at a high trade level."]
 	quest.79419957CE54EF03.title: "Chemical Treatise III"
@@ -923,6 +941,8 @@
 	quest.7C053E54FFEF4495.title: "Controller"
 	quest.7D0106CA2B287909.quest_desc: ["several cells wired in series push harder, like a very patient choir. pack them and notice how many it takes to climb a band."]
 	quest.7D0106CA2B287909.title: "Cells in Series"
+	quest.7DC03331E52B416A.quest_desc: ["a nether star set against a vessel heats it for as long as the star lasts, hotter than an arc can hold. it cannot be turned off or dimmed, and it decays over about twenty hours of loaded time. needs the nuclear school at the engineering table." "" "&c&owarning: taking the star back out burns the hand.&r think before you seat it."]
+	quest.7DC03331E52B416A.title: "A Star in a Seat"
 	quest.7DC88691608DD963.quest_desc: ["a shell and a strap make a pack for the curios back slot. open it with b. the strap's strength sets how much you can carry before you slow down. overload and it will cost you speed and sprinting. every hoarder meets this wall eventually."]
 	quest.7DC88691608DD963.title: "Backpack"
 	quest.7DDD38791AA20037.quest_desc: ["the &6&lbrewing stand&r replaces the vanilla one, and it has ambitions. make a &6&lmortar&r and a stand, and set a pot of water over a fire."]

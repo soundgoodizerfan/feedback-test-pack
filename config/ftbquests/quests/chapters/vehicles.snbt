@@ -306,8 +306,8 @@
 		{
 			dependencies: ["278ADDD048D0FED5"]
 			id: "2C5DAA4A49E4E758"
-			size: 1.25d
-			shape: "hexagon"
+			size: 1.50d
+			shape: "octagon"
 			tasks: [
 			{
 				advancement: "feedback:progress/space/first_sighting"
@@ -370,6 +370,22 @@
 		}
 		{
 			dependencies: ["2C5DAA4A49E4E758"]
+			icon: { id: "minecraft:glass" }
+			id: "10732AAC89614078"
+			optional: true
+			size: 0.85d
+			shape: "rdiamond"
+			tasks: [
+			{
+				id: "490D481F5E88314D"
+				type: "checkmark"
+			}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2C5DAA4A49E4E758"]
 			icon: { id: "feedback:nitrogen_ice" }
 			id: "793388EC7C1F0A58"
 			optional: true
@@ -383,7 +399,7 @@
 			}
 			]
 			x: 6.0d
-			y: 0.0d
+			y: 3.4d
 		}
 	]
 }

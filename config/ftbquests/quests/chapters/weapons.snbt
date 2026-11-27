@@ -311,5 +311,22 @@
 			x: 1.5d
 			y: 4.6d
 		}
+		{
+			dependencies: ["653C83AE36A9E247"]
+			icon: { id: "feedback:cleaning_rod" }
+			id: "38F03780719801A2"
+			optional: true
+			size: 0.85d
+			shape: "rdiamond"
+			tasks: [
+			{
+				id: "61C3F401219DEF8D"
+				item: { count: 1, id: "feedback:cleaning_rod" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 3.4d
+		}
 	]
 }
