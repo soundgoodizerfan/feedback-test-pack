@@ -1,0 +1,13 @@
+name = "Thaumic Tracker"
+filename = "thaumictracker-1.21.1-1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c56f25337d40108662281d0523c89f9fc597663d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9456926
+project-id = 1736726

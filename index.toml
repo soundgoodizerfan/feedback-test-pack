@@ -441,6 +441,11 @@ hash = "fc36d75e6da351cc1598984d582b8bec0e171f12146c7f7691214705f14234cb"
 metafile = true
 
 [[files]]
+file = "mods/thaumic-tracker.pw.toml"
+hash = "571c56d0ac0f542ca1c9b8d07691311469ba0bf01ae4f3b49b30b0fb8a8e0ed8"
+metafile = true
+
+[[files]]
 file = "mods/trashslot.pw.toml"
 hash = "b1908d3251d722ec5c18f2483b8c56743d7cae91f644caa6d82e1b3b5b64f604"
 metafile = true
