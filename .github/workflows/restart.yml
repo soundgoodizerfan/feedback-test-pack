@@ -1,0 +1,20 @@
+name: Restart server
+on:
+  push:
+    branches: [main]
+concurrency: restart
+jobs:
+  restart:
+    runs-on: ubuntu-latest
+    steps:
+      # shortcut: fixed wait for raw.githubusercontent.com cache (~5 min), drop if server installs from a non-cached source
+      - run: sleep 300
+      - run: |
+          curl -fsS -X POST "$DISCOPANEL_URL/discopanel.v1.ServerService/RestartServer" \
+            -H "Authorization: Bearer $DISCOPANEL_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d "{\"id\":\"$DISCOPANEL_SERVER_ID\"}"
+        env:
+          DISCOPANEL_URL: ${{ secrets.DISCOPANEL_URL }}
+          DISCOPANEL_TOKEN: ${{ secrets.DISCOPANEL_TOKEN }}
+          DISCOPANEL_SERVER_ID: ${{ secrets.DISCOPANEL_SERVER_ID }}
