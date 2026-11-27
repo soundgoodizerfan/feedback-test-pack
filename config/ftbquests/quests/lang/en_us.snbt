@@ -265,6 +265,8 @@
 	quest.1A96C4BEDB9F42DA.title: "Stops Itself"
 	quest.1A9B8632DD0A6A6D.quest_desc: ["put a creel above a water wheel and it catches fish as it turns, at the cost of some of the power. dinner is not free, but it is cheap."]
 	quest.1A9B8632DD0A6A6D.title: "Fish Wheel"
+	quest.1ABF4109DDFFDDA5.quest_desc: ["a firearm's sight can be a rangefinder, which prints the distance to the point under your crosshair, or a laser, which paints a red beam to it. both run on a battery loaded into the gun: right-click the gun with the battery on your cursor." "" "charge the battery at the charger. it drains slowly while the gun is held, and a flat one shows nothing. nothing requires either sight."]
+	quest.1ABF4109DDFFDDA5.title: "Eyes on the Target"
 	quest.1AFCFE938B80FB31.quest_desc: ["a &6&lsteam turbine&r spins very fast and drinks steam in quantity. a single small boiler will not keep up. it has the appetite of a teenager."]
 	quest.1AFCFE938B80FB31.title: "Steam Turbine"
 	quest.1B2AD0EEB6538640.quest_desc: ["take the battery out and seat it in a &6&lcharger&r, or stand in a charging gantry with the suit on. a tiny nap for a big suit."]
@@ -499,7 +501,7 @@
 	quest.3CC9EF1F0629AD09.title: "Grapple Winch"
 	quest.3D1A0ED62BBA014F.quest_desc: ["a &6&lpowered bellows&r is one way to push air into a vessel. fit a &6&lpressure gauge&r so you can read what you are doing instead of guessing. guessing is how the last vessel got its dramatic exit."]
 	quest.3D1A0ED62BBA014F.title: "Something to Squeeze With"
-	quest.3D753DCD6565FF5B.quest_desc: ["a modular tool: shape the blade hot, then fit a handle. the blade's material sets how long it lasts. the sharper end is the important end."]
+	quest.3D753DCD6565FF5B.quest_desc: ["a modular tool: shape the blade hot, then fit a handle. the blade's material sets how long it lasts. a standard blade can also be forged by rhythm at the anvil into a skinning, utility or tanto blade, each with a trait of its own. the sharper end is the important end."]
 	quest.3D753DCD6565FF5B.title: "Hand Knife"
 	quest.3DAF30BF7984C37D.quest_desc: ["a &6&lcatalyst tap&r draws experience from a sculk catalyst. needs &d&o&nexperience treatise ii&r. you are, politely, milking a sculk catalyst."]
 	quest.3DAF30BF7984C37D.title: "Catalyst Tap"

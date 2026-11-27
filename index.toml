@@ -86,7 +86,7 @@ hash = "f25a9bd35566940e98c17a04734e2ad58b938fa476fdab45c46d9283ff421caa"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/weapons.snbt"
-hash = "91f09961389eb086cdc5d2fa1486fe6adcb31631530981548c3698edf0b30dbc"
+hash = "78c6ca79b4f45cde3a70c1c5437861e052c720dcefcba3ddcee61340c3877465"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -94,7 +94,7 @@ hash = "381486b47e7f1202cc15eafb02ba2d5f31e8947e3eefd2d66f8fd14855c8bdbf"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "6d9c394efd208816a386e1acc570780f75fa1203595771d78620b6f1a63bb2a2"
+hash = "d7a4ca58542b032afab61d484d8914b57f591cdd8ff41e2a89493f1be2fec1b3"
 
 [[files]]
 file = "mods/ai-improvements.pw.toml"

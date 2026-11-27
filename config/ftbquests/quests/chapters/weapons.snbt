@@ -36,7 +36,7 @@
 			}
 			]
 			x: 1.5d
-			y: 0.0d
+			y: 5.8d
 		}
 		{
 			dependencies: ["2A33FE8D79515479"]
@@ -51,7 +51,7 @@
 			}
 			]
 			x: 3.0d
-			y: 1.1d
+			y: 6.9d
 		}
 		{
 			dependencies: ["2A33FE8D79515479"]
@@ -66,7 +66,7 @@
 			}
 			]
 			x: 3.0d
-			y: 0.0d
+			y: 5.8d
 		}
 		{
 			dependencies: ["38BC80D81A1F050B" "558657879EC52D94"]
@@ -81,7 +81,7 @@
 			}
 			]
 			x: 4.5d
-			y: 0.0d
+			y: 5.8d
 		}
 		{
 			dependencies: ["4B40D895308340D8" "1959520F5ADC28E4"]
@@ -130,6 +130,20 @@
 			]
 			x: 3.0d
 			y: 2.3d
+		}
+		{
+			dependencies: ["73CA41E8EF3BB000" "2D3F71D5384F4425"]
+			icon: { id: "feedback:battery" }
+			id: "1ABF4109DDFFDDA5"
+			shape: "rsquare"
+			tasks: [
+			{
+				id: "6EED55385DD648DF"
+				type: "checkmark"
+			}
+			]
+			x: 4.5d
+			y: 3.4d
 		}
 		{
 			dependencies: ["73CA41E8EF3BB000" "6EB3711E876C19F1"]
@@ -219,7 +233,7 @@
 			}
 			]
 			x: 4.5d
-			y: 3.4d
+			y: 1.1d
 		}
 		{
 			dependencies: ["73CA41E8EF3BB000" "6EB3711E876C19F1"]
@@ -234,7 +248,7 @@
 			}
 			]
 			x: 4.5d
-			y: 1.1d
+			y: 4.6d
 		}
 		{
 			dependencies: ["73CA41E8EF3BB000" "03C84BB7A2AA55B0"]
@@ -249,7 +263,7 @@
 			}
 			]
 			x: 4.5d
-			y: 4.6d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4B40D895308340D8" "558657879EC52D94"]
