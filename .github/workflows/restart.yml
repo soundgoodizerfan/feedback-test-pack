@@ -2,7 +2,9 @@ name: Restart server
 on:
   push:
     branches: [main]
-concurrency: restart
+concurrency:
+  group: restart
+  cancel-in-progress: true
 jobs:
   restart:
     runs-on: ubuntu-latest
