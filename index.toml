@@ -94,7 +94,7 @@ hash = "381486b47e7f1202cc15eafb02ba2d5f31e8947e3eefd2d66f8fd14855c8bdbf"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "ab160517abf3fdeae71e8ac44ceeacb43368cae8ad3681b7408cb8484ba3d2b2"
+hash = "4e90ec89196f91eb64f9ed3b9742f7168dacdd024c99d0e40fe150ea18d41e29"
 
 [[files]]
 file = "mods/aether.pw.toml"
