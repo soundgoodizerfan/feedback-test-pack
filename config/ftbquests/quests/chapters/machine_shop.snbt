@@ -40,6 +40,21 @@
 		}
 		{
 			dependencies: ["190E29F3D38A0E3E"]
+			icon: { id: "feedback:tilt_hammer" }
+			id: "43F12EA7A42327D1"
+			shape: "circle"
+			tasks: [
+			{
+				id: "591CCECA2CB9AC2F"
+				item: { count: 1, id: "feedback:tilt_hammer" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 1.1d
+		}
+		{
+			dependencies: ["43F12EA7A42327D1"]
 			icon: { id: "feedback:mechanical_hammer" }
 			id: "0ECF1FE023D6A2AC"
 			shape: "circle"
@@ -50,7 +65,7 @@
 				type: "item"
 			}
 			]
-			x: 3.0d
+			x: 4.5d
 			y: 1.1d
 		}
 		{
@@ -80,7 +95,7 @@
 				type: "item"
 			}
 			]
-			x: 4.5d
+			x: 6.0d
 			y: 1.1d
 		}
 		{
@@ -100,7 +115,7 @@
 				type: "item"
 			}
 			]
-			x: 6.0d
+			x: 7.5d
 			y: 2.3d
 		}
 		{
@@ -125,7 +140,7 @@
 				type: "item"
 			}
 			]
-			x: 6.0d
+			x: 7.5d
 			y: 1.1d
 		}
 		{
@@ -140,7 +155,7 @@
 				type: "item"
 			}
 			]
-			x: 7.5d
+			x: 9.0d
 			y: 2.3d
 		}
 		{
@@ -155,7 +170,7 @@
 				type: "item"
 			}
 			]
-			x: 7.5d
+			x: 9.0d
 			y: 3.4d
 		}
 		{
@@ -172,7 +187,7 @@
 				type: "advancement"
 			}
 			]
-			x: 7.5d
+			x: 9.0d
 			y: 1.1d
 		}
 		{
@@ -187,7 +202,7 @@
 				type: "item"
 			}
 			]
-			x: 9.0d
+			x: 10.5d
 			y: 0.0d
 		}
 		{
@@ -202,7 +217,7 @@
 				type: "item"
 			}
 			]
-			x: 9.0d
+			x: 10.5d
 			y: 3.4d
 		}
 		{
@@ -224,7 +239,7 @@
 				type: "item"
 			}
 			]
-			x: 9.0d
+			x: 10.5d
 			y: 1.1d
 		}
 		{
@@ -241,7 +256,7 @@
 				type: "item"
 			}
 			]
-			x: 10.5d
+			x: 12.0d
 			y: 1.1d
 		}
 		{
@@ -280,7 +295,7 @@
 				type: "item"
 			}
 			]
-			x: 9.0d
+			x: 10.5d
 			y: 2.3d
 		}
 		{
@@ -307,7 +322,7 @@
 				type: "item"
 			}
 			]
-			x: 10.5d
+			x: 12.0d
 			y: 2.3d
 		}
 	]

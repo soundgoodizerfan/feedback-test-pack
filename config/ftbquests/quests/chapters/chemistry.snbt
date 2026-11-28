@@ -21,7 +21,7 @@
 			}
 			]
 			x: 0.0d
-			y: 2.3d
+			y: 3.4d
 		}
 		{
 			dependencies: ["19843CCBBEEC8D9F" "6EB3711E876C19F1"]
@@ -38,7 +38,7 @@
 			}
 			]
 			x: 1.5d
-			y: 3.4d
+			y: 4.6d
 		}
 		{
 			dependencies: ["19843CCBBEEC8D9F" "6EB3711E876C19F1"]
@@ -58,7 +58,7 @@
 			}
 			]
 			x: 1.5d
-			y: 2.3d
+			y: 3.4d
 		}
 		{
 			dependencies: ["0242EAEEF85A1464"]
@@ -73,7 +73,7 @@
 			}
 			]
 			x: 3.0d
-			y: 2.3d
+			y: 3.4d
 		}
 		{
 			dependencies: ["2516CD7B854AE284"]
@@ -90,7 +90,7 @@
 			}
 			]
 			x: 4.5d
-			y: 2.3d
+			y: 3.4d
 		}
 		{
 			dependencies: ["3DFF5CDCFF5BDE56"]
@@ -110,7 +110,7 @@
 			}
 			]
 			x: 6.0d
-			y: 3.4d
+			y: 4.6d
 		}
 		{
 			dependencies: ["3DFF5CDCFF5BDE56"]
@@ -125,7 +125,7 @@
 			}
 			]
 			x: 6.0d
-			y: 1.1d
+			y: 2.3d
 		}
 		{
 			dependencies: ["30BCCB533161179C"]
@@ -140,7 +140,7 @@
 			}
 			]
 			x: 7.5d
-			y: 0.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["30BCCB533161179C"]
@@ -160,7 +160,7 @@
 			}
 			]
 			x: 7.5d
-			y: 1.1d
+			y: 2.3d
 		}
 		{
 			dependencies: ["3DFF5CDCFF5BDE56"]
@@ -177,7 +177,7 @@
 			}
 			]
 			x: 6.0d
-			y: 2.3d
+			y: 3.4d
 		}
 		{
 			dependencies: ["743A3769BCA84A04"]
@@ -194,7 +194,7 @@
 			}
 			]
 			x: 7.5d
-			y: 2.3d
+			y: 3.4d
 		}
 		{
 			dependencies: ["2F0D4EA98BD3FE00"]
@@ -209,13 +209,14 @@
 			}
 			]
 			x: 9.0d
-			y: 2.3d
+			y: 3.4d
 		}
 		{
 			dependencies: ["77DDFED06211ECE2"]
 			icon: { id: "feedback:pyrite" }
 			id: "272288A25D096D7A"
-			shape: "circle"
+			size: 1.50d
+			shape: "octagon"
 			tasks: [
 			{
 				id: "51DE19C3860B87AC"
@@ -228,7 +229,7 @@
 			}
 			]
 			x: 10.5d
-			y: 2.3d
+			y: 3.4d
 		}
 		{
 			dependencies: ["77DDFED06211ECE2"]
@@ -242,7 +243,7 @@
 			}
 			]
 			x: 10.5d
-			y: 3.4d
+			y: 4.6d
 		}
 		{
 			dependencies: ["272288A25D096D7A" "58D2BB7C92A33393"]
@@ -257,7 +258,7 @@
 			}
 			]
 			x: 12.0d
-			y: 2.3d
+			y: 4.6d
 		}
 		{
 			dependencies: ["2516CD7B854AE284"]
@@ -272,7 +273,7 @@
 			}
 			]
 			x: 4.5d
-			y: 4.6d
+			y: 5.8d
 		}
 		{
 			dependencies: ["77DDFED06211ECE2"]
@@ -294,7 +295,7 @@
 			}
 			]
 			x: 10.5d
-			y: 1.1d
+			y: 2.3d
 		}
 		{
 			dependencies: ["2F0D4EA98BD3FE00"]
@@ -311,7 +312,7 @@
 			}
 			]
 			x: 9.0d
-			y: 0.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["7B3B6E5D6ECA8432"]
@@ -331,7 +332,7 @@
 			}
 			]
 			x: 10.5d
-			y: 0.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["7879AC3D4378E015"]
@@ -346,7 +347,7 @@
 			}
 			]
 			x: 12.0d
-			y: 1.1d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7879AC3D4378E015"]
@@ -366,7 +367,7 @@
 			}
 			]
 			x: 12.0d
-			y: 0.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["42AC0F1CD6F05B2A"]
@@ -386,7 +387,7 @@
 			}
 			]
 			x: 13.5d
-			y: 0.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["42077C44CFE51F02"]
@@ -400,7 +401,7 @@
 			}
 			]
 			x: 15.0d
-			y: 0.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["5DAA24750E10BDF3"]
@@ -414,7 +415,7 @@
 			}
 			]
 			x: 16.5d
-			y: 0.0d
+			y: 1.1d
 		}
 		{
 			dependencies: ["2F0D4EA98BD3FE00"]
@@ -430,7 +431,7 @@
 			}
 			]
 			x: 9.0d
-			y: 3.4d
+			y: 4.6d
 		}
 		{
 			dependencies: ["77DDFED06211ECE2"]
@@ -446,7 +447,7 @@
 			}
 			]
 			x: 10.5d
-			y: 4.6d
+			y: 5.8d
 		}
 		{
 			dependencies: ["53D735D818749101" "2F0D4EA98BD3FE00"]
@@ -461,7 +462,7 @@
 			}
 			]
 			x: 9.0d
-			y: 1.1d
+			y: 2.3d
 		}
 		{
 			dependencies: ["18300EE5A546A45B"]
@@ -483,7 +484,89 @@
 			}
 			]
 			x: 6.0d
-			y: 4.6d
+			y: 5.8d
+		}
+		{
+			dependencies: ["272288A25D096D7A"]
+			icon: { id: "feedback:nitrocellulose_dust" }
+			id: "01FA078F1919A97F"
+			optional: true
+			size: 0.85d
+			shape: "rdiamond"
+			tasks: [
+			{
+				id: "50B09DEC01BE5601"
+				item: { count: 1, id: "feedback:nitrocellulose_dust" }
+				type: "item"
+			}
+			]
+			x: 12.0d
+			y: 3.4d
+		}
+		{
+			dependencies: ["42077C44CFE51F02"]
+			icon: { id: "feedback:creeper_charge" }
+			id: "5F75A217E4811D7D"
+			optional: true
+			size: 0.85d
+			shape: "rdiamond"
+			tasks: [
+			{
+				id: "51AE292A46D3D669"
+				type: "checkmark"
+			}
+			]
+			x: 15.0d
+			y: 2.3d
+		}
+		{
+			dependencies: ["272288A25D096D7A"]
+			icon: { id: "minecraft:sugar" }
+			id: "2D731E3FBD5B0C9D"
+			optional: true
+			size: 0.85d
+			shape: "rdiamond"
+			tasks: [
+			{
+				id: "30814E37C25C607A"
+				type: "checkmark"
+			}
+			]
+			x: 12.0d
+			y: 2.3d
+		}
+		{
+			dependencies: ["2D731E3FBD5B0C9D" "01FA078F1919A97F"]
+			icon: { id: "minecraft:sugar" }
+			id: "2E2C6C417D3A3F89"
+			optional: true
+			size: 0.85d
+			shape: "rdiamond"
+			tasks: [
+			{
+				id: "2806A299D88B025E"
+				type: "checkmark"
+			}
+			]
+			x: 13.5d
+			y: 3.4d
+		}
+		{
+			dependencies: ["2E2C6C417D3A3F89"]
+			icon: { id: "feedback:dynamite_dust" }
+			id: "06CC388BD4E4B857"
+			optional: true
+			size: 0.85d
+			shape: "rdiamond"
+			tasks: [
+			{
+				id: "68C05A2F30526E1B"
+				item: { count: 1, id: "feedback:dynamite_dust" }
+				type: "item"
+			}
+			]
+			x: 15.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["30BCCB533161179C" "743A3769BCA84A04"]
@@ -500,7 +583,7 @@
 			}
 			]
 			x: 7.5d
-			y: 3.4d
+			y: 4.6d
 		}
 		{
 			dependencies: ["272288A25D096D7A"]
@@ -515,7 +598,7 @@
 			}
 			]
 			x: 12.0d
-			y: 3.4d
+			y: 5.8d
 		}
 	]
 }

@@ -167,6 +167,20 @@
 		}
 		{
 			dependencies: ["3C8813C6BB21800B"]
+			icon: { id: "feedback:market_cross" }
+			id: "455A35C5345D5259"
+			shape: "rsquare"
+			tasks: [
+			{
+				id: "54CADD2A9DE2828B"
+				type: "checkmark"
+			}
+			]
+			x: 6.0d
+			y: 3.4d
+		}
+		{
+			dependencies: ["3C8813C6BB21800B"]
 			icon: { id: "feedback:ledger_board" }
 			id: "08CD5BC477FFA52A"
 			shape: "circle"

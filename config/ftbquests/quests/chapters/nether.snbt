@@ -42,6 +42,23 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["521249D2A2E00425"]
+			icon: { id: "feedback:thorianite_ore" }
+			id: "0342E70E10C5BD62"
+			optional: true
+			size: 0.85d
+			shape: "rdiamond"
+			tasks: [
+			{
+				id: "1BE147AC588ECE60"
+				item: { count: 1, id: "feedback:thorianite_ore" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 1.1d
+		}
+		{
 			dependencies: ["48ABA1210FB734F6"]
 			icon: { id: "feedback:worn_netherite_bits" }
 			id: "4FC8262913B96623"

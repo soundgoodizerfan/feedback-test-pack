@@ -21,7 +21,7 @@
 			}
 			]
 			x: 0.0d
-			y: 1.1d
+			y: 3.4d
 		}
 		{
 			dependencies: ["6C6DCC82A2C3A0F0"]
@@ -36,7 +36,7 @@
 			}
 			]
 			x: 1.5d
-			y: 3.4d
+			y: 5.8d
 		}
 		{
 			dependencies: ["1B8B4D8305F1C1A7"]
@@ -51,7 +51,7 @@
 			}
 			]
 			x: 3.0d
-			y: 3.4d
+			y: 5.8d
 		}
 		{
 			dependencies: ["6C6DCC82A2C3A0F0" "1959520F5ADC28E4"]
@@ -66,7 +66,7 @@
 			}
 			]
 			x: 1.5d
-			y: 1.1d
+			y: 3.4d
 		}
 		{
 			dependencies: ["0B1DA0DC782CF2B8"]
@@ -81,7 +81,7 @@
 			}
 			]
 			x: 3.0d
-			y: 0.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["0B1DA0DC782CF2B8" "558657879EC52D94"]
@@ -97,7 +97,7 @@
 			}
 			]
 			x: 3.0d
-			y: 2.3d
+			y: 4.6d
 		}
 		{
 			dependencies: ["46C278743EDC5F3D"]
@@ -112,7 +112,7 @@
 			}
 			]
 			x: 4.5d
-			y: 2.3d
+			y: 4.6d
 		}
 		{
 			dependencies: ["46C278743EDC5F3D" "68C871680B024316"]
@@ -129,7 +129,7 @@
 			}
 			]
 			x: 4.5d
-			y: 3.4d
+			y: 5.8d
 		}
 		{
 			dependencies: ["46C278743EDC5F3D"]
@@ -146,7 +146,7 @@
 			}
 			]
 			x: 4.5d
-			y: 4.6d
+			y: 6.9d
 		}
 		{
 			dependencies: ["46C278743EDC5F3D"]
@@ -163,7 +163,7 @@
 			}
 			]
 			x: 4.5d
-			y: 0.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["6C6DCC82A2C3A0F0" "1959520F5ADC28E4"]
@@ -178,7 +178,7 @@
 			}
 			]
 			x: 1.5d
-			y: 2.3d
+			y: 4.6d
 		}
 		{
 			dependencies: ["0B1DA0DC782CF2B8" "68C871680B024316"]
@@ -193,7 +193,7 @@
 			}
 			]
 			x: 3.0d
-			y: 1.1d
+			y: 3.4d
 		}
 		{
 			dependencies: ["2C4866A70BAB0533" "1B8B4D8305F1C1A7"]
@@ -208,7 +208,7 @@
 			}
 			]
 			x: 4.5d
-			y: 1.1d
+			y: 3.4d
 		}
 		{
 			dependencies: ["4D18E2ED429337DB"]
@@ -223,7 +223,7 @@
 			}
 			]
 			x: 6.0d
-			y: 2.3d
+			y: 4.6d
 		}
 		{
 			dependencies: ["4D18E2ED429337DB" "68C871680B024316"]
@@ -239,7 +239,7 @@
 			}
 			]
 			x: 6.0d
-			y: 1.1d
+			y: 3.4d
 		}
 		{
 			dependencies: ["3B15B7A6610DB1B4"]
@@ -254,7 +254,7 @@
 			}
 			]
 			x: 7.5d
-			y: 1.1d
+			y: 3.4d
 		}
 		{
 			dependencies: ["3B15B7A6610DB1B4"]
@@ -271,7 +271,7 @@
 			}
 			]
 			x: 7.5d
-			y: 2.3d
+			y: 4.6d
 		}
 		{
 			dependencies: ["3B15B7A6610DB1B4"]
@@ -288,7 +288,7 @@
 			}
 			]
 			x: 7.5d
-			y: 0.0d
+			y: 2.3d
 		}
 		{
 			dependencies: ["3B15B7A6610DB1B4"]
@@ -305,7 +305,58 @@
 			}
 			]
 			x: 7.5d
-			y: 3.4d
+			y: 5.8d
+		}
+		{
+			dependencies: ["4D18E2ED429337DB"]
+			icon: { id: "feedback:radio_set" }
+			id: "1A7AC0E115B370FD"
+			optional: true
+			size: 0.85d
+			shape: "rdiamond"
+			tasks: [
+			{
+				id: "422B79C9E0552581"
+				item: { count: 1, id: "feedback:radio_set" }
+				type: "item"
+			}
+			]
+			x: 6.0d
+			y: 1.1d
+		}
+		{
+			dependencies: ["1A7AC0E115B370FD"]
+			icon: { id: "feedback:antenna" }
+			id: "418203F23FB05231"
+			optional: true
+			size: 0.85d
+			shape: "rdiamond"
+			tasks: [
+			{
+				id: "3D1883548AA2EA0D"
+				item: { count: 1, id: "feedback:antenna" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 1.1d
+		}
+		{
+			dependencies: ["1A7AC0E115B370FD"]
+			icon: { id: "feedback:loudspeaker" }
+			id: "62B66DCF5C913346"
+			optional: true
+			size: 0.85d
+			shape: "rdiamond"
+			tasks: [
+			{
+				id: "6B041A7C8A198F9D"
+				item: { count: 1, id: "feedback:loudspeaker" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["42BB5C06C39AC9A6"]
@@ -320,7 +371,7 @@
 			}
 			]
 			x: 9.0d
-			y: 1.1d
+			y: 3.4d
 		}
 	]
 }

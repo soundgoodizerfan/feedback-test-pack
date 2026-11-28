@@ -350,7 +350,7 @@
 			}
 			]
 			x: 6.0d
-			y: 1.1d
+			y: 2.3d
 		}
 		{
 			dependencies: ["2C5DAA4A49E4E758"]
@@ -366,7 +366,7 @@
 			}
 			]
 			x: 6.0d
-			y: 2.3d
+			y: 0.0d
 		}
 		{
 			dependencies: ["2C5DAA4A49E4E758"]
@@ -382,7 +382,7 @@
 			}
 			]
 			x: 6.0d
-			y: 0.0d
+			y: 3.4d
 		}
 		{
 			dependencies: ["2C5DAA4A49E4E758"]
@@ -399,7 +399,62 @@
 			}
 			]
 			x: 6.0d
-			y: 3.4d
+			y: 1.1d
+		}
+		{
+			dependencies: ["793388EC7C1F0A58"]
+			icon: { id: "feedback:nitrogen_seep" }
+			id: "6637646D7520CB5F"
+			optional: true
+			size: 0.85d
+			shape: "rdiamond"
+			tasks: [
+			{
+				id: "3D9C0B1DA38DC35E"
+				item: { count: 1, id: "feedback:nitrogen_seep" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 1.1d
+		}
+		{
+			dependencies: ["793388EC7C1F0A58"]
+			icon: { id: "minecraft:iron_block" }
+			id: "6C6B80FBEA8BE330"
+			optional: true
+			size: 0.85d
+			shape: "rdiamond"
+			tasks: [
+			{
+				id: "4B0C1D1A4055C9E1"
+				type: "checkmark"
+			}
+			]
+			x: 7.5d
+			y: 2.3d
+		}
+		{
+			dependencies: ["793388EC7C1F0A58"]
+			icon: { id: "feedback:rheniite_ore" }
+			id: "1C18A5FF6EC799A4"
+			optional: true
+			size: 0.85d
+			shape: "rdiamond"
+			tasks: [
+			{
+				id: "070D1E315EDF7853"
+				item: { count: 1, id: "feedback:rheniite_ore" }
+				type: "item"
+			}
+			{
+				id: "011C8942C1692F5E"
+				item: { count: 1, id: "feedback:ilmenite_ore" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 0.0d
 		}
 	]
 }
