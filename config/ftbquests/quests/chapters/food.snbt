@@ -21,7 +21,7 @@
 			}
 			]
 			x: 0.0d
-			y: 3.4d
+			y: 2.3d
 		}
 		{
 			dependencies: ["0A53E7B0B277E586" "66073F1666530F34"]
@@ -43,7 +43,7 @@
 			}
 			]
 			x: 1.5d
-			y: 3.4d
+			y: 2.3d
 		}
 		{
 			dependencies: ["5E42A189D61F4A55"]
@@ -57,7 +57,7 @@
 			}
 			]
 			x: 3.0d
-			y: 5.8d
+			y: 1.1d
 		}
 		{
 			dependencies: ["3D753DCD6565FF5B"]
@@ -77,7 +77,7 @@
 			}
 			]
 			x: 4.5d
-			y: 5.8d
+			y: 1.1d
 		}
 		{
 			dependencies: ["5E42A189D61F4A55"]
@@ -99,7 +99,7 @@
 			}
 			]
 			x: 3.0d
-			y: 3.4d
+			y: 2.3d
 		}
 		{
 			dependencies: ["165775E24D7C3853"]
@@ -115,7 +115,24 @@
 			}
 			]
 			x: 4.5d
-			y: 4.6d
+			y: 0.0d
+		}
+		{
+			dependencies: ["31DA700788582C28"]
+			icon: { id: "feedback:cook_probe" }
+			id: "2765F1D979BAF21C"
+			optional: true
+			size: 0.85d
+			shape: "rdiamond"
+			tasks: [
+			{
+				id: "0484BF7223BE33AA"
+				item: { count: 1, id: "feedback:cook_probe" }
+				type: "item"
+			}
+			]
+			x: 6.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["165775E24D7C3853"]
@@ -132,14 +149,14 @@
 			}
 			]
 			x: 4.5d
-			y: 2.3d
+			y: 3.4d
 		}
 		{
 			dependencies: ["165775E24D7C3853"]
 			icon: { id: "feedback:stockpot" }
 			id: "29F505259DD46349"
-			size: 1.25d
-			shape: "hexagon"
+			size: 1.50d
+			shape: "octagon"
 			tasks: [
 			{
 				advancement: "feedback:progress/food/pot"
@@ -154,7 +171,7 @@
 			}
 			]
 			x: 4.5d
-			y: 3.4d
+			y: 2.3d
 		}
 		{
 			dependencies: ["29F505259DD46349"]
@@ -171,7 +188,7 @@
 			}
 			]
 			x: 6.0d
-			y: 3.4d
+			y: 1.1d
 		}
 		{
 			dependencies: ["29F505259DD46349"]
@@ -191,6 +208,37 @@
 			y: 4.6d
 		}
 		{
+			dependencies: ["29F505259DD46349"]
+			icon: { id: "minecraft:egg" }
+			id: "20D2FFC25C4F16B4"
+			shape: "rsquare"
+			tasks: [
+			{
+				id: "220AF79ECB91CB91"
+				type: "checkmark"
+			}
+			]
+			x: 6.0d
+			y: 3.4d
+		}
+		{
+			dependencies: ["20D2FFC25C4F16B4"]
+			icon: { id: "feedback:dish_codex" }
+			id: "2B4E070C331004B4"
+			optional: true
+			size: 0.85d
+			shape: "rdiamond"
+			tasks: [
+			{
+				id: "4B0D115487416EED"
+				item: { count: 1, id: "feedback:dish_codex" }
+				type: "item"
+			}
+			]
+			x: 7.5d
+			y: 3.4d
+		}
+		{
 			dependencies: ["0A53E7B0B277E586" "66073F1666530F34"]
 			icon: { id: "feedback:cabbage_seed" }
 			id: "799FECDFA99514BB"
@@ -203,7 +251,7 @@
 			}
 			]
 			x: 1.5d
-			y: 6.9d
+			y: 4.6d
 		}
 		{
 			dependencies: ["799FECDFA99514BB"]
@@ -218,7 +266,7 @@
 			}
 			]
 			x: 3.0d
-			y: 6.9d
+			y: 4.6d
 		}
 		{
 			dependencies: ["799FECDFA99514BB" "5E42A189D61F4A55"]
@@ -238,7 +286,7 @@
 			}
 			]
 			x: 3.0d
-			y: 4.6d
+			y: 3.4d
 		}
 		{
 			dependencies: ["799FECDFA99514BB" "68C871680B024316"]
@@ -258,7 +306,7 @@
 			}
 			]
 			x: 3.0d
-			y: 8.0d
+			y: 6.9d
 		}
 		{
 			dependencies: ["096DC39F890D86EC"]
@@ -275,7 +323,7 @@
 			}
 			]
 			x: 4.5d
-			y: 6.9d
+			y: 4.6d
 		}
 		{
 			dependencies: ["0A53E7B0B277E586" "157369236735CE43"]
@@ -297,7 +345,7 @@
 			}
 			]
 			x: 1.5d
-			y: 1.1d
+			y: 5.8d
 		}
 		{
 			dependencies: ["261444A6A443C8B0"]
@@ -312,7 +360,7 @@
 			}
 			]
 			x: 3.0d
-			y: 1.1d
+			y: 5.8d
 		}
 		{
 			dependencies: ["291F355288A55856"]
@@ -327,7 +375,7 @@
 			}
 			]
 			x: 4.5d
-			y: 1.1d
+			y: 5.8d
 		}
 		{
 			dependencies: ["1CB4576B1D85EA64"]
@@ -340,7 +388,7 @@
 			}
 			]
 			x: 6.0d
-			y: 1.1d
+			y: 5.8d
 		}
 		{
 			dependencies: ["291F355288A55856"]
@@ -356,7 +404,80 @@
 			}
 			]
 			x: 4.5d
-			y: 0.0d
+			y: 6.9d
+		}
+		{
+			dependencies: ["29F505259DD46349"]
+			icon: { id: "feedback:lidded_pot" }
+			id: "3BE8D2003CAAF0C5"
+			shape: "circle"
+			tasks: [
+			{
+				id: "2F5E824CBB82E245"
+				item: { count: 1, id: "feedback:lidded_pot" }
+				type: "item"
+			}
+			]
+			x: 6.0d
+			y: 2.3d
+		}
+		{
+			dependencies: ["3BE8D2003CAAF0C5"]
+			icon: { id: "feedback:lidded_pot" }
+			id: "02D0B224A2B41524"
+			shape: "rsquare"
+			tasks: [
+			{
+				id: "12AF3218CB17763F"
+				type: "checkmark"
+			}
+			]
+			x: 7.5d
+			y: 2.3d
+		}
+		{
+			dependencies: ["02D0B224A2B41524"]
+			icon: { id: "feedback:lidded_pot" }
+			id: "79C49BBA8937EC4D"
+			shape: "rsquare"
+			tasks: [
+			{
+				id: "46DF1D7DAB1D3BFA"
+				type: "checkmark"
+			}
+			]
+			x: 9.0d
+			y: 2.3d
+		}
+		{
+			dependencies: ["79C49BBA8937EC4D"]
+			icon: { id: "feedback:lidded_pot" }
+			id: "434C6AF587B7F4EF"
+			shape: "rsquare"
+			tasks: [
+			{
+				id: "55BCCB1E6FCE09E8"
+				type: "checkmark"
+			}
+			]
+			x: 10.5d
+			y: 2.3d
+		}
+		{
+			dependencies: ["434C6AF587B7F4EF"]
+			icon: { id: "feedback:lidded_pot" }
+			id: "6E84557FCBC8F3FF"
+			optional: true
+			size: 0.85d
+			shape: "rdiamond"
+			tasks: [
+			{
+				id: "55CDF21935E30083"
+				type: "checkmark"
+			}
+			]
+			x: 12.0d
+			y: 2.3d
 		}
 	]
 }

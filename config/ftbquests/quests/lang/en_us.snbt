@@ -69,6 +69,8 @@
 	quest.0242EAEEF85A1464.title: "Plumbing"
 	quest.02AD290CDCFA751B.quest_desc: ["a parts bin takes up to eight kinds of small pieces, none weighing over 0.2 Mu each. screws and nails by the handful, sorted for you."]
 	quest.02AD290CDCFA751B.title: "Tiny Pieces"
+	quest.02D0B224A2B41524.quest_desc: ["use the pot with a food in your other hand and the dish goes inside. notice what the lid does to spoilage while it is shut. sneak-use takes the dish out again."]
+	quest.02D0B224A2B41524.title: "Sealed In"
 	quest.02D3D53D1A382F6D.quest_desc: ["eight bricks in a ring. feed it fuel and it radiates heat upward. &c&owood fires are too cool for any metalwork; coal and charcoal burn hotter, and a blaze rod hotter again.&r" "" "right-click a material item to lay it in the flame, and an empty hand takes it back out. it warms toward the fire."]
 	quest.02D3D53D1A382F6D.title: "Firebox"
 	quest.02D73E38016F635C.quest_desc: ["some rocks give off more than heat, and are not shy about it. find a way to hear it." "" "&c&oradiation is counted in ru.&r below a small threshold it does nothing; above it a dose builds, and sickness comes in three steps: hunger, then weakness and mining fatigue, then wither. it escalates politely, then not."]
@@ -317,6 +319,8 @@
 	quest.2017F0A329638C04.quest_desc: ["brute points come from landed blows with a heavy-hitting weapon, or any blow carrying real weight. check the suits line on a weapon tooltip. repeats pay less, and training dummies stop paying. hitting things hard is a career, but not an infinite one." "" "make a note once you hold some points in the brute tree."]
 	quest.2017F0A329638C04.quest_subtitle: "Earn your first points."
 	quest.2017F0A329638C04.title: "Brute: Earn Points"
+	quest.20D2FFC25C4F16B4.quest_desc: ["a dish is named for how it was made as well as what it is. an egg or a potato cooked in a pot of water is a boiled one, and an egg in a skillet is a fried one." "" "notice what the name says about the method."]
+	quest.20D2FFC25C4F16B4.title: "What It Is Called"
 	quest.20E47FF76E6E8A28.quest_desc: ["shape a shell from brick at the stonecutter, or from plate at the smithing table. a shell alone in the crafting grid becomes a crucible. notice the wall: thick holds heat, thin heats quickly. pots, it turns out, have physics."]
 	quest.20E47FF76E6E8A28.title: "Crucible Shell"
 	quest.20F8FB56A622500E.quest_desc: ["throw a steel ingot into water while it is still very hot and it hisses and hardens. carry it with tongs. a too-cool ingot is only cooled, and your dramatic hiss goes to waste."]
@@ -368,6 +372,8 @@
 	quest.274A70BF69817C9F.title: "Read the Pressure"
 	quest.275202100E7B1E4B.quest_desc: ["some metal melts in a cooler fire than copper and stays bright. find it in the ground and melt it. it is shy about being found."]
 	quest.275202100E7B1E4B.title: "Soft and Silvery"
+	quest.2765F1D979BAF21C.quest_desc: ["a spike pushed into the food reads what the colour of it only hints at. make one from an iron nugget, a stick and copper wire." "" "carry it and a food's tooltip shows how far it has cooked, how much has charred and how much water is left. use it on a skillet or a campfire and it reads every piece on it at once. the number is only as fine as the probe."]
+	quest.2765F1D979BAF21C.title: "Cook Probe"
 	quest.278ADDD048D0FED5.quest_desc: ["place the three parts side by side in a crafting grid to make a &6&ltelescope&r. assembly is mercifully short."]
 	quest.278ADDD048D0FED5.title: "Telescope"
 	quest.28456B87CBE72CEC.quest_desc: ["keep going until you have spent a good handful of points in the chaos tree. some branches are exclusive: choosing one closes its sibling, so read before you learn. a rare case where the careful option is the fun one."]
@@ -393,6 +399,8 @@
 	quest.2A91852D562C237F.title: "Whiplash"
 	quest.2AE380C7E24931FD.quest_desc: ["boilers are modular and drawn at a blueprint table. &d&o&nchemical treatise i&r covers boilers, &6&lpressure vessels&r and gas tanks. read it before the part where things get loud."]
 	quest.2AE380C7E24931FD.title: "Pressure Vessels"
+	quest.2B4E070C331004B4.quest_desc: ["a notebook of dishes tried. carry it in your inventory and every named food or dish you eat is written in it once. hold it to read the list. it records, and gates nothing."]
+	quest.2B4E070C331004B4.title: "Dish Codex"
 	quest.2B6B93A9B2CF4769.quest_desc: ["ordinary brick cracks in a hot fire. a particular clay, fired hard, does not. some bricks just have their life together."]
 	quest.2B6B93A9B2CF4769.title: "Brick That Does Not Burn"
 	quest.2B9AA1F5DF1C9C5B.quest_desc: ["thaumaturge-dependent. a relief valve with a gauge for essentia stores; it opens when the store is nearly full. empty-hand click to read it, since the gauge is shy."]
@@ -503,6 +511,8 @@
 	quest.3B598DAAC1C01146.title: "Trade Tap"
 	quest.3BD49727B6A0EE3B.quest_desc: ["a &6&lwire drawer&r draws rod into wire, and makes welding rods. fast draws can snap the wire and ruin the piece, but some metals can only be drawn fast. so some days you gamble."]
 	quest.3BD49727B6A0EE3B.title: "Wire Drawer"
+	quest.3BE8D2003CAAF0C5.quest_desc: ["a pot with a waxed lid that carries one dish. bricks and honeycomb, and a lid that is a little smug about it."]
+	quest.3BE8D2003CAAF0C5.title: "Lidded Pot"
 	quest.3C2289E89E9544E2.quest_desc: ["writes &d&o&ntreatises&r and rites for 40 experience points each. a library card, priced in levels."]
 	quest.3C2289E89E9544E2.title: "Research Table"
 	quest.3C5E85837AB7B4DC.quest_desc: ["wear a pack heavier than it is rated for, and feel it. you will feel it." "" "over the rating you are slower and cannot sprint, and the strap wears until it lets go. watch the strap, because it will not warn you politely."]
@@ -515,7 +525,7 @@
 	quest.3CC9EF1F0629AD09.title: "Grapple Winch"
 	quest.3D1A0ED62BBA014F.quest_desc: ["a &6&lpowered bellows&r is one way to push air into a vessel. fit a &6&lpressure gauge&r so you can read what you are doing instead of guessing. guessing is how the last vessel got its dramatic exit."]
 	quest.3D1A0ED62BBA014F.title: "Something to Squeeze With"
-	quest.3D753DCD6565FF5B.quest_desc: ["a modular tool: shape the blade hot, then fit a handle. the blade's material sets how long it lasts, and its length, width and thickness shape how it cuts: thin bites more, thick resists chipping. a standard blade can also be forged by rhythm at the anvil into a skinning, utility, tanto or bowie blade, each with a trait of its own. the sharper end is the important end."]
+	quest.3D753DCD6565FF5B.quest_desc: ["a modular tool: shape the blade hot, then fit a handle. the blade's material sets how long it lasts, and its length, width and thickness shape how it cuts: thin bites more, thick resists chipping. at the prep table a soft blade drags and skids where a hard one slices clean. a standard blade can also be forged by rhythm at the anvil into a skinning, utility, tanto or bowie blade, each with a trait of its own. the sharper end is the important end."]
 	quest.3D753DCD6565FF5B.title: "Hand Knife"
 	quest.3DAF30BF7984C37D.quest_desc: ["a &6&lcatalyst tap&r draws experience from a sculk catalyst. needs &d&o&nexperience treatise ii&r. you are, politely, milking a sculk catalyst."]
 	quest.3DAF30BF7984C37D.title: "Catalyst Tap"
@@ -570,6 +580,8 @@
 	quest.42EB53090F7D4157.title: "Let There Be Light"
 	quest.43390F7CEE15258A.quest_desc: ["some ores will not smelt, and no amount of glaring helps. electricity can reduce them. dissolve bauxite in lye in the reactor for &6&lalumina&r, then it goes into a molten cryolite bath in the electrolyser." "" "warning: with no alumina in the bath the cell suffers the anode effect and is damaged. feed the bath."]
 	quest.43390F7CEE15258A.title: "Bauxite Gives Way"
+	quest.434C6AF587B7F4EF.quest_desc: ["use a feast and you eat one helping of it. it is eaten in four, and the dish's own risks come with every helping. manners are optional."]
+	quest.434C6AF587B7F4EF.title: "Helpings"
 	quest.437513F68489B775.quest_desc: ["thaumaturge-dependent: it does nothing without that mod. a &6&lvis tap&r turns vis from a thaumaturge relay into medium voltage current." "" "warning: left running with nothing connected it fouls the aura with flux. needs &d&o&nelectrical treatise ii&r."]
 	quest.437513F68489B775.title: "Vis Tap (Thaumaturge)"
 	quest.43DA2EA1811B681A.quest_desc: ["iron with a little carbon, melted clean. &c&othe band is narrow and a fresh melt burns above it.&r notice that a light crucible on a blown fire climbs too fast; mass and lining slow it. fast is not always good."]
@@ -646,7 +658,7 @@
 	quest.4F639FCBD0437179.title: "Kind"
 	quest.4F94A73D1AFCAA05.quest_desc: ["a &6&lgrinding wheel&r shapes the hardest stock, and its grit is consumed on every cut. work heats as it is ground, so it is a hungry and warm little machine." "" "stock worked past its mark, in a grinding wheel or a press, yields thin, light parts. the tooltip says so, and it is not a compliment."]
 	quest.4F94A73D1AFCAA05.title: "Grinding Wheel"
-	quest.4FC8262913B96623.quest_desc: ["bastion rubble and piglins killed by a player may drop bits. bastion chests may hold rubble. the piglins did not volunteer."]
+	quest.4FC8262913B96623.quest_desc: ["piglins and piglin brutes killed by a player may drop bits. the piglins did not volunteer."]
 	quest.4FC8262913B96623.title: "Worn Netherite Bits"
 	quest.4FF83B65BCE51C84.quest_desc: ["slow a line down, speed it up, or send it around a corner. a &6&lsmall cog&r goes around a shaft and a &6&llarge cog&r goes around a &6&lsmall cog&r." "" "try meshing different sizes and see what happens to speed and force. loops of gears that disagree with each other will jam, and gears hold a grudge."]
 	quest.4FF83B65BCE51C84.title: "Cogs and Corners"
@@ -856,6 +868,8 @@
 	quest.6D1A98D35E19FC80.title: "Experience, Bottled"
 	quest.6D73FE070DADDF0B.quest_desc: ["a shop &6&lcounter&r with a nine-slot shelf. stock it and villagers walk over and buy at your prices. you are now a shopkeeper, apologies."]
 	quest.6D73FE070DADDF0B.title: "Counter"
+	quest.6E84557FCBC8F3FF.quest_desc: ["&c&oa hot dish burns the hand that serves from it, same as lifting it would.&r notice what the dish was doing before you reached for it."]
+	quest.6E84557FCBC8F3FF.title: "Serving Hot"
 	quest.6EB3711E876C19F1.quest_desc: ["make your first tool or part out of steel, tempered steel, hardened steel or manganese steel, with the carbon under control. chemistry and ender open from here." "" "steel wants more heat than a fuel fire gives up easily, and some care while it cools. it is a bit precious like that."]
 	quest.6EB3711E876C19F1.title: "Steel Age"
 	quest.6EEACE8D4A2185F6.quest_desc: ["&6&lexperience treatise iii: spending it&r. opens the disenchanting stone and converter tap. saving is nice, but the shop is open." "" "ways to get it: write it from a specimen, research it at the research table for 40 xp with experience ii held and electrical iii held, find it in chests, or buy it from a villager at a high trade level."]
@@ -917,6 +931,8 @@
 	quest.7523352D731BEC90.title: "Plutonium"
 	quest.7534CF0E7D49FB41.quest_desc: ["bricks and an iron ingot, set on top of a firebox. it settles a little below the fire's heat and keeps stock in an anvil hot. &c&oa hot hearth burns bare hands, so do not get comfortable.&r"]
 	quest.7534CF0E7D49FB41.title: "Hearth"
+	quest.755A2C4D5A042184.quest_desc: ["a pulley wheel set in the air. lay a grapple line over it with both ends hanging free, and two people hauling an end each make a counterweight: the heavier side falls, the lighter rises." "" "a rope has a rating, and parts when asked for more than it. the wheel is not sympathetic."]
+	quest.755A2C4D5A042184.title: "Sheave"
 	quest.75BDB140C906FEB7.quest_desc: ["a beacon a robot can navigate toward. a lighthouse for the very small."]
 	quest.75BDB140C906FEB7.title: "Robot Beacon"
 	quest.75C360542D507892.quest_desc: ["a fuel fire tops out and makes smoke. find a heat that does not. you will have to leave the comfort of your firebox."]
@@ -954,6 +970,8 @@
 	quest.79A867F222520386.title: "Onslaught: Spend Points"
 	quest.79BDA124A0641476.quest_desc: ["farmers, butchers, fishermen and shepherds order dishes. make one and deliver it. the customer is always hungry."]
 	quest.79BDA124A0641476.title: "A Dish for an Order"
+	quest.79C49BBA8937EC4D.quest_desc: ["use the pot on a block and the dish is set down there as a feast, leaving the pot empty. breaking a feast nobody has touched gives the dish back whole."]
+	quest.79C49BBA8937EC4D.title: "A Feast Set Down"
 	quest.79FDC13FE72AC335.quest_desc: ["netherite melts at &b2600 tu&r, hotter than any fuel fire. notice that the hearth wears at high heat; a lining helps. even bricks get tired."]
 	quest.79FDC13FE72AC335.title: "Hotter Still"
 	quest.7A18478403772572.quest_desc: ["everything starts with stone, wood and no fire you actually control. six ages track how far your materials have come, and this chapter is the spine holding them together."]

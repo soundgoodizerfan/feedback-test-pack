@@ -311,6 +311,21 @@
 			y: 1.1d
 		}
 		{
+			dependencies: ["63589FDA8F8B4D36"]
+			icon: { id: "feedback:sheave" }
+			id: "755A2C4D5A042184"
+			shape: "circle"
+			tasks: [
+			{
+				id: "03CF7DECAEDB4412"
+				item: { count: 1, id: "feedback:sheave" }
+				type: "item"
+			}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
 			dependencies: ["4B40D895308340D8" "558657879EC52D94"]
 			icon: { id: "feedback:jar_baton" }
 			id: "1961C0C1D7239F85"

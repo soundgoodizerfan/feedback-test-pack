@@ -30,7 +30,7 @@ hash = "7f179618669b0003a6c34cef02f04e7c589265610d5b13c57b21d2abf5fac40f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/food.snbt"
-hash = "6b484b94389e579d0a5e917c165458f7a9b0d01c93b6cbcae715de614f9c914e"
+hash = "e042a51af9013b2ce3635ccb676e6cea36392625d1626698ca3c8d09157339e8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/gear.snbt"
@@ -86,7 +86,7 @@ hash = "7cfbc48acfc892674bed5742ca850e79e05c61ef344e10823e4c870d428bd027"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/weapons.snbt"
-hash = "975822d065cce5c00822e76fe983c789b2b4d695b71f5de33cd37111481672bf"
+hash = "1d5069a529b86d62e7292ee6f6f37018e5880820797cd26ff4b4aef7149696d5"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -94,7 +94,7 @@ hash = "381486b47e7f1202cc15eafb02ba2d5f31e8947e3eefd2d66f8fd14855c8bdbf"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "4e90ec89196f91eb64f9ed3b9742f7168dacdd024c99d0e40fe150ea18d41e29"
+hash = "8e5095f929a4aaae859531b0d50cb573581acc330375d985860f3bcb2fabed47"
 
 [[files]]
 file = "mods/aether.pw.toml"
