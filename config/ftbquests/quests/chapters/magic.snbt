@@ -371,5 +371,21 @@
 			x: 4.5d
 			y: 10.3d
 		}
+		{
+			dependencies: ["3F60BA8D27ACE616"]
+			icon: { id: "feedback:hafted_tool" }
+			id: "6AB3C6DB45B0AFDB"
+			optional: true
+			size: 0.85d
+			shape: "rdiamond"
+			tasks: [
+			{
+				id: "12D7791069CA1312"
+				type: "checkmark"
+			}
+			]
+			x: 4.5d
+			y: 1.1d
+		}
 	]
 }

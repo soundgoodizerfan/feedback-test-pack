@@ -308,7 +308,7 @@
 			}
 			]
 			x: 3.0d
-			y: 4.6d
+			y: 1.1d
 		}
 		{
 			dependencies: ["4B40D895308340D8" "558657879EC52D94"]
@@ -341,6 +341,22 @@
 			]
 			x: 7.5d
 			y: 3.4d
+		}
+		{
+			dependencies: ["2A33FE8D79515479"]
+			icon: { id: "feedback:sword_blade" }
+			id: "51AD8B554C0306F4"
+			optional: true
+			size: 0.85d
+			shape: "rdiamond"
+			tasks: [
+			{
+				id: "4358D77089714B86"
+				type: "checkmark"
+			}
+			]
+			x: 3.0d
+			y: 4.6d
 		}
 	]
 }

@@ -50,7 +50,7 @@ hash = "0e9783dd09728b6dd3388d528a8ae724c0c2f4b0fe271141c38987da86673cfc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/magic.snbt"
-hash = "3f5811092f3b59feebb83f2cb8d30ed23ec8266911a05923d83a85259f68fb9b"
+hash = "154e1eb67a8cdfa178afd5915c1165be46a3e0b52a4ee8f7f71d6395994bbb50"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/nether.snbt"
@@ -86,7 +86,7 @@ hash = "7cfbc48acfc892674bed5742ca850e79e05c61ef344e10823e4c870d428bd027"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/weapons.snbt"
-hash = "78c6ca79b4f45cde3a70c1c5437861e052c720dcefcba3ddcee61340c3877465"
+hash = "975822d065cce5c00822e76fe983c789b2b4d695b71f5de33cd37111481672bf"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -94,7 +94,12 @@ hash = "381486b47e7f1202cc15eafb02ba2d5f31e8947e3eefd2d66f8fd14855c8bdbf"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "c137d084cd2e6cc451181c4591944f4c7abd8436791de1829625b25a5fe63532"
+hash = "ab160517abf3fdeae71e8ac44ceeacb43368cae8ad3681b7408cb8484ba3d2b2"
+
+[[files]]
+file = "mods/aether.pw.toml"
+hash = "59c9a1f969edd0ba1da9ba5ad6975951513225d0304a692c3d4c862e2360940c"
+metafile = true
 
 [[files]]
 file = "mods/ai-improvements.pw.toml"
@@ -343,6 +348,11 @@ metafile = true
 [[files]]
 file = "mods/obscure-tooltips.pw.toml"
 hash = "07ce37815be76655026e79769de3eaa8a2fcc91cb5ddec61d72962de7fc5b870"
+metafile = true
+
+[[files]]
+file = "mods/owo-lib.pw.toml"
+hash = "a7fd33e3171967cf90314c3a1147769b051315b7db4f30e7c51304d0d3ef4dee"
 metafile = true
 
 [[files]]

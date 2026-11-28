@@ -660,6 +660,8 @@
 	quest.5131B0901ECB69D3.title: "Debris, Refined"
 	quest.5167E7B516876AA7.quest_desc: ["an &6&loscilloscope&r draws a waveform on a &6&lphosphor screen&r, and it is surprisingly pretty. make the screen by sealing glass on a firebox. reheating or a splash of water shatters it."]
 	quest.5167E7B516876AA7.title: "See the Signal"
+	quest.51AD8B554C0306F4.quest_desc: ["with the Aether installed, its famous swords can be reworked. a found holy, flaming or lightning sword turns into a modular sword with a blade of its own kind, and a candy cane blade needs only sugar in the crafting grid. the others are drawn at the engineering table, with hammer and file." "" "a relic blade is a part in its own right. it is craftable and it never melts down. its zanite, ambrosium and gravitite cousins are ordinary materials, though gravitite floats over an electromagnet. whether that is useful is between you and the magnet."]
+	quest.51AD8B554C0306F4.title: "Relics, Reforged"
 	quest.51D26155DF410D5C.quest_desc: ["a &6&lrectifier&r lets current go one way and sits touching a battery. it needs a crystal detector to be of any use; see the control chapter. a bouncer for electrons."]
 	quest.51D26155DF410D5C.title: "One-Way Street"
 	quest.5212324AD4B931AA.quest_desc: ["plain glass softens early. pure silica holds its shape much hotter, and wants a much hotter fire. fancy glass has fancy demands."]
@@ -828,6 +830,8 @@
 	quest.6A444ABB2CD68E96.title: "Hop Along"
 	quest.6AA47E0C6C42F0AF.quest_desc: ["stir a flask over the plant map until you land inside an effect. miss and you get a dud draught, but a residue mark hints which kind of compound you missed. the pot needs warmth; below a low temperature nothing comes out, however hard you stir."]
 	quest.6AA47E0C6C42F0AF.title: "First Draught"
+	quest.6AB3C6DB45B0AFDB.quest_desc: ["thaumaturge-dependent. each of the 37 aspect alloys, Aerialite to Pteron, gives a perk to any modular tool, weapon, armor piece or pivot mast head with a part made of it. the tooltip lists the perk, such as featherlight, anchor, chill or glide. worn plates may also hit back at whatever strikes them."]
+	quest.6AB3C6DB45B0AFDB.title: "Aspect Alloys (Thaumaturge)"
 	quest.6AE1678E347D298F.quest_desc: ["other attunements need a rite, researched at the research table and shelved on a ring of chiseled bookshelves around the table. the shelves are load-bearing, in a magical sense."]
 	quest.6AE1678E347D298F.title: "Rites"
 	quest.6B9D7BEDF4F83E9D.quest_desc: ["a &6&lcrossbow&r is a modular build around a prod. drawing its blueprint needs &d&o&nweapons treatise ii&r: firearms. the prod is as unglamorous as it sounds."]
